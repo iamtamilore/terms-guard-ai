@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Terms Guard AI by Taiwo Alabi</title>
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --line:#21262d; --text:#e6edf3;
+    --muted:#8b949e; --green:#2ea043; --red:#e5534b; --amber:#d29922;
+    --accent:#1f6feb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.55; padding:24px 16px 60px;
+  }
+  .wrap{max-width:820px;margin:0 auto}
+  .hero{text-align:center;padding:18px 0 6px}
+  .hero h1{font-size:30px;font-weight:800;letter-spacing:-.5px}
+  .hero .sub{color:var(--muted);font-size:16px;margin-top:8px;max-width:600px;margin:8px auto 0}
+
+  textarea{width:100%;min-height:180px;margin-top:18px;background:var(--card);
+    color:var(--text);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
+    font-size:14px;line-height:1.5;resize:vertical;font-family:inherit}
+  textarea:focus{outline:none;border-color:var(--accent)}
+
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
+  .btn{background:var(--accent);color:#fff;border:none;border-radius:10px;
+    padding:11px 22px;font-size:15px;font-weight:700;cursor:pointer}
+  .btn:disabled{opacity:.6;cursor:default}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted);
+    font-weight:600;font-size:13px;padding:9px 14px}
+  .ex-label{color:var(--muted);font-size:13px;margin-right:2px}
+
+  .status{margin-top:14px;color:var(--muted);font-size:13px;min-height:18px}
+
+  .results{display:none;margin-top:24px}
+  .riskline{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .badge{font-size:14px;font-weight:800;padding:7px 16px;border-radius:10px}
+  .badge.High{background:rgba(229,83,75,.15);color:var(--red);border:1px solid rgba(229,83,75,.4)}
+  .badge.Medium{background:rgba(210,153,34,.15);color:var(--amber);border:1px solid rgba(210,153,34,.4)}
+  .badge.Low{background:rgba(46,160,67,.15);color:var(--green);border:1px solid rgba(46,160,67,.4)}
+  .badge.Unknown{background:var(--card);color:var(--muted);border:1px solid var(--line)}
+  .meta{color:var(--muted);font-size:12px}
+
+  .summary{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:14px 16px;margin-top:16px;font-size:14px}
+
+  .sec{margin-top:22px}
+  .sec h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);
+    border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:12px 14px;margin-bottom:10px;border-left:3px solid var(--line)}
+  .item.bad{border-left-color:var(--red)}
+  .item.good{border-left-color:var(--green)}
+  .item .q{font-size:14px}
+  .item .tags{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .chip{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
+  .chip.hi{color:var(--red);border-color:rgba(229,83,75,.4)}
+  .chip.md{color:var(--amber);border-color:rgba(210,153,34,.4)}
+  .chip.law{color:var(--green);border-color:rgba(46,160,67,.4)}
+  .item .why{margin-top:6px;color:var(--muted);font-size:12px}
+  .empty{color:var(--muted);font-size:13px}
+
+  .how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 22px;margin-top:30px}
+  .how summary{cursor:pointer;padding:18px 0;font-weight:700;font-size:15px;list-style:none}
+  .how summary::-webkit-details-marker{display:none}
+  .how summary::before{content:"\25B8  ";color:var(--accent)}
+  .how[open] summary::before{content:"\25BE  "}
+  .how .body{padding:4px 0 22px;border-top:1px solid var(--line);font-size:14px}
+  .how p{color:var(--muted);margin:12px 0}
+  .how .step{display:flex;gap:12px;padding:8px 0}
+  .how .num{flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);
+    color:#fff;font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
+  .how .step b{display:block}
+  .how .step span{color:var(--muted);font-size:13px}
+
+  .disclaimer{margin-top:18px;font-size:12px;color:var(--muted);background:var(--card);
+    border:1px solid var(--line);border-radius:10px;padding:12px 16px;text-align:center}
+  .foot{text-align:center;margin-top:28px;color:var(--muted);font-size:13px}
+  .foot a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1>Terms Guard AI</h1>
+    <p class="sub">Paste any Terms &amp; Conditions or Privacy Policy below.
+      The AI reads every clause and flags the parts that are risky or unfair to you,
+      checked against EU data protection rules.</p>
+  </div>
+
+  <textarea id="input" placeholder="Paste terms and conditions text here, then press Analyze..."></textarea>
+
+  <div class="controls">
+    <button class="btn" id="analyzeBtn">Analyze</button>
+    <span class="ex-label">or try an example:</span>
+    <button class="btn ghost" data-ex="risky">Risky terms</button>
+    <button class="btn ghost" data-ex="fair">Fair terms</button>
+    <button class="btn ghost" id="clearBtn">Clear</button>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <div class="results" id="results">
+    <div class="riskline">
+      <span class="badge" id="badge"></span>
+      <span class="meta" id="meta"></span>
+    </div>
+    <div class="summary" id="summary"></div>
+
+    <div class="sec">
+      <h2>Concerns flagged (<span id="badCount">0</span>)</h2>
+      <div id="badList"></div>
+    </div>
+
+    <div class="sec">
+      <h2>Good / protective clauses (<span id="goodCount">0</span>)</h2>
+      <div id="goodList"></div>
+    </div>
+  </div>
+
+  <details class="how">
+    <summary>For the technical reader: how it works</summary>
+    <div class="body">
+      <div class="step"><div class="num">1</div><div><b>Split into clauses</b><span>The pasted text is broken into individual sentences and de-duplicated.</span></div></div>
+      <div class="step"><div class="num">2</div><div><b>Semantic matching</b><span>Each clause is embedded with a MiniLM sentence-transformer and compared (cosine similarity) against labelled examples of fair vs unfair clauses.</span></div></div>
+      <div class="step"><div class="num">3</div><div><b>GDPR grounding (RAG)</b><span>A FAISS vector index over EU GDPR text retrieves the most relevant article for each flagged clause, so a concern is tied to a real legal basis, not a guess.</span></div></div>
+      <div class="step"><div class="num">4</div><div><b>LLM verification (optional)</b><span>When an API key is configured, Claude Haiku double-checks each flagged clause to remove false positives. Without it, the tool runs in matching-only mode.</span></div></div>
+      <p><b>Stack:</b> Python, Flask, sentence-transformers (MiniLM), FAISS, Anthropic API. Built by Taiwo Alabi for an MSc in Artificial Intelligence.</p>
+    </div>
+  </details>
+
+  <div class="disclaimer">
+    Educational project. Not legal advice.
+  </div>
+
+  <div class="foot">
+    Built by <b>Taiwo Alabi</b> &middot;
+    <a href="https://github.com/iamtamilore" target="_blank">GitHub</a> &middot;
+    MSc Artificial Intelligence, NCI Dublin
+  </div>
+
+</div>
+
+<script>
+const EXAMPLES = {
+  risky: `We may collect and store your personal data indefinitely, including your location, contacts, and browsing history. We reserve the right to sell or share your personal information with third-party partners and advertisers for any purpose. We are not liable for any data breaches, loss, or unauthorized access to your information. By using this service you waive your right to participate in any class action lawsuit and agree that all disputes will be settled by binding arbitration. We may change these terms at any time without notifying you. Your continued use means you accept the new terms. We grant ourselves an irrevocable, perpetual licence to use any content you upload for any purpose.`,
+  fair: `We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest. We process your data only with your explicit consent, and you may opt out at any time. We will notify you of any data breach without undue delay. You retain full ownership of any content you upload. Nothing in these terms limits your statutory rights as a consumer.`
+};
+
+const $ = id => document.getElementById(id);
+
+document.querySelectorAll('[data-ex]').forEach(b =>
+  b.addEventListener('click', () => { $('input').value = EXAMPLES[b.dataset.ex]; })
+);
+$('clearBtn').addEventListener('click', () => {
+  $('input').value = ''; $('results').style.display = 'none'; $('status').innerText = '';
+});
+
+$('analyzeBtn').addEventListener('click', analyze);
+
+function chip(tier){
+  const t = (tier||'').toLowerCase();
+  if (t === 'high') return '<span class="chip hi">High confidence</span>';
+  if (t === 'medium') return '<span class="chip md">Medium confidence</span>';
+  return '<span class="chip">Low confidence</span>';
+}
+function esc(s){ return (s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function analyze(){
+  const text = $('input').value.trim();
+  if (text.length < 50){ $('status').innerText = 'Please paste a bit more text (at least 50 characters).'; return; }
+
+  const btn = $('analyzeBtn');
+  btn.disabled = true;
+  $('status').innerText = 'Analyzing... (first run may take a few seconds while the model warms up)';
+  $('results').style.display = 'none';
+
+  const t0 = Date.now();
+  fetch('/process', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ text, links: [], url: '' })
+  })
+  .then(r => r.json())
+  .then(data => {
+    const secs = ((Date.now()-t0)/1000).toFixed(1);
+    btn.disabled = false;
+    $('results').style.display = 'block';
+
+    const risk = data.risk_level || 'Unknown';
+    $('badge').className = 'badge ' + risk;
+    $('badge').innerText = risk + ' risk';
+    $('meta').innerText = `${data.clauses_analyzed||0} clauses analyzed in ${secs}s`
+      + (data.llm_verification_enabled ? ' (AI-verified)' : '');
+    $('summary').innerText = data.summary || '';
+    $('status').innerText = '';
+
+    // Concerns: only Medium/High confidence (Low = noise)
+    const bad = (data.non_ethical_points||[]).filter(p => p.confidence_label !== 'Low');
+    $('badCount').innerText = bad.length;
+    $('badList').innerHTML = bad.length ? bad.map(p => {
+      const law = p.gdpr_basis && p.citation_status !== 'weak'
+        ? `<span class="chip law">${esc((p.gdpr_basis||'').replace(/\s*violation/gi,''))}</span>` : '';
+      const verified = p.citation_status === 'llm_verified' ? '<span class="chip law">Verified</span>' : '';
+      const why = p.reasoning ? `<div class="why">${esc(p.reasoning)}</div>` : '';
+      return `<div class="item bad"><div class="q">${esc(p.text)}</div>
+        <div class="tags">${chip(p.confidence_label)}${law}${verified}</div>${why}</div>`;
+    }).join('') : '<div class="empty">No high-confidence concerns found in this text.</div>';
+
+    // Good points
+    const good = (data.ethical_points||[]).filter(p => p.confidence_label !== 'Low').slice(0, 8);
+    $('goodCount').innerText = good.length;
+    $('goodList').innerHTML = good.length ? good.map(p => {
+      const law = p.gdpr_basis && p.citation_status !== 'weak'
+        ? `<span class="chip law">${esc((p.gdpr_basis||'').replace(/\s*violation/gi,''))}</span>` : '';
+      return `<div class="item good"><div class="q">${esc(p.text)}</div>
+        <div class="tags">${chip(p.confidence_label)}${law}</div></div>`;
+    }).join('') : '<div class="empty">No clearly protective clauses found.</div>';
+
+    $('results').scrollIntoView({behavior:'smooth', block:'start'});
+  })
+  .catch(err => {
+    btn.disabled = false;
+    $('status').innerText = 'Something went wrong reaching the analyzer. Please try again in a moment.';
+    console.error(err);
+  });
+}
+</script>
+</body>
+</html>
