@@ -121,7 +121,8 @@ CONF_MEDIUM = 0.45
 # LLM verification — Qwen post-filters cosine candidates to kill false positives.
 # Disable if latency budget is tight (set LLM_VERIFY = False).
 LLM_VERIFY = True
-LLM_VERIFY_MAX_CANDIDATES = 15  # cap protects latency; raise only if budget allows
+LLM_VERIFY_MAX_CANDIDATES = 40  # one batched Haiku call regardless, so cost is ~flat;
+                                # higher cap = more flags get the "Verified + reason" treatment
 
 
 def confidence_tier(score: float) -> str:
@@ -455,6 +456,34 @@ def verify_clauses_with_llm(candidates: list) -> dict:
 
 
 # ============================================
+# CLAUSE QUALITY FILTER
+# ============================================
+def is_real_clause(text: str) -> bool:
+    """Reject headings, table-of-contents lines, numerals and truncated fragments
+    so they never reach classification (kills the obvious false positives)."""
+    t = (text or "").strip()
+    if len(t) < 25:                      # too short to be a real clause
+        return False
+    words = t.split()
+    if len(words) < 5:                   # headings like "How to Contact Us"
+        return False
+    # must contain a verb-ish lowercase word — headings are mostly Title Case
+    lower_words = [w for w in words if w[:1].islower()]
+    if len(lower_words) < 2:
+        return False
+    # reject lines that are mostly a roman numeral / section label tail
+    if re.match(r'^(?:[IVXLC]+|[0-9]+(?:\.[0-9]+)*)\b', t) and len(words) < 8:
+        return False
+    # reject fragments that start mid-sentence (lowercase or punctuation)
+    if t[0] in ',;:)' or (t[0].islower() and not t.lower().startswith(('we ', 'you ', 'your '))):
+        return False
+    # reject fragments that end mid-word (no terminal punctuation AND ends with "(e" etc.)
+    if re.search(r'\(\s*[a-z]$', t):
+        return False
+    return True
+
+
+# ============================================
 # MAIN ENDPOINT
 # ============================================
 @app.route('/process', methods=['POST'])
@@ -478,18 +507,21 @@ def process_text():
     text = text[:10_000_000]
 
     # --- Sentence splitting ---
-    sentence_pattern = re.compile(r'(?<=[.!?])\s+(?=[A-Z])|(?<=[.!?])\n+|[.!?]')
+    # Split only on sentence-ending punctuation FOLLOWED BY whitespace, or on
+    # newlines. The old bare [.!?] split inside emails (privacy.help), section
+    # numbers (III.) and abbreviations (e.g.), producing junk fragments.
+    sentence_pattern = re.compile(r'(?<=[.!?])\s+(?=[A-Z"\'(])|\n+')
     sentences, current_pos = [], 0
 
     for match in sentence_pattern.finditer(text):
-        if match.group() and match.group().strip():
+        if match.group() and match.group().strip('\n') == '' or match.group():
             chunk = text[current_pos: match.start()].strip()
-            if len(chunk) > 10:
+            if is_real_clause(chunk):
                 sentences.append({'text': chunk, 'start': current_pos, 'end': match.start()})
             current_pos = match.end()
 
     remainder = text[current_pos:].strip()
-    if len(remainder) > 10:
+    if is_real_clause(remainder):
         sentences.append({'text': remainder, 'start': current_pos, 'end': len(text)})
 
     # Deduplicate — some pages render the same content multiple times in the DOM
