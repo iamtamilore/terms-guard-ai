@@ -193,13 +193,16 @@ def detect_critical_negations(text: str) -> bool:
 # ============================================
 # CLASSIFICATION (semantic-primary, GDPR-aware)
 # ============================================
-def classify_clause(sentence: str):
+def classify_clause(sentence: str, emb=None):
     """
     Returns (label, confidence, explanation, gdpr_basis, citation_status, emb_tensor).
     emb_tensor is returned for reuse in KB evidence lookup — avoids double-encoding.
     citation_status: 'supported' | 'tentative' | 'weak' based on raw cosine score.
+    Pass `emb` (a precomputed embedding) to skip per-clause encoding — the caller
+    batch-encodes all clauses in one vectorized call, which is far faster on CPU.
     """
-    emb = semantic_model.encode(sentence, convert_to_tensor=True)
+    if emb is None:
+        emb = semantic_model.encode(sentence, convert_to_tensor=True)
 
     eth_scores = util.cos_sim(emb, ethical_embeddings)[0]
     non_eth_scores = util.cos_sim(emb, non_ethical_embeddings)[0]
@@ -545,8 +548,18 @@ def process_text():
     t_cosine_start = time.time()
     ethical_points, non_ethical_points, unclear_points, highlighted_indices = [], [], [], []
 
-    for sent in sentences:
-        label, confidence, explanation, gdpr_basis, citation_status, sent_emb = classify_clause(sent['text'])
+    # Batch-encode ALL clauses in one vectorized call (much faster on CPU than
+    # encoding each sentence separately inside the loop — the old bottleneck).
+    clause_texts = [s['text'] for s in sentences]
+    clause_embeddings = (
+        semantic_model.encode(clause_texts, convert_to_tensor=True, batch_size=64)
+        if clause_texts else []
+    )
+
+    for idx, sent in enumerate(sentences):
+        label, confidence, explanation, gdpr_basis, citation_status, sent_emb = classify_clause(
+            sent['text'], emb=clause_embeddings[idx]
+        )
 
         gdpr_evidence = ""
         if label != 'unclear' and citation_status in ('supported', 'tentative') and gdpr_basis:
