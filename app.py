@@ -121,8 +121,8 @@ CONF_MEDIUM = 0.45
 # LLM verification — Qwen post-filters cosine candidates to kill false positives.
 # Disable if latency budget is tight (set LLM_VERIFY = False).
 LLM_VERIFY = True
-LLM_VERIFY_MAX_CANDIDATES = 20  # one batched Haiku call; kept in step with the verify
-                                # max_tokens budget so the response never truncates
+LLM_VERIFY_MAX_CANDIDATES = 10  # one batched Haiku call; capped at 10 for speed
+                                # (~30s vs ~60s) while still showing plenty of verified flags
 
 
 def confidence_tier(score: float) -> str:
