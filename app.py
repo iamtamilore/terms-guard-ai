@@ -121,8 +121,8 @@ CONF_MEDIUM = 0.45
 # LLM verification — Qwen post-filters cosine candidates to kill false positives.
 # Disable if latency budget is tight (set LLM_VERIFY = False).
 LLM_VERIFY = True
-LLM_VERIFY_MAX_CANDIDATES = 40  # one batched Haiku call regardless, so cost is ~flat;
-                                # higher cap = more flags get the "Verified + reason" treatment
+LLM_VERIFY_MAX_CANDIDATES = 20  # one batched Haiku call; kept in step with the verify
+                                # max_tokens budget so the response never truncates
 
 
 def confidence_tier(score: float) -> str:
@@ -424,7 +424,7 @@ def verify_clauses_with_llm(candidates: list) -> dict:
         )
         response = anthropic_client.messages.parse(
             model=_LLM_MODEL,
-            max_tokens=1024,
+            max_tokens=2048,  # ~100 tokens/verdict headroom for up to 20 candidates
             system=[{
                 "type": "text",
                 "text": _LLM_SYSTEM_PROMPT,
@@ -479,6 +479,10 @@ def is_real_clause(text: str) -> bool:
         return False
     # reject fragments that end mid-word (no terminal punctuation AND ends with "(e" etc.)
     if re.search(r'\(\s*[a-z]$', t):
+        return False
+    # real clauses end in sentence punctuation; headings/labels do not
+    # ("How we share your personal information", "Supplement and Update of the Policy")
+    if t[-1] not in '.!?;:)"\'' and not t.endswith(('etc', 'etc.')):
         return False
     return True
 
