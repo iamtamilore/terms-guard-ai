@@ -346,7 +346,8 @@ def generate_summary(text_sample: str, gdpr_context: str = "") -> str:
 anthropic_client = None
 LLM_VERIFY_AVAILABLE = False
 _LLM_MODEL = "claude-haiku-4-5"
-_LLM_PROMPT_VERSION = "v1-2026-05-29"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
+_LLM_PROMPT_VERSION = "v2-2026-06-03"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
+                                        # v2: added Art.8 children's-data / COPPA detection
 
 try:
     import anthropic
@@ -390,6 +391,8 @@ CHOOSE the single best legal basis from this menu (use the exact label):
 - "Art.5(1)(b) Purpose Limitation"   - data used beyond stated purpose / sold / shared
 - "Art.5(1)(e) Storage Limitation"   - indefinite / excessive retention
 - "Art.6 Lawful Basis"               - processing without a valid legal basis
+- "Art.8 Children's Consent"         - collecting/processing children's or minors' data with \
+no parental consent or age verification (also flag likely COPPA exposure for US under-13 users)
 - "Art.7 Consent"                    - no valid/affirmative consent, implied consent
 - "Art.7(3) Withdraw Consent"        - cannot withdraw consent
 - "Art.13/14 Right to be Informed"   - unilateral changes, no notice, hidden practices
@@ -407,6 +410,7 @@ Examples:
 [1] "We may sell your data to advertisers." -> concern=true, article="Art.5(1)(b) Purpose Limitation", reason="Sells personal data beyond service purpose"
 [2] "You waive the right to a class action." -> concern=true, article="Consumer Rights (UCTA)", reason="Waives collective redress; unfair contract term"
 [3] "You may delete your account at any time." -> concern=false, article="", reason="Pro-user deletion right"
+[4] "We collect data from children without parental consent." -> concern=true, article="Art.8 Children's Consent", reason="Minors' data, no parental consent (COPPA risk too)"
 [4] "You are responsible for keeping your password secure." -> concern=false, article="", reason="Standard account-security advice\""""
 
 
