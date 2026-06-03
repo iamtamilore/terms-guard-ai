@@ -346,7 +346,7 @@ def generate_summary(text_sample: str, gdpr_context: str = "") -> str:
 anthropic_client = None
 LLM_VERIFY_AVAILABLE = False
 _LLM_MODEL = "claude-haiku-4-5"
-_LLM_PROMPT_VERSION = "v2-2026-06-03"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
+_LLM_PROMPT_VERSION = "v3-2026-06-03"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
                                         # v2: added Art.8 children's-data / COPPA detection
 
 try:
@@ -405,6 +405,11 @@ where NO GDPR article cleanly applies
 - "" (empty)                         - when concern is false
 
 Prefer "Consumer Rights (UCTA)" over forcing an ill-fitting GDPR article. Keep reason to max 12 words.
+
+OVERRIDE RULE: if a clause mentions children, minors, kids, "under 13", "under 16", \
+age, parental/guardian consent, or age verification, you MUST use article \
+"Art.8 Children's Consent" (not Art.6 or Art.7), and add "(COPPA risk)" to the reason. \
+This takes priority over any other article choice.
 
 Examples:
 [1] "We may sell your data to advertisers." -> concern=true, article="Art.5(1)(b) Purpose Limitation", reason="Sells personal data beyond service purpose"
