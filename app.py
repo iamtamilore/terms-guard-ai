@@ -190,6 +190,18 @@ def detect_critical_negations(text: str) -> bool:
     return False
 
 
+_CHILD_TERMS = ('child', 'children', 'minor', 'minors', 'kid', 'kids',
+                'under 13', 'under 16', 'under 18', 'underage', 'under-age',
+                'parental consent', 'guardian consent', 'age verification',
+                'verify the age', 'verify age', 'coppa')
+
+
+def _is_children_clause(text: str) -> bool:
+    """True if a clause concerns children's / minors' data (Art.8 territory)."""
+    t = text.lower()
+    return any(term in t for term in _CHILD_TERMS)
+
+
 # ============================================
 # CLASSIFICATION (semantic-primary, GDPR-aware)
 # ============================================
@@ -346,7 +358,7 @@ def generate_summary(text_sample: str, gdpr_context: str = "") -> str:
 anthropic_client = None
 LLM_VERIFY_AVAILABLE = False
 _LLM_MODEL = "claude-haiku-4-5"
-_LLM_PROMPT_VERSION = "v3-2026-06-03"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
+_LLM_PROMPT_VERSION = "v4-2026-06-03"  # bump when _LLM_SYSTEM_PROMPT changes — logged per scan
                                         # v2: added Art.8 children's-data / COPPA detection
 
 try:
@@ -623,6 +635,11 @@ def process_text():
                 point['gdpr_basis'] = v['article'] or point['gdpr_basis']
                 point['reasoning'] = v['reason'] or point['reasoning']
                 point['citation_status'] = 'llm_verified'
+                # Deterministic children's-data override: if the clause is about
+                # minors, force Art.8 (Haiku tends to mislabel these as Art.6).
+                # Children's-data gaps also signal likely COPPA exposure for US users.
+                if _is_children_clause(point['text']):
+                    point['gdpr_basis'] = "Art.8 Children's Consent (+ likely COPPA exposure)"
 
         # Remove dismissed from non_ethical, move to unclear so nothing is lost
         kept, dismissed_list = [], []
