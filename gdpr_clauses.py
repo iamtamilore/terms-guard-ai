@@ -75,6 +75,9 @@ ETHICAL_REFERENCE_CLAUSES = [
     {"text": "GDPR compliance is guaranteed for all users.", "gdpr": "Art.5(2) Accountability"},
     {"text": "We follow strict data processing agreements with partners.", "gdpr": "Art.28 Processor Agreements"},
     {"text": "Children's data receives extra protective measures.", "gdpr": "Art.8 Child Consent + Art.9 Special Categories"},
+    {"text": "We require verifiable parental consent before collecting data from children under 16.", "gdpr": "Art.8 Child's Consent (+ COPPA-aligned)"},
+    {"text": "We verify user age and apply special protections to minors.", "gdpr": "Art.8 Child's Consent + age verification"},
+    {"text": "Our service is not directed at children and we do not knowingly collect their data.", "gdpr": "Art.8 Child's Consent — protective"},
     {"text": "Changes to privacy policy require explicit user consent.", "gdpr": "Art.7 Conditions for Consent + Art.13"},
 ]
 
@@ -144,6 +147,15 @@ NON_ETHICAL_REFERENCE_CLAUSES = [
     {"text": "GDPR and privacy laws do not apply to our service.", "gdpr": "Art.3 Territorial Scope — unlawful claim"},
     {"text": "We discriminate based on consent to data sharing.", "gdpr": "Art.7(4) Conditional consent prohibition"},
     {"text": "Privacy choices are not reversible once made.", "gdpr": "Art.7(3) Right to Withdraw Consent violation"},
+
+    # Art.8 violation — Children's Data (no parental consent / minors). Note: also
+    # signals likely COPPA exposure for any service reaching US under-13 users.
+    {"text": "We collect personal data from children without parental consent.", "gdpr": "Art.8 Child's Consent violation (+ likely COPPA exposure)"},
+    {"text": "Children under 16 can create accounts and share data freely.", "gdpr": "Art.8 Child's Consent violation (+ likely COPPA exposure)"},
+    {"text": "We do not verify the age of our users.", "gdpr": "Art.8 Child's Consent — age verification gap (+ likely COPPA exposure)"},
+    {"text": "Minors may use the service without any age check or guardian approval.", "gdpr": "Art.8 Child's Consent violation (+ likely COPPA exposure)"},
+    {"text": "We profile and target advertising to users regardless of age.", "gdpr": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)"},
+    {"text": "Data from underage users is treated the same as adult data.", "gdpr": "Art.8 Child's Consent — no special protection for minors (+ likely COPPA exposure)"},
 ]
 
 # Flat text lists used for embedding (backward-compatible with existing code)
