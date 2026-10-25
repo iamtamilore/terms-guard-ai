@@ -421,9 +421,9 @@
 
   <div class="strip" id="strip">
     <div><b>4,527</b><span>chunks in the reference index</span></div>
-    <div><b>102</b><span>labelled reference clauses</span></div>
-    <div><b>Full page</b><span>no chunks skipped</span></div>
     <div><b>102</b><span>reference clauses, 52 fair and 50 unfair</span></div>
+    <div><b>Full page</b><span>no chunks skipped</span></div>
+    <div><b>Model</b><span>checks every confident clause</span></div>
   </div>
   <p class="strip-cap">What the tool uses. These are in every response it gives.</p>
 
@@ -500,7 +500,7 @@ const EXAMPLES = {
    build actually does, measured, not a guess. */
 const CASES = [
   { name: 'Negation', input: 'We do NOT sell your data. You can request a copy of your data or ask us to delete it permanently at any time.',
-    why: 'Does a negated clause get read as a protection, or does the word "sell" trigger the model?', verdict: 'Low risk, 2 protective' },
+    why: 'Does a negated clause get read as a protection, or does the word "sell" trigger the model?', verdict: 'Low risk, 2 cleared' },
   { name: 'Too short', input: 'We do NOT sell your data.',
     why: 'What does the tool do with a clause below the minimum length?', verdict: 'Unknown risk, nothing analysed' },
   { name: 'French', input: 'Nous conservons vos donnees pendant 5 ans et nous les transmettons a des partenaires tiers.',
@@ -514,13 +514,13 @@ const CASES = [
   { name: 'Euphemism', input: 'We share your information with trusted partners who help us improve our services.',
     why: 'No dangerous words, same legal effect. Does meaning beat vocabulary?', verdict: 'Medium risk, 1 flagged' },
   { name: 'Compliant', input: 'We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest.',
-    why: 'A good policy must come back clean, or the tool is noise.', verdict: 'Low risk, 3 protective' },
+    why: 'A good policy must come back clean, or the tool is noise.', verdict: 'Low risk, 3 cleared' },
   { name: 'Confidence cap', input: 'We may sell your personal data to anyone. We are not liable for any data breach. You waive all rights to a class action. We can change these terms without notice. We retain your data forever.',
     why: 'A keyword boost once pushed the confidence past 1.0. It is capped now. Watch the numbers.', verdict: 'High risk, 4 flagged' },
   { name: 'Scam text', input: 'Click here to claim your prize. Send your SSN to verify. We will never ask for money.',
-    why: 'A reassuring sentence that is not about your data. It must not be read as a protection.', verdict: 'Low risk, 0 flagged, 1 cleared' },
+    why: 'A reassuring sentence that is not about your data. It must not be read as a protection.', verdict: 'Low risk, 1 cleared' },
   { name: 'Buried risk', input: 'We provide the service. We collect minimal data. We use encryption. We provide support. We update the app. We retain your personal data indefinitely including your location contacts and browsing history. We offer a refund policy. We have a help center. We keep your data safe. We send receipts.',
-    why: 'One bad clause among eleven ordinary ones, plus a refund policy that used to be flagged. Does it find the risk and ignore the noise?', verdict: 'High risk, 1 flagged' },
+    why: 'One bad clause among eleven ordinary ones, plus a refund policy that used to be flagged as a legal violation. Does it find the risk and ignore the noise?', verdict: 'High risk, 1 flagged' },
   { name: 'Cookie banner', input: 'By continuing to browse this site you consent to the use of cookies. You agree that we and our partners may use your browsing behaviour for advertising across other websites you visit.',
     why: 'Consent by continuing. Does the tool read the mechanism or just the word?', verdict: 'High risk, 1 flagged' }
 ];
