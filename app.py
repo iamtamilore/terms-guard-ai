@@ -299,34 +299,72 @@ def retrieve_gdpr_context(text_snippet: str, k: int = 3) -> str:
 
 def _clean_chunk_boundary(text: str) -> str:
     """
-    The knowledge base was built with a fixed-character splitter, so 3,277 of
-    its 4,527 chunks begin part-way through a word. A citation that opens with
-    "pen on purpose" looks garbled rather than quoted, so the leading partial
-    word is dropped and the text is trimmed to a sentence boundary where one
-    is close enough.
+    The knowledge base is now chunked at real boundaries, so a chunk
+    starts at a sentence or a sub-point marker. The legacy repair was for
+    a fixed-character splitter that put 3,277 of 4,527 chunks mid-word,
+    and it is no longer needed.
+
+    What the legacy repair did was destructive for the new index: it
+    found the first sentence end in the first 160 characters and discarded
+    everything before it, which on the new chunks threw away the citation
+    line "[GDPR Art. 17] Right to erasure" because the chunk's first
+    sentence ended before it. The cited article and the passage shown to
+    the reader then disagreed, and the disagreement read as a wrong
+    citation, which is the failure this whole rebuild exists to remove.
+
+    The only repair kept is the leading-lowercase-fragment one, and only
+    because it is harmless when the chunk is already well-formed.
     """
     if not text:
         return text
-    # Drop a leading fragment: a first token that starts lowercase and is not
-    # a real word on its own is the tail of a split word.
     parts = text.split(" ", 1)
     if len(parts) == 2 and parts[0].isalpha() and parts[0].islower() and len(parts[0]) <= 4:
-        # Only drop it if the word that follows starts a new clause, which is
-        # what a mid-word split looks like. Otherwise it is a real sentence.
         rest = parts[1]
         if rest[:1].isupper() or rest[:2] in ("we", "th", "in", "of", "to", "a ", "is"):
             text = rest
-    # Prefer starting at a sentence if one is near the front.
-    for marker in (". ", "? ", "! "):
-        pos = text.find(marker)
-        if 0 < pos < 160:
-            text = text[pos + 2:].lstrip()
-            break
     return text
 
 
 def retrieve_gdpr_evidence(emb_tensor, k: int = 1) -> str:
-    """Return top KB chunk for a pre-computed embedding — no re-encoding."""
+    """Return a passage from the GDPR KB that matches the cited article.
+
+    The cited article comes from gdpr_basis, which the cosine classifier
+    set from a hand-labelled clause. The passage returned is from that
+    article, so the citation and the evidence always agree.
+
+    If the cited article has no chunk in the index, blind search is used
+    as a fallback. That fallback exists only to keep the UI rendering
+    rather than silently blank, and the evidence it returns is labelled
+    as 'Retrieved context' rather than the article text.
+    """
+    cited = _cited_article_from_basis()
+    if cited is not None and gdpr_kb_index is not None:
+        # gather all chunks for the cited article and rank them by their
+        # similarity to the clause. The ranking matters because a long
+        # article like 5 or 13 has many chunks; the clause picks the one
+        # that is actually relevant.
+        candidates = [
+            (i, c) for i, c in enumerate(gdpr_kb_chunks)
+            if c.startswith(f"[GDPR Art. {cited}]")
+        ]
+        if candidates:
+            import faiss as _faiss_lib
+            import numpy as _np
+            emb_np = emb_tensor.cpu().numpy().astype("float32").reshape(1, -1)
+            _faiss_lib.normalize_L2(emb_np)
+            # embed just the candidate chunks and re-rank them against
+            # the clause embedding
+            cand_emb = semantic_model.encode(
+                [c for _, c in candidates], convert_to_numpy=True,
+                batch_size=64, show_progress_bar=False,
+            ).astype("float32")
+            _faiss_lib.normalize_L2(cand_emb)
+            scores = (cand_emb @ emb_np.T).flatten()
+            best = candidates[int(scores.argmax())][1]
+            text = _clean_chunk_boundary(" ".join(best.split()))
+            return _trim_to_400(text)
+
+    # fallback: blind search (labelled "Retrieved context" in the UI)
     if gdpr_kb_index is None or not gdpr_kb_chunks:
         return ""
     import faiss as _faiss_lib
@@ -336,16 +374,33 @@ def retrieve_gdpr_evidence(emb_tensor, k: int = 1) -> str:
     chunks = [gdpr_kb_chunks[i] for i in indices[0] if 0 <= i < len(gdpr_kb_chunks)]
     if not chunks:
         return ""
-    # Cut on a word boundary. A hard character cut lands mid-word and the
-    # reader sees "pen on purpose" instead of "happen on purpose", which makes
-    # the citation look garbled rather than quoted.
     text = _clean_chunk_boundary(" ".join(chunks[0].split()))
+    return _trim_to_400(text)
+
+
+def _cited_article_from_basis() -> int | None:
+    """Read the cited article from the last gdpr_basis classified.
+
+    The classifier sets gdpr_basis as a thread-local string like
+    'Art.5(1)(b) Purpose Limitation'. The number is the article cited.
+    The cite function is called inside the per-clause loop, so a
+    class-level slot is fine and is cleared at the end of the request.
+    """
+    raw = getattr(retrieve_gdpr_evidence, "_last_basis", "") or ""
+    m = re.match(r"\s*Art\.?\s*(\d+)", raw)
+    return int(m.group(1)) if m else None
+
+
+def _trim_to_400(text: str) -> str:
     if len(text) <= 400:
         return text
     cut = text[:400]
     if " " in cut:
         cut = cut[:cut.rindex(" ")]
     return cut + "…"
+
+
+
 
 
 # ============================================
@@ -884,9 +939,17 @@ def process_text():
             sent['text'], emb=clause_embeddings[idx]
         )
 
+        # Hand the cited article to the evidence retriever so the passage
+        # it shows comes from the article named on the flag, not from a
+        # blind semantic search that may pull text from a different
+        # article. The slot is read inside retrieve_gdpr_evidence and
+        # cleared at the end of the loop so a stale article never leaks
+        # into the next clause.
+        retrieve_gdpr_evidence._last_basis = gdpr_basis
         gdpr_evidence = ""
         if label != 'unclear' and citation_status in ('supported', 'tentative') and gdpr_basis:
             gdpr_evidence = retrieve_gdpr_evidence(sent_emb)
+        retrieve_gdpr_evidence._last_basis = ""
 
         point = {
             "text": sent['text'],
