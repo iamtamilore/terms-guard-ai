@@ -539,7 +539,11 @@ def verify_clauses_with_llm(candidates: list) -> dict:
 
     except Exception as exc:
         print(f"  ⚠️  LLM verify failed ({type(exc).__name__}): {exc}")
-        return {}
+        # Surface it in the response. A silent fallback is how a broken
+        # verifier looks identical to a working one: the caller cannot tell
+        # the difference, and the app keeps showing cosine scores as if the
+        # model had ruled on them.
+        return {"__error__": f"{type(exc).__name__}: {exc}"}
 
 
 # ============================================
@@ -688,6 +692,7 @@ def process_text():
     _candidates = [p for p in non_ethical_points if p['confidence'] >= CONF_VERIFY_MIN][:LLM_VERIFY_MAX_CANDIDATES]
     _protective_candidates = [p for p in ethical_points if p['confidence'] >= CONF_VERIFY_MIN][:LLM_VERIFY_MAX_CANDIDATES]
     _llm_enabled = LLM_VERIFY and LLM_VERIFY_AVAILABLE and bool(_candidates or _protective_candidates)
+    _verify_error = None
 
     if _llm_enabled:
         # One batched call. Candidates carry their cosine label so the verifier
@@ -695,6 +700,7 @@ def process_text():
         # 'ethical' candidates have to earn their protection.
         _batch = _candidates + _protective_candidates
         verdicts = verify_clauses_with_llm(_batch)
+        _verify_error = verdicts.pop("__error__", None)
         dismissed_texts = set()
         overturned_texts = set()
 
@@ -856,6 +862,7 @@ def process_text():
         "classification_method": "gdpr_semantic_cosine_similarity + llm_verify" if _llm_enabled else "gdpr_semantic_cosine_similarity",
         "phase_timings": {"summary_s": t_summary, "cosine_s": t_cosine, "verify_s": t_verify},
         "analysis_coverage": "Entire page — no chunks skipped",
+        "verification_error": _verify_error,
     })
 
 

@@ -7,5 +7,10 @@ torch
 numpy>=1.24.3
 scipy>=1.11.0
 accelerate>=0.26.0
-anthropic>=0.69.0
+# 1.0.0 is the floor: messages.parse(output_format=...) was added in 1.0.0.
+# With the old 0.69.0 floor the Space installed an SDK without that parameter,
+# so every verifier call raised TypeError, was swallowed by the except block,
+# and the app silently ran on cosine scores alone with the model never ruling
+# on anything. The verifier appeared to work and did not.
+anthropic>=1.0.0
 pydantic>=2.0.0
