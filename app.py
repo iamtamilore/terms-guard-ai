@@ -547,6 +547,26 @@ def verify_clauses_with_llm(candidates: list) -> dict:
 
 
 
+def _as_bool(value) -> bool:
+    """Models sometimes return a string for a boolean field. "None", "false"
+    and "" are all False; anything else that is not explicitly false is True."""
+    if isinstance(value, bool):
+        return value
+    if value is None:
+        return False
+    text = str(value).strip().lower()
+    if text in ("false", "none", "null", "", "no", "0"):
+        return False
+    return True
+
+
+def _as_text(value) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, list):
+        return ", ".join(str(v) for v in value)
+    return str(value).strip()
+
 # ============================================
 # GATEWAY FALLBACK VERIFIER
 # ============================================
@@ -557,6 +577,11 @@ def verify_clauses_with_llm(candidates: list) -> dict:
 # asks for JSON in the prompt, so it needs no structured-output support.
 GATEWAY_URL = "https://api.kie.ai/claude/v1/messages"
 GATEWAY_MODEL = "claude-haiku-4-5"
+# Used if the first model is unavailable. It is a larger model, so it costs
+# more, but the verifier only runs on the handful of clauses a reader will
+# actually look at.
+GATEWAY_MODEL_FALLBACK = "claude-sonnet-5-5"
+OPENROUTER_MODEL = "google/gemini-3.1-pro-preview"
 GATEWAY_KEY = os.environ.get("KIE_API_KEY", "").strip()
 GATEWAY_AVAILABLE = bool(GATEWAY_KEY)
 
@@ -598,17 +623,31 @@ def verify_clauses_with_gateway(candidates: list) -> dict:
           "with keys id (the number in brackets), concern (true or false), "
           "article (string, may be empty) and reason (string)."}],
     }
-    req = _urlreq.Request(
-        GATEWAY_URL,
-        data=json.dumps(payload).encode(),
-        headers={"Authorization": "Bearer " + _gateway_key(), "Content-Type": "application/json"},
-    )
-    try:
-        with _urlreq.urlopen(req, timeout=120) as resp:
-            d = json.loads(resp.read())
-    except Exception as exc:
-        print(f"  ⚠️  gateway verify failed ({type(exc).__name__}): {exc}")
-        return {"__error__": f"gateway {type(exc).__name__}: {exc}"}
+    # The gateway is shared and can be briefly rate limited. Retry a couple of
+    # times with a backoff, and fall back to a second model, because losing the
+    # verifier to a transient 429 is a worse outcome than a slightly slower
+    # answer.
+    import time as _time
+    last_error = None
+    for attempt, model in enumerate((GATEWAY_MODEL, GATEWAY_MODEL_FALLBACK)):
+        if attempt:
+            _time.sleep(2.5 * attempt)
+        payload["model"] = model
+        req = _urlreq.Request(
+            GATEWAY_URL,
+            data=json.dumps(payload).encode(),
+            headers={"Authorization": "Bearer " + _gateway_key(), "Content-Type": "application/json"},
+        )
+        try:
+            with _urlreq.urlopen(req, timeout=120) as resp:
+                d = json.loads(resp.read())
+            last_error = None
+            break
+        except Exception as exc:
+            last_error = exc
+            print(f"  ⚠️  gateway verify failed on {model} ({type(exc).__name__}): {exc}")
+    if last_error is not None:
+        return {"__error__": f"gateway {type(last_error).__name__}: {last_error}"}
 
     blocks = d.get("content")
     text = ("".join(b.get("text", "") for b in blocks if isinstance(b, dict))
@@ -632,9 +671,84 @@ def verify_clauses_with_gateway(candidates: list) -> dict:
             continue
         if 0 <= idx < len(candidates):
             verdicts[idx] = {
-                "concern": bool(item.get("concern")),
-                "article": str(item.get("article") or "").strip(),
-                "reason": str(item.get("reason") or "").strip()[:120],
+                "concern": _as_bool(item.get("concern")),
+                "article": _as_text(item.get("article"))[:120],
+                "reason": _as_text(item.get("reason"))[:120],
+            }
+    return verdicts
+
+
+def _openrouter_key() -> str:
+    """The OpenRouter key, if one is available in this environment."""
+    path = Path.home() / ".config/newtazer/openrouter.key"
+    if path.exists():
+        return path.read_text().strip()
+    return os.environ.get("OPENROUTER_API_KEY", "").strip()
+
+
+def verify_clauses_with_openrouter(candidates: list) -> dict:
+    """
+    Third route for the verifier: OpenRouter, plain chat completions, JSON
+    asked for in the prompt. Used when the direct Anthropic key and the
+    kie.ai gateway both fail, which happens when the key has no credit or the
+    gateway is briefly rate limited.
+    """
+    key = _openrouter_key()
+    if not candidates or not key:
+        return {}
+    import urllib.request as _urlreq
+
+    payload = {
+        "model": OPENROUTER_MODEL,
+        "max_tokens": 2048,
+        "messages": [
+            {"role": "system", "content": _LLM_SYSTEM_PROMPT},
+            {"role": "user", "content": "\n".join(
+                f'[{i + 1}] ({c.get("label", "non_ethical")}) "{c["text"][:300]}"'
+                for i, c in enumerate(candidates)
+            ) + "\n\nReply with a JSON array only. One object per clause, "
+              "with keys id (the number in brackets), concern (true or false), "
+              "article (string, may be empty) and reason (string)."},
+        ],
+    }
+    req = _urlreq.Request(
+        "https://openrouter.ai/api/v1/chat/completions",
+        data=json.dumps(payload).encode(),
+        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
+    )
+    try:
+        with _urlreq.urlopen(req, timeout=120) as resp:
+            d = json.loads(resp.read())
+    except Exception as exc:
+        print(f"  ⚠️  openrouter verify failed ({type(exc).__name__}): {exc}")
+        return {"__error__": f"openrouter {type(exc).__name__}: {exc}"}
+
+    try:
+        text = d["choices"][0]["message"]["content"]
+    except Exception:
+        text = ""
+    if not text:
+        return {"__error__": "openrouter returned no content"}
+    start = text.find("[")
+    end = text.rfind("]")
+    if start < 0 or end <= start:
+        return {"__error__": "openrouter returned no JSON array"}
+    try:
+        items = json.loads(text[start:end + 1])
+    except Exception as exc:
+        return {"__error__": f"openrouter unparseable JSON: {exc}"}
+
+    verdicts = {}
+    for item in items:
+        try:
+            idx = int(item["id"]) - 1
+        except Exception:
+            continue
+        if 0 <= idx < len(candidates):
+            verdicts[idx] = {
+                "concern": _as_bool(item.get("concern")),
+                "article": _as_text(item.get("article"))[:120],
+                "reason": _as_text(item.get("reason"))[:120],
             }
     return verdicts
 
@@ -799,6 +913,10 @@ def process_text():
             # a working verifier and none at all are very different products.
             print("  ↪ retrying the verifier through the kie.ai gateway")
             verdicts = verify_clauses_with_gateway(_batch)
+            _verify_error = verdicts.pop("__error__", None)
+        if _verify_error and _openrouter_key():
+            print("  ↪ retrying the verifier through OpenRouter")
+            verdicts = verify_clauses_with_openrouter(_batch)
             _verify_error = verdicts.pop("__error__", None)
         _verify_source = "anthropic" if (verdicts and not _verify_error) else "none"
         dismissed_texts = set()
