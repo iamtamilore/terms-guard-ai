@@ -401,7 +401,7 @@
   <div class="privacy">
     <p>
       <strong>What leaves your machine.</strong> The text you paste is compared against a local
-      index of 4,527 GDPR chunks. Retrieval, embeddings and the index all run on this server.
+      reference index of 4,527 chunks. Retrieval, embeddings and the index all run on this server.
       Up to 15 flagged sentences are sent to Anthropic for verification, nothing else is, the
       connection is encrypted in transit, and no text is written to disk.
     </p>
@@ -420,8 +420,8 @@
   </section>
 
   <div class="strip" id="strip">
-    <div><b>4,527</b><span>GDPR chunks indexed</span></div>
-    <div><b>96</b><span>labelled reference clauses</span></div>
+    <div><b>4,527</b><span>chunks in the reference index</span></div>
+    <div><b>102</b><span>labelled reference clauses</span></div>
     <div><b>Full page</b><span>no chunks skipped</span></div>
     <div><b>claude-haiku-4-5</b><span>verification model</span></div>
   </div>
@@ -462,12 +462,13 @@
     <ol>
       <li><b>Split.</b> The text is broken into individual clauses and duplicates are removed.</li>
       <li><b>Match.</b> Each clause is embedded and compared by cosine similarity against 48 labelled fair clauses and 48 labelled unfair ones.</li>
-      <li><b>Ground.</b> A GDPR article is retrieved from the FAISS index for each candidate, so the citation points at real source text.</li>
+      <li><b>Ground.</b> A matching passage is retrieved from a 4,527 chunk reference index for each candidate, so you can read the context the flag was drawn from.</li>
       <li><b>Verify.</b> Claude Haiku 4.5 rules on every confident candidate, in both directions. It can dismiss a false positive and it can overturn a clause that was wrongly called protective.</li>
     </ol>
     <p class="note">
       The summary is assembled by template from the clauses that were matched and verified.
-      No model writes it, so a legal citation cannot be invented.
+      No model writes it, so a legal citation cannot be invented. The article shown on each flag
+      is the one the model named. The retrieved passage beside it is context, not the article text.
     </p>
   </section>
 
@@ -576,7 +577,7 @@ function verifiedChip(p) {
 
 function evidenceBlock(p) {
   if (!p.gdpr_evidence) return '';
-  return `<div class="evidence"><em>GDPR source:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '…' : ''}</div>`;
+  return `<div class="evidence"><em>Retrieved context:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '…' : ''}</div>`;
 }
 
 function clauseItem(p, kind) {

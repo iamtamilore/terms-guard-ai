@@ -297,6 +297,34 @@ def retrieve_gdpr_context(text_snippet: str, k: int = 3) -> str:
     )
 
 
+def _clean_chunk_boundary(text: str) -> str:
+    """
+    The knowledge base was built with a fixed-character splitter, so 3,277 of
+    its 4,527 chunks begin part-way through a word. A citation that opens with
+    "pen on purpose" looks garbled rather than quoted, so the leading partial
+    word is dropped and the text is trimmed to a sentence boundary where one
+    is close enough.
+    """
+    if not text:
+        return text
+    # Drop a leading fragment: a first token that starts lowercase and is not
+    # a real word on its own is the tail of a split word.
+    parts = text.split(" ", 1)
+    if len(parts) == 2 and parts[0].isalpha() and parts[0].islower() and len(parts[0]) <= 4:
+        # Only drop it if the word that follows starts a new clause, which is
+        # what a mid-word split looks like. Otherwise it is a real sentence.
+        rest = parts[1]
+        if rest[:1].isupper() or rest[:2] in ("we", "th", "in", "of", "to", "a ", "is"):
+            text = rest
+    # Prefer starting at a sentence if one is near the front.
+    for marker in (". ", "? ", "! "):
+        pos = text.find(marker)
+        if 0 < pos < 160:
+            text = text[pos + 2:].lstrip()
+            break
+    return text
+
+
 def retrieve_gdpr_evidence(emb_tensor, k: int = 1) -> str:
     """Return top KB chunk for a pre-computed embedding — no re-encoding."""
     if gdpr_kb_index is None or not gdpr_kb_chunks:
@@ -311,7 +339,7 @@ def retrieve_gdpr_evidence(emb_tensor, k: int = 1) -> str:
     # Cut on a word boundary. A hard character cut lands mid-word and the
     # reader sees "pen on purpose" instead of "happen on purpose", which makes
     # the citation look garbled rather than quoted.
-    text = " ".join(chunks[0].split())
+    text = _clean_chunk_boundary(" ".join(chunks[0].split()))
     if len(text) <= 400:
         return text
     cut = text[:400]
