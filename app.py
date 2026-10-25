@@ -461,6 +461,16 @@ A clause is NOT a concern if it is: standard account-security advice, navigation
 pro-user (grants rights, allows free deletion/cancellation), or a protective clause that preserves \
 the user's statutory rights.
 
+POLITENESS IS NOT A DEFENCE. Do not treat a clause as compliant because it is worded \
+politely, apologetically, or because it asks permission. "We kindly request your permission to \
+transfer your information to third-party vendors for analytics" is a concern. So is "We \
+respectfully ask that you allow us to share your data with partners". The tone of a clause \
+does not change what it does. Judge the effect, not the manner.
+
+CONSENT AS A CONDITION. If permission is asked for as the price of using the service, or if \
+the stated purpose is one the user never agreed to (analytics, advertising, sharing with \
+third parties), then it is a concern even though the word "permission" appears.
+
 CHOOSE the single best legal basis from this menu (use the exact label):
 - "Art.5(1)(b) Purpose Limitation"   - data used beyond stated purpose / sold / shared
 - "Art.5(1)(e) Storage Limitation"   - indefinite / excessive retention
@@ -567,6 +577,47 @@ def _as_text(value) -> str:
         return ", ".join(str(v) for v in value)
     return str(value).strip()
 
+def _verdicts_from_items(items, n_candidates: int) -> dict:
+    """
+    Map the model's per-clause objects onto candidate indexes.
+
+    The prompt numbers clauses from 1, but a model will sometimes number them
+    from 0. Both are accepted, and the numbering is detected from the ids
+    themselves rather than assumed. A wrong offset would silently shift every
+    verdict onto the wrong clause, which is worse than dropping it.
+    """
+    ids = []
+    for item in items:
+        try:
+            ids.append(int(item["id"]))
+        except Exception:
+            pass
+    if not ids:
+        return {}
+
+    lo, hi = min(ids), max(ids)
+    if lo >= 1 and hi <= n_candidates:
+        offset = 1          # 1-based, as the prompt asks
+    elif lo >= 0 and hi < n_candidates:
+        offset = 0          # 0-based, as some models answer
+    else:
+        offset = 1
+
+    verdicts = {}
+    for item in items:
+        try:
+            idx = int(item["id"]) - offset
+        except Exception:
+            continue
+        if 0 <= idx < n_candidates:
+            verdicts[idx] = {
+                "concern": _as_bool(item.get("concern")),
+                "article": _as_text(item.get("article"))[:120],
+                "reason": _as_text(item.get("reason"))[:120],
+            }
+    return verdicts
+
+
 # ============================================
 # GATEWAY FALLBACK VERIFIER
 # ============================================
@@ -663,18 +714,7 @@ def verify_clauses_with_gateway(candidates: list) -> dict:
         print(f"  ⚠️  gateway verify: unparseable JSON ({type(exc).__name__})")
         return {"__error__": f"gateway unparseable JSON: {exc}"}
 
-    verdicts = {}
-    for item in items:
-        try:
-            idx = int(item["id"]) - 1
-        except Exception:
-            continue
-        if 0 <= idx < len(candidates):
-            verdicts[idx] = {
-                "concern": _as_bool(item.get("concern")),
-                "article": _as_text(item.get("article"))[:120],
-                "reason": _as_text(item.get("reason"))[:120],
-            }
+    verdicts = _verdicts_from_items(items, len(candidates))
     return verdicts
 
 
@@ -738,18 +778,7 @@ def verify_clauses_with_openrouter(candidates: list) -> dict:
     except Exception as exc:
         return {"__error__": f"openrouter unparseable JSON: {exc}"}
 
-    verdicts = {}
-    for item in items:
-        try:
-            idx = int(item["id"]) - 1
-        except Exception:
-            continue
-        if 0 <= idx < len(candidates):
-            verdicts[idx] = {
-                "concern": _as_bool(item.get("concern")),
-                "article": _as_text(item.get("article"))[:120],
-                "reason": _as_text(item.get("reason"))[:120],
-            }
+    verdicts = _verdicts_from_items(items, len(candidates))
     return verdicts
 
 # ============================================
