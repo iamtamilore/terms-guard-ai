@@ -546,6 +546,98 @@ def verify_clauses_with_llm(candidates: list) -> dict:
         return {"__error__": f"{type(exc).__name__}: {exc}"}
 
 
+
+# ============================================
+# GATEWAY FALLBACK VERIFIER
+# ============================================
+# The direct Anthropic key can be present and still unusable, which is what
+# happened here: the key had no credit, so every call came back 400 and the
+# app fell through to cosine scores while still reporting that the model had
+# verified them. This path asks the same model through the kie.ai gateway and
+# asks for JSON in the prompt, so it needs no structured-output support.
+GATEWAY_URL = "https://api.kie.ai/claude/v1/messages"
+GATEWAY_MODEL = "claude-haiku-4-5"
+GATEWAY_KEY = os.environ.get("KIE_API_KEY", "").strip()
+GATEWAY_AVAILABLE = bool(GATEWAY_KEY)
+
+
+def _gateway_key() -> str:
+    """The gateway key from the environment, or from the local .env if set there."""
+    if GATEWAY_KEY:
+        return GATEWAY_KEY
+    for path in (Path.home() / "Desktop/NCI/2ND/Machine Learning/CA2_mullay_qa/.env",):
+        try:
+            if path.exists():
+                for line in path.read_text().splitlines():
+                    if line.startswith("KIE_API_KEY"):
+                        return line.split("=", 1)[1].strip().strip('"').strip("'")
+        except Exception:
+            pass
+    return ""
+
+
+def verify_clauses_with_gateway(candidates: list) -> dict:
+    """
+    Ask the verification model for a JSON verdict per clause over the kie.ai
+    gateway. Returns the same shape as verify_clauses_with_llm: a dict keyed by
+    0-based index, with "concern", "article" and "reason".
+    """
+    if not candidates or not _gateway_key():
+        return {}
+    import urllib.request as _urlreq
+
+    payload = {
+        "model": GATEWAY_MODEL,
+        "max_tokens": 2048,
+        "stream": False,
+        "system": _LLM_SYSTEM_PROMPT,
+        "messages": [{"role": "user", "content": "\n".join(
+            f'[{i + 1}] ({c.get("label", "non_ethical")}) "{c["text"][:300]}"'
+            for i, c in enumerate(candidates)
+        ) + "\n\nReply with a JSON array only. One object per clause, "
+          "with keys id (the number in brackets), concern (true or false), "
+          "article (string, may be empty) and reason (string)."}],
+    }
+    req = _urlreq.Request(
+        GATEWAY_URL,
+        data=json.dumps(payload).encode(),
+        headers={"Authorization": "Bearer " + _gateway_key(), "Content-Type": "application/json"},
+    )
+    try:
+        with _urlreq.urlopen(req, timeout=120) as resp:
+            d = json.loads(resp.read())
+    except Exception as exc:
+        print(f"  ⚠️  gateway verify failed ({type(exc).__name__}): {exc}")
+        return {"__error__": f"gateway {type(exc).__name__}: {exc}"}
+
+    blocks = d.get("content")
+    text = ("".join(b.get("text", "") for b in blocks if isinstance(b, dict))
+            if isinstance(blocks, list) else (blocks or ""))
+    start = text.find("[")
+    end = text.rfind("]")
+    if start < 0 or end <= start:
+        print("  ⚠️  gateway verify: no JSON array in the reply")
+        return {"__error__": "gateway returned no JSON array"}
+    try:
+        items = json.loads(text[start:end + 1])
+    except Exception as exc:
+        print(f"  ⚠️  gateway verify: unparseable JSON ({type(exc).__name__})")
+        return {"__error__": f"gateway unparseable JSON: {exc}"}
+
+    verdicts = {}
+    for item in items:
+        try:
+            idx = int(item["id"]) - 1
+        except Exception:
+            continue
+        if 0 <= idx < len(candidates):
+            verdicts[idx] = {
+                "concern": bool(item.get("concern")),
+                "article": str(item.get("article") or "").strip(),
+                "reason": str(item.get("reason") or "").strip()[:120],
+            }
+    return verdicts
+
 # ============================================
 # CLAUSE QUALITY FILTER
 # ============================================
@@ -693,6 +785,7 @@ def process_text():
     _protective_candidates = [p for p in ethical_points if p['confidence'] >= CONF_VERIFY_MIN][:LLM_VERIFY_MAX_CANDIDATES]
     _llm_enabled = LLM_VERIFY and LLM_VERIFY_AVAILABLE and bool(_candidates or _protective_candidates)
     _verify_error = None
+    _verify_source = "none"
 
     if _llm_enabled:
         # One batched call. Candidates carry their cosine label so the verifier
@@ -701,6 +794,13 @@ def process_text():
         _batch = _candidates + _protective_candidates
         verdicts = verify_clauses_with_llm(_batch)
         _verify_error = verdicts.pop("__error__", None)
+        if _verify_error and GATEWAY_AVAILABLE:
+            # The direct key failed. Try the gateway before giving up, because
+            # a working verifier and none at all are very different products.
+            print("  ↪ retrying the verifier through the kie.ai gateway")
+            verdicts = verify_clauses_with_gateway(_batch)
+            _verify_error = verdicts.pop("__error__", None)
+        _verify_source = "anthropic" if (verdicts and not _verify_error) else "none"
         dismissed_texts = set()
         overturned_texts = set()
 
@@ -856,10 +956,15 @@ def process_text():
         "links": all_links,
         "links_count": len(all_links),
         "gdpr_rag_enabled": gdpr_kb_index is not None,
-        "llm_verification_enabled": _llm_enabled,
+        "llm_verification_enabled": _llm_enabled and not _verify_error,
+        "verification_source": _verify_source,
         "generation_model": "none (deterministic summary)",
-        "verification_model": _LLM_MODEL if _llm_enabled else "none",
-        "classification_method": "gdpr_semantic_cosine_similarity + llm_verify" if _llm_enabled else "gdpr_semantic_cosine_similarity",
+        "verification_model": _LLM_MODEL if (_llm_enabled and not _verify_error) else "none",
+        "classification_method": (
+            "gdpr_semantic_cosine_similarity + llm_verify"
+            if (_llm_enabled and not _verify_error)
+            else "gdpr_semantic_cosine_similarity"
+        ),
         "phase_timings": {"summary_s": t_summary, "cosine_s": t_cosine, "verify_s": t_verify},
         "analysis_coverage": "Entire page — no chunks skipped",
         "verification_error": _verify_error,

@@ -423,7 +423,7 @@
     <div><b>4,527</b><span>chunks in the reference index</span></div>
     <div><b>102</b><span>labelled reference clauses</span></div>
     <div><b>Full page</b><span>no chunks skipped</span></div>
-    <div><b>claude-haiku-4-5</b><span>verification model</span></div>
+    <div><b>102</b><span>reference clauses, 52 fair and 50 unfair</span></div>
   </div>
   <p class="strip-cap">What the tool uses. These are in every response it gives.</p>
 
@@ -463,7 +463,7 @@
       <li><b>Split.</b> The text is broken into individual clauses and duplicates are removed.</li>
       <li><b>Match.</b> Each clause is embedded and compared by cosine similarity against 48 labelled fair clauses and 48 labelled unfair ones.</li>
       <li><b>Ground.</b> A matching passage is retrieved from a 4,527 chunk reference index for each candidate, so you can read the context the flag was drawn from.</li>
-      <li><b>Verify.</b> Claude Haiku 4.5 rules on every confident candidate, in both directions. It can dismiss a false positive and it can overturn a clause that was wrongly called protective.</li>
+      <li><b>Verify.</b> When a verification model is configured, it rules on every confident candidate, in both directions. It can dismiss a false positive and it can overturn a clause that was wrongly called protective.</li>
     </ol>
     <p class="note">
       The summary is assembled by template from the clauses that were matched and verified.
@@ -575,6 +575,22 @@ function verifiedChip(p) {
   return '';
 }
 
+/* The status line must say what actually happened. If the verifier is not
+   running, the reader is told so, rather than being shown a page that looks
+   the same either way. */
+function metaLine(data, secs) {
+  const parts = [`${data.clauses_analyzed || 0} clauses`, `${secs}s`];
+  if (data.llm_verification_enabled) {
+    parts.push('model verified');
+  } else if (data.verification_error) {
+    parts.push('model check failed, cosine only');
+  } else {
+    parts.push('no model check');
+  }
+  if (data.analysis_coverage) parts.push(data.analysis_coverage.toLowerCase());
+  return parts.join(' \u00b7 ');
+}
+
 function evidenceBlock(p) {
   if (!p.gdpr_evidence) return '';
   return `<div class="evidence"><em>Retrieved context:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '…' : ''}</div>`;
@@ -621,10 +637,7 @@ function analyze() {
     $('risk').innerText = risk + ' risk';
     $('summary').innerText = data.summary || '';
 
-    const parts = [`${data.clauses_analyzed || 0} clauses`, `${secs}s`];
-    if (data.llm_verification_enabled) parts.push('model verified');
-    if (data.analysis_coverage) parts.push(data.analysis_coverage.toLowerCase());
-    $('meta').innerText = parts.join(' · ');
+    $('meta').innerText = metaLine(data, secs);
 
     // Worst first. A recruiter must be able to see the worst clause without
     // reading every reasoning paragraph, so the highest confidence comes first.
