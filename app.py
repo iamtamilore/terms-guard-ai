@@ -117,6 +117,10 @@ NON_ETHICAL_KEYWORDS = {
 # ============================================
 CONF_HIGH = 0.55
 CONF_MEDIUM = 0.45
+# Below this, the clause is too weak to be worth a verifier call. A Medium
+# confidence clause is included, because dropping it on a cosine score alone is
+# how a false positive reaches the reader.
+CONF_VERIFY_MIN = 0.35
 
 # LLM verification — Qwen post-filters cosine candidates to kill false positives.
 # Disable if latency budget is tight (set LLM_VERIFY = False).
@@ -235,15 +239,16 @@ def classify_clause(sentence: str, emb=None):
         max_eth += 0.02
 
     if detect_protective_context(sentence):
-        # Guarantee ethical wins — protective clauses cannot be GDPR violations.
-        # max_non + 0.06 ensures score_diff > 0.05 (unclear threshold) so result is ethical.
-        max_eth = max(max_eth + 0.15, max_non + 0.06)
+        # A soft prior, not a guarantee. The old hard override forced ethical to win
+        # and could not be overturned by the LLM verifier, so a protective-looking
+        # phrase could never be re-checked. Now it only nudges the boundary.
+        max_eth += 0.10
 
     top_score = max(max_eth, max_non)
     score_diff = abs(max_eth - max_non)
 
     if top_score < 0.35 or score_diff < 0.05:
-        return 'unclear', round(top_score, 2), "Low confidence or unclear classification", "", "weak", emb
+        return 'unclear', round(min(top_score, 1.0), 2), "Low confidence or unclear classification", "", "weak", emb
 
     explanation = kw_explanation or "Classified via semantic analysis"
     if detect_critical_negations(sentence):
@@ -255,12 +260,12 @@ def classify_clause(sentence: str, emb=None):
         raw_winner = raw_eth
         gdpr_basis = ETHICAL_REFERENCE_CLAUSES[best_eth_idx]["gdpr"]
         label = 'ethical'
-        final_conf = round(max_eth, 2)
+        final_conf = round(min(max_eth, 1.0), 2)
     else:
         raw_winner = raw_non
         gdpr_basis = NON_ETHICAL_REFERENCE_CLAUSES[best_non_idx]["gdpr"]
         label = 'non_ethical'
-        final_conf = round(max_non, 2)
+        final_conf = round(min(max_non, 1.0), 2)
 
     # Citation grounded in raw semantic score (before keyword/protective boosts)
     if raw_winner >= CONF_HIGH:
@@ -301,7 +306,18 @@ def retrieve_gdpr_evidence(emb_tensor, k: int = 1) -> str:
     _faiss_lib.normalize_L2(emb_np)
     _, indices = gdpr_kb_index.search(emb_np, k)
     chunks = [gdpr_kb_chunks[i] for i in indices[0] if 0 <= i < len(gdpr_kb_chunks)]
-    return chunks[0][:200] if chunks else ""
+    if not chunks:
+        return ""
+    # Cut on a word boundary. A hard character cut lands mid-word and the
+    # reader sees "pen on purpose" instead of "happen on purpose", which makes
+    # the citation look garbled rather than quoted.
+    text = " ".join(chunks[0].split())
+    if len(text) <= 400:
+        return text
+    cut = text[:400]
+    if " " in cut:
+        cut = cut[:cut.rindex(" ")]
+    return cut + "…"
 
 
 # ============================================
@@ -388,6 +404,24 @@ _LLM_SYSTEM_PROMPT = """You are a GDPR and EU consumer-rights compliance analyst
 clauses for risks to the user. For each numbered clause, judge it against the framework below and \
 return a structured verdict.
 
+Each clause carries a label in brackets: either (non_ethical) or (ethical).
+
+For a clause labelled (non_ethical), concern=true if it is a GENUINE GDPR or EU \
+consumer-rights concern, concern=false if the cosine stage was wrong and it is actually \
+fine. Generic commercial statements that are not about data protection, for example \
+"We offer a refund policy" or "You can contact our support team", are NOT GDPR clauses \
+in either direction. Mark them concern=false, article="", and say so in the reason.
+
+For a clause labelled (ethical), the cosine stage believes it grants or preserves a data \
+subject right, so it is being given the benefit of the doubt. Set concern=false only if it \
+really is a genuine protection of a data subject right. If it is a marketing line, a scam \
+phrase, a generic commercial statement, or is unrelated to data protection, set \
+concern=true and give the article it actually violates, or empty string if no GDPR article \
+applies. Do not accept a clause as protective just because it contains reassuring words. \
+For example "We will never ask for money" is not a GDPR protection, it is not about \
+personal data, so treat it as not a concern on data-protection grounds and set \
+concern=false with article="".
+
 A clause IS a concern if it does any of:
 - Limits or waives the user's legal rights (class-action waivers, liability caps, forced arbitration)
 - Allows data handling that breaches GDPR principles (selling/sharing data, tracking, indefinite \
@@ -444,7 +478,8 @@ def verify_clauses_with_llm(candidates: list) -> dict:
 
     try:
         clause_lines = "\n".join(
-            f'[{i + 1}] "{c["text"][:300]}"' for i, c in enumerate(candidates)
+            f'[{i + 1}] ({c.get("label", "non_ethical")}) "{c["text"][:300]}"'
+            for i, c in enumerate(candidates)
         )
         response = anthropic_client.messages.parse(
             model=_LLM_MODEL,
@@ -613,33 +648,60 @@ def process_text():
     t_cosine = round(time.time() - t_cosine_start, 2)
 
     # --- LLM verification (Claude Haiku post-filter) ---
+    # Candidates come from BOTH lists. The cosine stage can put a protective-looking
+    # phrase on the wrong side of the line, and if only the risky side is ever
+    # checked, that mistake can never be caught. The verifier is the semantic step,
+    # so it gets to see every confident classification, not just one direction.
     t_verify_start = time.time()
-    _candidates = [p for p in non_ethical_points if p['confidence_label'] != 'Low'][:LLM_VERIFY_MAX_CANDIDATES]
-    _llm_enabled = LLM_VERIFY and LLM_VERIFY_AVAILABLE and bool(_candidates)
+    # The verifier is the semantic step, so borderline clauses go to it too. A
+    # Medium-confidence clause is exactly the one a reader would be misled by if
+    # it were dropped on a cosine score alone. The cosine label only decides
+    # which way the verifier is asked to argue, never whether it is asked.
+    _candidates = [p for p in non_ethical_points if p['confidence'] >= CONF_VERIFY_MIN][:LLM_VERIFY_MAX_CANDIDATES]
+    _protective_candidates = [p for p in ethical_points if p['confidence'] >= CONF_VERIFY_MIN][:LLM_VERIFY_MAX_CANDIDATES]
+    _llm_enabled = LLM_VERIFY and LLM_VERIFY_AVAILABLE and bool(_candidates or _protective_candidates)
 
     if _llm_enabled:
-        verdicts = verify_clauses_with_llm(_candidates)
+        # One batched call. Candidates carry their cosine label so the verifier
+        # knows which direction to argue: 'non_ethical' candidates are questioned,
+        # 'ethical' candidates have to earn their protection.
+        _batch = _candidates + _protective_candidates
+        verdicts = verify_clauses_with_llm(_batch)
         dismissed_texts = set()
+        overturned_texts = set()
 
-        for i, point in enumerate(_candidates):
+        for i, point in enumerate(_batch):
             v = verdicts.get(i)
             if v is None:
                 continue
             point['llm_concern'] = v['concern']
             point['llm_reason'] = v['reason']
             point['llm_article'] = v['article']
-            if not v['concern']:
-                point['llm_dismissed'] = True
-                dismissed_texts.add(point['text'])
+            was_protective = point.get('label') == 'ethical'
+            if was_protective:
+                # A protective candidate only stays protective if the verifier agrees.
+                if v['concern']:
+                    point['overturned_by_llm'] = True
+                    overturned_texts.add(point['text'])
+                    point['gdpr_basis'] = v['article'] or ''
+                    point['reasoning'] = v['reason'] or point['reasoning']
+                    point['citation_status'] = 'llm_verified'
+                else:
+                    point['citation_status'] = 'llm_verified'
+                    point['reasoning'] = v['reason'] or point['reasoning']
             else:
-                point['gdpr_basis'] = v['article'] or point['gdpr_basis']
-                point['reasoning'] = v['reason'] or point['reasoning']
-                point['citation_status'] = 'llm_verified'
-                # Deterministic children's-data override: if the clause is about
-                # minors, force Art.8 (Haiku tends to mislabel these as Art.6).
-                # Children's-data gaps also signal likely COPPA exposure for US users.
-                if _is_children_clause(point['text']):
-                    point['gdpr_basis'] = "Art.8 Children's Consent (+ likely COPPA exposure)"
+                if not v['concern']:
+                    point['llm_dismissed'] = True
+                    dismissed_texts.add(point['text'])
+                else:
+                    point['gdpr_basis'] = v['article'] or point['gdpr_basis']
+                    point['reasoning'] = v['reason'] or point['reasoning']
+                    point['citation_status'] = 'llm_verified'
+                    # Deterministic children's-data override: if the clause is about
+                    # minors, force Art.8 (Haiku tends to mislabel these as Art.6).
+                    # Children's-data gaps also signal likely COPPA exposure for US users.
+                    if _is_children_clause(point['text']):
+                        point['gdpr_basis'] = "Art.8 Children's Consent (+ likely COPPA exposure)"
 
         # Remove dismissed from non_ethical, move to unclear so nothing is lost
         kept, dismissed_list = [], []
@@ -651,6 +713,17 @@ def process_text():
                 kept.append(p)
         non_ethical_points = kept
         unclear_points.extend(dismissed_list)
+
+        # A protective clause the verifier overturned becomes a flagged one.
+        if overturned_texts:
+            kept_protective, moved = [], []
+            for p in ethical_points:
+                if p['text'] in overturned_texts:
+                    moved.append(p)
+                else:
+                    kept_protective.append(p)
+            ethical_points = kept_protective
+            non_ethical_points.extend(moved)
 
         # Re-sort: llm_verified first, then by confidence
         non_ethical_points.sort(
@@ -687,7 +760,22 @@ def process_text():
             f"{len(sentences)} clauses for human review."
         )
         if verified:
-            tops = "; ".join(p['reasoning'] for p in verified[:3] if p.get('reasoning'))
+            # Deduplicate. The verifier often gives several clauses the same
+            # short reason, and repeating it three times reads as a broken
+            # string rather than as three separate findings.
+            seen_reasons, tops_list = set(), []
+            for p in verified:
+                r = (p.get('reasoning') or '').strip()
+                if not r:
+                    continue
+                key = r.lower().rstrip('.')
+                if key in seen_reasons:
+                    continue
+                seen_reasons.add(key)
+                tops_list.append(r)
+                if len(tops_list) == 3:
+                    break
+            tops = "; ".join(tops_list)
             if tops:
                 summary += f" Key items — {tops}."
     else:

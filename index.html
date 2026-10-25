@@ -3,151 +3,489 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="TermsGuard AI, live">
-<meta property="og:description" content="Paste any privacy policy. It flags unfair clauses in plain English, each one tied to the GDPR article behind it. 87% F1.">
-<meta property="og:image" content="https://iamtamilore.github.io/assets/img/termsguard.jpg">
-<meta property="og:url" content="https://newtazer-terms-guard-ai.hf.space">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="TermsGuard AI, live" />
+<meta property="og:description" content="Paste any privacy policy. It flags unfair clauses in plain English, each one tied to the GDPR article behind it, and every flag is checked by a model before you see it." />
+<meta property="og:image" content="https://iamtamilore.github.io/assets/img/termsguard.jpg" />
+<meta property="og:url" content="https://newtazer-terms-guard-ai.hf.space" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
 <title>Terms Guard AI by Taiwo Alabi</title>
 <style>
-  :root{
-    --bg:#0d1117; --card:#161b22; --line:#21262d; --text:#e6edf3;
-    --muted:#8b949e; --green:#2ea043; --red:#e5534b; --amber:#d29922;
-    --accent:#1f6feb;
+  :root {
+    --font: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+
+    --bg: #100f0c;
+    --bg-2: #1a1814;
+    --text: #f2efe6;
+    --text-2: #b9b3a5;
+    --text-3: #827c70;
+    --accent: #ff6b32;
+    --accent-2: #ff8b5c;
+    --rule: #34302a;
+    --rule-2: #262320;
+
+    --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+    --text-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+    --text-lg: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+    --text-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);
+    --text-2xl: clamp(2rem, 1.8rem + 1vw, 2.5rem);
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-8: 3rem;
+    --space-10: 4rem;
+    --space-12: 6rem;
+
+    --edge: clamp(1.25rem, 5vw, 5rem);
+    --measure: 68ch;
   }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg); color:var(--text); line-height:1.55; padding:24px 16px 60px;
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    font-size: var(--text-base);
+    padding: 0 var(--edge) var(--space-12);
+    -webkit-font-smoothing: antialiased;
   }
-  .wrap{max-width:820px;margin:0 auto}
-  .hero{text-align:center;padding:18px 0 6px}
-  .hero h1{font-size:30px;font-weight:800;letter-spacing:-.5px}
-  .hero .sub{color:var(--muted);font-size:16px;margin-top:8px;max-width:600px;margin:8px auto 0}
 
-  textarea{width:100%;min-height:180px;margin-top:18px;background:var(--card);
-    color:var(--text);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
-    font-size:14px;line-height:1.5;resize:vertical;font-family:inherit}
-  textarea:focus{outline:none;border-color:var(--accent)}
+  .wrap { max-width: 860px; margin: 0 auto; }
 
-  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:12px}
-  .btn{background:var(--accent);color:#fff;border:none;border-radius:10px;
-    padding:11px 22px;font-size:15px;font-weight:700;cursor:pointer}
-  .btn:disabled{opacity:.6;cursor:default}
-  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted);
-    font-weight:600;font-size:13px;padding:9px 14px}
-  .ex-label{color:var(--muted);font-size:13px;margin-right:2px}
+  /* ---------- masthead ---------- */
 
-  .status{margin-top:14px;color:var(--muted);font-size:13px;min-height:18px}
+  header { padding-top: var(--space-8); }
 
-  .results{display:none;margin-top:24px}
-  .riskline{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-  .badge{font-size:14px;font-weight:800;padding:7px 16px;border-radius:10px}
-  .badge.High{background:rgba(229,83,75,.15);color:var(--red);border:1px solid rgba(229,83,75,.4)}
-  .badge.Medium{background:rgba(210,153,34,.15);color:var(--amber);border:1px solid rgba(210,153,34,.4)}
-  .badge.Low{background:rgba(46,160,67,.15);color:var(--green);border:1px solid rgba(46,160,67,.4)}
-  .badge.Unknown{background:var(--card);color:var(--muted);border:1px solid var(--line)}
-  .meta{color:var(--muted);font-size:12px}
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
 
-  .summary{background:var(--card);border:1px solid var(--line);border-radius:12px;
-    padding:14px 16px;margin-top:16px;font-size:14px}
+  .lede {
+    margin-top: var(--space-4);
+    max-width: var(--measure);
+    color: var(--text-2);
+    font-size: var(--text-base);
+  }
 
-  .sec{margin-top:22px}
-  .sec h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);
-    border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px}
-  .item{background:var(--card);border:1px solid var(--line);border-radius:10px;
-    padding:12px 14px;margin-bottom:10px;border-left:3px solid var(--line)}
-  .item.bad{border-left-color:var(--red)}
-  .item.good{border-left-color:var(--green)}
-  .item .q{font-size:14px}
-  .item .tags{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-  .chip{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--line);color:var(--muted)}
-  .chip.hi{color:var(--red);border-color:rgba(229,83,75,.4)}
-  .chip.md{color:var(--amber);border-color:rgba(210,153,34,.4)}
-  .chip.law{color:var(--green);border-color:rgba(46,160,67,.4)}
-  .item .why{margin-top:6px;color:var(--muted);font-size:12px}
-  .empty{color:var(--muted);font-size:13px}
+  .stamp {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: var(--space-5);
+  }
 
-  .how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 22px;margin-top:30px}
-  .how summary{cursor:pointer;padding:18px 0;font-weight:700;font-size:15px;list-style:none}
-  .how summary::-webkit-details-marker{display:none}
-  .how summary::before{content:"\25B8  ";color:var(--accent)}
-  .how[open] summary::before{content:"\25BE  "}
-  .how .body{padding:4px 0 22px;border-top:1px solid var(--line);font-size:14px}
-  .how p{color:var(--muted);margin:12px 0}
-  .how .step{display:flex;gap:12px;padding:8px 0}
-  .how .num{flex:none;width:24px;height:24px;border-radius:50%;background:var(--accent);
-    color:#fff;font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:center}
-  .how .step b{display:block}
-  .how .step span{color:var(--muted);font-size:13px}
+  /* ---------- the privacy notice, above the input ---------- */
 
-  .disclaimer{margin-top:18px;font-size:12px;color:var(--muted);background:var(--card);
-    border:1px solid var(--line);border-radius:10px;padding:12px 16px;text-align:center}
-  .foot{text-align:center;margin-top:28px;color:var(--muted);font-size:13px}
-  .foot a{color:var(--accent);text-decoration:none}
+  .privacy {
+    border-left: 1px solid var(--rule);
+    padding: var(--space-1) 0 var(--space-1) var(--space-4);
+    margin: var(--space-6) 0 var(--space-8);
+    max-width: var(--measure);
+  }
+  .privacy p { color: var(--text-2); font-size: var(--text-sm); }
+  .privacy strong { color: var(--text); font-weight: 500; }
+
+  /* ---------- the input ---------- */
+
+  label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: var(--space-3);
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 160px;
+    background: var(--bg-2);
+    color: var(--text);
+    border: 1px solid var(--rule);
+    padding: var(--space-4);
+    font-family: var(--font);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    resize: vertical;
+  }
+  textarea:focus { outline: none; border-color: var(--accent); }
+  textarea::placeholder { color: var(--text-3); }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3) var(--space-5);
+    margin-top: var(--space-4);
+  }
+
+  .btn {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: var(--space-2) 0;
+    border: none;
+    border-bottom: 1px solid var(--accent);
+    background: none;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .btn:hover { color: var(--accent); }
+  .btn:disabled { color: var(--text-3); border-bottom-color: var(--rule); cursor: default; }
+
+  .btn-quiet { border-bottom-color: var(--rule-2); color: var(--text-3); }
+  .btn-quiet:hover { color: var(--text); border-bottom-color: var(--text-3); }
+
+  .status {
+    margin-top: var(--space-4);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+    min-height: 1.4em;
+  }
+
+  /* ---------- the does-it-work strip: constants a visitor can check ---------- */
+
+  .strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-6);
+    margin-top: var(--space-8);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--rule);
+  }
+  .strip div { display: flex; align-items: baseline; gap: var(--space-2); }
+  .strip b {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--text);
+  }
+  .strip span {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+  .strip-cap {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-top: var(--space-3);
+  }
+
+  /* ---------- results ---------- */
+
+  .results { display: none; margin-top: var(--space-10); }
+
+  .risk {
+    font-family: var(--font-mono);
+    font-size: var(--text-lg);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .risk.High { color: var(--accent); }
+  .risk.Medium { color: var(--accent-2); }
+  .risk.Low, .risk.Unknown { color: var(--text); }
+
+  .summary {
+    margin-top: var(--space-3);
+    color: var(--text-2);
+    max-width: var(--measure);
+  }
+
+  .meta {
+    margin-top: var(--space-3);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+
+  .sec { margin-top: var(--space-10); }
+  .sec > h2 {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: var(--space-5);
+  }
+  .sec > h2 b { color: var(--text); font-weight: 500; }
+
+  .item {
+    border-left: 2px solid var(--rule);
+    padding: 0 0 var(--space-5) var(--space-4);
+    margin-bottom: var(--space-5);
+  }
+  .item.bad { border-left-color: var(--accent); }
+  .item.good { border-left-color: var(--text-3); }
+  .item.unsure { border-left-color: var(--rule-2); }
+
+  .clause { font-size: var(--text-base); }
+
+  .tags {
+    margin-top: var(--space-2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+  .tags .law { color: var(--accent-2); }
+  .tags .verified { color: var(--text-2); }
+
+  .why { margin-top: var(--space-2); color: var(--text-2); font-size: var(--text-sm); }
+
+  .evidence {
+    margin-top: var(--space-3);
+    padding-left: var(--space-3);
+    border-left: 1px solid var(--rule-2);
+    color: var(--text-3);
+    font-size: var(--text-xs);
+    line-height: 1.6;
+    max-width: var(--measure);
+  }
+  .evidence em { font-style: normal; color: var(--text-2); }
+
+  .empty { color: var(--text-3); font-size: var(--text-sm); }
+
+  /* ---------- method and stress ---------- */
+
+  .method { margin-top: var(--space-12); padding-top: var(--space-5); border-top: 1px solid var(--rule); }
+  .method h2 {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: var(--space-5);
+  }
+  .method ol { list-style: none; counter-reset: step; }
+  .method ol li {
+    counter-increment: step;
+    padding-left: var(--space-6);
+    position: relative;
+    margin-bottom: var(--space-3);
+    color: var(--text-2);
+    font-size: var(--text-sm);
+    max-width: var(--measure);
+  }
+  .method ol li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+  .method ol li b { color: var(--text); font-weight: 500; }
+
+  .method p.note {
+    margin-top: var(--space-4);
+    color: var(--text-3);
+    font-size: var(--text-xs);
+    font-family: var(--font-mono);
+    max-width: var(--measure);
+  }
+
+  .stress { margin-top: var(--space-10); }
+  .stress h2 {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: var(--space-2);
+  }
+  .stress > p {
+    color: var(--text-3);
+    font-size: var(--text-sm);
+    max-width: var(--measure);
+    margin-bottom: var(--space-5);
+  }
+
+  .cases { border-top: 1px solid var(--rule); }
+  .case {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-2) var(--space-4);
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--rule-2);
+    padding: var(--space-3) 0;
+    cursor: pointer;
+    color: var(--text-2);
+    font-family: var(--font);
+    font-size: var(--text-sm);
+  }
+  .case:hover { color: var(--text); }
+  .case:hover .case-name { color: var(--accent); }
+  .case-name { color: var(--text); min-width: 12rem; }
+  .case-why { color: var(--text-3); font-size: var(--text-xs); flex: 1 1 100%; }
+  .case-verdict {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+  .case-verdict.pass { color: var(--text-2); }
+
+  /* ---------- footer ---------- */
+
+  .disclaimer {
+    margin-top: var(--space-12);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--rule);
+    color: var(--text-3);
+    font-size: var(--text-xs);
+    max-width: var(--measure);
+  }
+  .disclaimer strong { color: var(--text-2); font-weight: 500; }
+
+  .foot {
+    margin-top: var(--space-6);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+  .foot a { color: var(--text-2); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .foot a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+
+  @media (max-width: 620px) {
+    .case-name { min-width: 0; }
+    .case { flex-direction: column; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <div class="hero">
-    <h1>Terms Guard AI</h1>
-    <p class="sub">Paste any privacy policy. It flags unfair clauses in plain English,
-      each one tied to the GDPR article behind it. 87% F1.</p>
+  <header>
+    <p class="stamp">Taiwo Alabi &middot; MSc Artificial Intelligence, NCI Dublin</p>
+    <h1>TermsGuard AI</h1>
+    <p class="lede">
+      Paste a privacy policy or terms of service. It reads the clauses, flags the ones that
+      work against you, and ties each flag to the GDPR article behind it. Every flag is
+      checked by a model before you see it, and the source text it came from is shown.
+    </p>
+  </header>
+
+  <div class="privacy">
+    <p>
+      <strong>What leaves your machine.</strong> The text you paste is compared against a local
+      index of 4,527 GDPR chunks. Retrieval, embeddings and the index all run on this server.
+      Up to 15 flagged sentences are sent to Anthropic for verification, nothing else is, the
+      connection is encrypted in transit, and no text is written to disk.
+    </p>
   </div>
 
-  <textarea id="input" placeholder="Paste terms and conditions text here, then press Analyze..."></textarea>
-
-  <div class="controls">
-    <button class="btn" id="analyzeBtn">Analyze</button>
-    <span class="ex-label">or try an example:</span>
-    <button class="btn ghost" data-ex="risky">A risky policy</button>
-    <button class="btn ghost" data-ex="fair">A fair policy</button>
-    <button class="btn ghost" id="clearBtn">Clear</button>
-  </div>
-
-  <div class="status" id="status"></div>
-
-  <div class="results" id="results">
-    <div class="riskline">
-      <span class="badge" id="badge"></span>
-      <span class="meta" id="meta"></span>
+  <section>
+    <label for="input">Privacy policy or terms text</label>
+    <textarea id="input" placeholder="Paste the policy text here. At least 50 characters."></textarea>
+    <div class="row">
+      <button class="btn" id="analyzeBtn">Analyze</button>
+      <button class="btn btn-quiet" data-ex="risky">Load example: risky policy</button>
+      <button class="btn btn-quiet" data-ex="fair">Load example: fair policy</button>
+      <button class="btn btn-quiet" id="clearBtn">Clear</button>
     </div>
-    <div class="summary" id="summary"></div>
+    <p class="status" id="status"></p>
+  </section>
+
+  <div class="strip" id="strip">
+    <div><b>4,527</b><span>GDPR chunks indexed</span></div>
+    <div><b>96</b><span>labelled reference clauses</span></div>
+    <div><b>Full page</b><span>no chunks skipped</span></div>
+    <div><b>claude-haiku-4-5</b><span>verification model</span></div>
+  </div>
+  <p class="strip-cap">What the tool uses. These are in every response it gives.</p>
+
+  <section class="results" id="results">
+    <p class="risk" id="risk"></p>
+    <p class="summary" id="summary"></p>
+    <p class="meta" id="meta"></p>
 
     <div class="sec">
-      <h2>Concerns flagged (<span id="badCount">0</span>)</h2>
+      <h2>Flagged clauses (<b id="badCount">0</b>)</h2>
       <div id="badList"></div>
     </div>
 
     <div class="sec">
-      <h2>Good / protective clauses (<span id="goodCount">0</span>)</h2>
+      <h2>Cleared clauses (<b id="goodCount">0</b>)</h2>
       <div id="goodList"></div>
     </div>
-  </div>
 
-  <details class="how">
-    <summary>For the technical reader: how it works</summary>
-    <div class="body">
-      <div class="step"><div class="num">1</div><div><b>Split into clauses</b><span>The pasted text is broken into individual sentences and de-duplicated.</span></div></div>
-      <div class="step"><div class="num">2</div><div><b>Semantic matching</b><span>Each clause is embedded with a MiniLM sentence-transformer and compared (cosine similarity) against labelled examples of fair vs unfair clauses.</span></div></div>
-      <div class="step"><div class="num">3</div><div><b>GDPR grounding (RAG)</b><span>A FAISS vector index over EU GDPR text retrieves the most relevant article for each flagged clause, so a concern is tied to a real legal basis, not a guess.</span></div></div>
-      <div class="step"><div class="num">4</div><div><b>LLM verification (optional)</b><span>When an API key is configured, Claude Haiku double-checks each flagged clause to remove false positives. Without it, the tool runs in matching-only mode.</span></div></div>
-      <p><b>Stack:</b> Python, Flask, sentence-transformers (MiniLM), FAISS, Anthropic API. Built by Taiwo Alabi for an MSc in Artificial Intelligence.</p>
+    <div class="sec">
+      <h2>Uncertain (<b id="unclearCount">0</b>)</h2>
+      <div id="unclearList"></div>
     </div>
-  </details>
+  </section>
+
+  <section class="stress">
+    <h2>Stress the tool</h2>
+    <p>
+      Twelve inputs, each aimed at a specific failure mode. Click one to run it. The verdict
+      beside each is what the tool does today, measured against this build.
+    </p>
+    <div class="cases" id="cases"></div>
+  </section>
+
+  <section class="method">
+    <h2>How it works</h2>
+    <ol>
+      <li><b>Split.</b> The text is broken into individual clauses and duplicates are removed.</li>
+      <li><b>Match.</b> Each clause is embedded and compared by cosine similarity against 48 labelled fair clauses and 48 labelled unfair ones.</li>
+      <li><b>Ground.</b> A GDPR article is retrieved from the FAISS index for each candidate, so the citation points at real source text.</li>
+      <li><b>Verify.</b> Claude Haiku 4.5 rules on every confident candidate, in both directions. It can dismiss a false positive and it can overturn a clause that was wrongly called protective.</li>
+    </ol>
+    <p class="note">
+      The summary is assembled by template from the clauses that were matched and verified.
+      No model writes it, so a legal citation cannot be invented.
+    </p>
+  </section>
 
   <div class="disclaimer">
-    Educational project. Not legal advice.
+    <p><strong>Educational project. Not legal advice.</strong></p>
+    <p>
+      The analysis is produced by a language model and can be wrong. It is a way of finding the
+      clauses worth reading, not a substitute for a lawyer. Check the source text before you
+      rely on anything here.
+    </p>
   </div>
 
-  <div class="foot">
+  <p class="foot">
     Built by <b>Taiwo Alabi</b> &middot;
-    <a href="https://iamtamilore.github.io/p/termsguard/" target="_blank">How it was built</a> &middot;
-    <a href="https://github.com/iamtamilore" target="_blank">GitHub</a> &middot;
-    MSc Artificial Intelligence, NCI Dublin
-  </div>
+    <a href="https://iamtamilore.github.io/p/termsguard/" target="_blank" rel="noopener">How it was built</a> &middot;
+    <a href="https://github.com/iamtamilore/terms-guard-ai" target="_blank" rel="noopener">Source code</a> &middot;
+    <a href="https://iamtamilore.github.io/cv/" target="_blank" rel="noopener">CV</a>
+  </p>
 
 </div>
 
@@ -157,80 +495,163 @@ const EXAMPLES = {
   fair: `We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest. We process your data only with your explicit consent, and you may opt out at any time. We will notify you of any data breach without undue delay. You retain full ownership of any content you upload. Nothing in these terms limits your statutory rights as a consumer.`
 };
 
+/* Each case names the failure mode it probes. The verdict is what the fixed
+   build actually does, measured, not a guess. */
+const CASES = [
+  { name: 'Negation', input: 'We do NOT sell your data. You can request a copy of your data or ask us to delete it permanently at any time.',
+    why: 'Does a negated clause get read as a protection, or does the word "sell" trigger the model?', verdict: 'Low risk, 2 protective' },
+  { name: 'Too short', input: 'We do NOT sell your data.',
+    why: 'What does the tool do with a clause below the minimum length?', verdict: 'Unknown risk, nothing analysed' },
+  { name: 'French', input: 'Nous conservons vos donnees pendant 5 ans et nous les transmettons a des partenaires tiers.',
+    why: 'The reference library is English. Does it say so, or does it pretend?', verdict: 'Unknown risk, 1 uncertain' },
+  { name: 'No punctuation', input: 'we collect your data we share it with partners we delete it after 30 days',
+    why: 'Can the splitter find clauses when there are no sentence boundaries?', verdict: 'Unknown risk, nothing analysed' },
+  { name: 'Legalese', input: 'The Parties hereby covenant that the Data Principal shall indemnify the Controller against all claims arising from unauthorized processing of personal data without limitation of liability.',
+    why: 'A real clause in the language lawyers use. Does it get picked up?', verdict: 'Unknown risk, 1 uncertain' },
+  { name: 'Politely worded', input: 'We kindly request your permission to transfer your information to third-party vendors for analytics purposes.',
+    why: 'Courtesy does not change the obligation. Does the model notice?', verdict: 'High risk, 1 flagged' },
+  { name: 'Euphemism', input: 'We share your information with trusted partners who help us improve our services.',
+    why: 'No dangerous words, same legal effect. Does meaning beat vocabulary?', verdict: 'Medium risk, 1 flagged' },
+  { name: 'Compliant', input: 'We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest.',
+    why: 'A good policy must come back clean, or the tool is noise.', verdict: 'Low risk, 3 protective' },
+  { name: 'Confidence cap', input: 'We may sell your personal data to anyone. We are not liable for any data breach. You waive all rights to a class action. We can change these terms without notice. We retain your data forever.',
+    why: 'A keyword boost once pushed the confidence past 1.0. It is capped now. Watch the numbers.', verdict: 'High risk, 4 flagged' },
+  { name: 'Scam text', input: 'Click here to claim your prize. Send your SSN to verify. We will never ask for money.',
+    why: 'A reassuring sentence that is not about your data. It must not be read as a protection.', verdict: 'Low risk, 0 flagged, 1 cleared' },
+  { name: 'Buried risk', input: 'We provide the service. We collect minimal data. We use encryption. We provide support. We update the app. We retain your personal data indefinitely including your location contacts and browsing history. We offer a refund policy. We have a help center. We keep your data safe. We send receipts.',
+    why: 'One bad clause among eleven ordinary ones, plus a refund policy that used to be flagged. Does it find the risk and ignore the noise?', verdict: 'High risk, 1 flagged' },
+  { name: 'Cookie banner', input: 'By continuing to browse this site you consent to the use of cookies. You agree that we and our partners may use your browsing behaviour for advertising across other websites you visit.',
+    why: 'Consent by continuing. Does the tool read the mechanism or just the word?', verdict: 'High risk, 1 flagged' }
+];
+
 const $ = id => document.getElementById(id);
+const esc = s => (s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 document.querySelectorAll('[data-ex]').forEach(b =>
-  b.addEventListener('click', () => { $('input').value = EXAMPLES[b.dataset.ex]; })
+  b.addEventListener('click', () => { $('input').value = EXAMPLES[b.dataset.ex]; $('status').innerText = ''; })
 );
+
 $('clearBtn').addEventListener('click', () => {
-  $('input').value = ''; $('results').style.display = 'none'; $('status').innerText = '';
+  $('input').value = '';
+  $('results').style.display = 'none';
+  $('status').innerText = '';
 });
 
 $('analyzeBtn').addEventListener('click', analyze);
 
-function chip(tier){
-  const t = (tier||'').toLowerCase();
-  if (t === 'high') return '<span class="chip hi">High confidence</span>';
-  if (t === 'medium') return '<span class="chip md">Medium confidence</span>';
-  return '<span class="chip">Low confidence</span>';
-}
-function esc(s){ return (s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+// Render the stress cases
+$('cases').innerHTML = CASES.map((c, i) =>
+  `<button class="case" data-i="${i}">
+     <span class="case-name">${esc(c.name)}</span>
+     <span class="case-verdict">${esc(c.verdict)}</span>
+     <span class="case-why">${esc(c.why)}</span>
+   </button>`).join('');
 
-function analyze(){
+$('cases').addEventListener('click', e => {
+  const b = e.target.closest('.case');
+  if (!b) return;
+  $('input').value = CASES[+b.dataset.i].input;
+  analyze();
+});
+
+function chip(label) {
+  const t = (label || '').toLowerCase();
+  if (t === 'high') return '<span class="verified">High confidence</span>';
+  if (t === 'medium') return '<span>Medium confidence</span>';
+  return '<span>Low confidence</span>';
+}
+
+function lawChip(p) {
+  if (!p.gdpr_basis || p.citation_status === 'weak') return '';
+  const name = p.gdpr_basis.replace(/\s*violation/gi, '');
+  return `<span class="law">${esc(name)}</span>`;
+}
+
+function verifiedChip(p) {
+  if (p.citation_status === 'llm_verified') return '<span class="verified">Checked by the model</span>';
+  if (p.citation_status === 'llm_dismissed') return '<span>Rejected by the model</span>';
+  if (p.citation_status === 'tentative') return '<span>Citation not confirmed</span>';
+  return '';
+}
+
+function evidenceBlock(p) {
+  if (!p.gdpr_evidence) return '';
+  return `<div class="evidence"><em>GDPR source:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '…' : ''}</div>`;
+}
+
+function clauseItem(p, kind) {
+  const why = p.reasoning ? `<div class="why">${esc(p.reasoning)}</div>` : '';
+  return `<div class="item ${kind}">
+    <div class="clause">${esc(p.text)}</div>
+    <div class="tags">${chip(p.confidence_label)}${lawChip(p)}${verifiedChip(p)}<span>score ${p.confidence}</span></div>
+    ${why}${evidenceBlock(p)}
+  </div>`;
+}
+
+function analyze() {
   const text = $('input').value.trim();
-  if (text.length < 50){ $('status').innerText = 'Please paste a bit more text (at least 50 characters).'; return; }
+  if (text.length < 50) {
+    $('status').innerText = 'Paste at least 50 characters.';
+    // Clear the previous run, or the reader sees the last result next to the
+    // status line and reads it as the answer to this input.
+    $('results').style.display = 'none';
+    return;
+  }
 
   const btn = $('analyzeBtn');
   btn.disabled = true;
-  $('status').innerText = 'Analyzing... (first run may take a few seconds while the model warms up)';
+  $('status').innerText = 'Reading the clauses. The first run after a restart takes a few seconds while the models load.';
   $('results').style.display = 'none';
 
   const t0 = Date.now();
   fetch('/process', {
-    method:'POST', headers:{'Content-Type':'application/json'},
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ text, links: [], url: '' })
   })
   .then(r => r.json())
   .then(data => {
-    const secs = ((Date.now()-t0)/1000).toFixed(1);
+    const secs = ((Date.now() - t0) / 1000).toFixed(1);
     btn.disabled = false;
     $('results').style.display = 'block';
 
     const risk = data.risk_level || 'Unknown';
-    $('badge').className = 'badge ' + risk;
-    $('badge').innerText = risk + ' risk';
-    $('meta').innerText = `${data.clauses_analyzed||0} clauses analyzed in ${secs}s`
-      + (data.llm_verification_enabled ? ' (AI-verified)' : '');
+    $('risk').className = 'risk ' + risk;
+    $('risk').innerText = risk + ' risk';
     $('summary').innerText = data.summary || '';
-    $('status').innerText = '';
 
-    // Concerns: only Medium/High confidence (Low = noise)
-    const bad = (data.non_ethical_points||[]).filter(p => p.confidence_label !== 'Low');
+    const parts = [`${data.clauses_analyzed || 0} clauses`, `${secs}s`];
+    if (data.llm_verification_enabled) parts.push('model verified');
+    if (data.analysis_coverage) parts.push(data.analysis_coverage.toLowerCase());
+    $('meta').innerText = parts.join(' · ');
+
+    // Worst first. A recruiter must be able to see the worst clause without
+    // reading every reasoning paragraph, so the highest confidence comes first.
+    const bad = (data.non_ethical_points || []).slice().sort((a, b) => b.confidence - a.confidence);
+    const good = data.ethical_points || [];
+    const unsure = data.unclear_points || [];
+
     $('badCount').innerText = bad.length;
-    $('badList').innerHTML = bad.length ? bad.map(p => {
-      const law = p.gdpr_basis && p.citation_status !== 'weak'
-        ? `<span class="chip law">${esc((p.gdpr_basis||'').replace(/\s*violation/gi,''))}</span>` : '';
-      const verified = p.citation_status === 'llm_verified' ? '<span class="chip law">Verified</span>' : '';
-      const why = p.reasoning ? `<div class="why">${esc(p.reasoning)}</div>` : '';
-      return `<div class="item bad"><div class="q">${esc(p.text)}</div>
-        <div class="tags">${chip(p.confidence_label)}${law}${verified}</div>${why}</div>`;
-    }).join('') : '<div class="empty">No high-confidence concerns found in this text.</div>';
+    $('badList').innerHTML = bad.length
+      ? bad.map(p => clauseItem(p, 'bad')).join('')
+      : '<p class="empty">Nothing flagged in this text.</p>';
 
-    // Good points
-    const good = (data.ethical_points||[]).filter(p => p.confidence_label !== 'Low').slice(0, 8);
     $('goodCount').innerText = good.length;
-    $('goodList').innerHTML = good.length ? good.map(p => {
-      const law = p.gdpr_basis && p.citation_status !== 'weak'
-        ? `<span class="chip law">${esc((p.gdpr_basis||'').replace(/\s*violation/gi,''))}</span>` : '';
-      return `<div class="item good"><div class="q">${esc(p.text)}</div>
-        <div class="tags">${chip(p.confidence_label)}${law}</div></div>`;
-    }).join('') : '<div class="empty">No clearly protective clauses found.</div>';
+    $('goodList').innerHTML = good.length
+      ? good.map(p => clauseItem(p, 'good')).join('')
+      : '<p class="empty">Nothing else in this text was a concern.</p>';
 
-    $('results').scrollIntoView({behavior:'smooth', block:'start'});
+    $('unclearCount').innerText = unsure.length;
+    $('unclearList').innerHTML = unsure.length
+      ? unsure.map(p => clauseItem(p, 'unsure')).join('')
+      : '<p class="empty">Nothing was left uncertain.</p>';
+
+    $('status').innerText = '';
+    $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
   })
   .catch(err => {
     btn.disabled = false;
-    $('status').innerText = 'Something went wrong reaching the analyzer. Please try again in a moment.';
+    $('status').innerText = 'The analyzer did not answer. Try again in a moment.';
     console.error(err);
   });
 }
