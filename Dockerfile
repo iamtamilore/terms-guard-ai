@@ -17,5 +17,10 @@ RUN pip install --no-cache-dir --user -r requirements.txt
 
 COPY --chown=user . .
 
+# The bytecode cache is keyed on the source mtime, and COPY gives every file a
+# fresh mtime, so a stale .pyc can be loaded in preference to the new .py.
+# Remove it after the copy so the source in the image is the source that runs.
+RUN rm -rf __pycache__ && find . -name '*.pyc' -delete
+
 EXPOSE 7860
 CMD ["python", "server.py"]
