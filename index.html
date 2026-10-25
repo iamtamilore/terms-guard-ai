@@ -617,7 +617,7 @@ function analyze() {
 
   const btn = $('analyzeBtn');
   btn.disabled = true;
-  $('status').innerText = 'Reading the clauses. The first run after a restart takes a few seconds while the models load.';
+  $('status').innerText = 'Reading the clauses, then checking each one with a model. This takes 10 to 20 seconds, because the check is the point.';
   $('results').style.display = 'none';
 
   const t0 = Date.now();
