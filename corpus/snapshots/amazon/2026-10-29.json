@@ -1,17 +1,17 @@
 {
   "fetched_at": "2026-10-29",
-  "source": "https://web.archive.org/web/0/https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010",
+  "source": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010",
   "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010",
   "summary": {
     "risk_level": "Medium",
-    "clauses_analyzed": 108,
-    "flagged_count": 46,
-    "cleared_count": 18,
-    "uncertain_count": 44,
-    "avg_flagged_confidence": 0.518,
-    "avg_cleared_confidence": 0.549,
-    "score": 0.518,
-    "summary": "Medium risk: 35 potential concern(s) flagged across 108 clauses for human review.",
+    "clauses_analyzed": 54,
+    "flagged_count": 14,
+    "cleared_count": 15,
+    "uncertain_count": 25,
+    "avg_flagged_confidence": 0.478,
+    "avg_cleared_confidence": 0.554,
+    "score": 0.478,
+    "summary": "Medium risk: 10 potential concern(s) flagged across 54 clauses for human review.",
     "classification_method": "gdpr_semantic_cosine_similarity",
     "processing_seconds": 0,
     "changed_lines": 0,
@@ -20,263 +20,33 @@
   "non_ethical_points": [
     {
       "citation_status": "supported",
-      "confidence": 0.67,
-      "confidence_label": "High",
-      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects), or similar data on certain parts of our Web site for fraud prevention and other purposes."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.66,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis [Negation detected]",
-      "text": "If we transfer personal information received under the Privacy Shield to a third party, the third party's access, use, and disclosure of the personal data must also be in compliance with our Privacy Shield obligations, and we will remain liable under the Privacy Shield for any failure to do so by the third party unless we prove we are not responsible for the event giving rise to the damage."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.65,
       "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 66] Right to be Forgotten 1. To strengthen the right to be forgotten in the online environment, the right to erasure should also be extended in such a way that a controller who has made the personal data public should be obliged to inform the controllers which are processing such personal data to erase any links to, or copies or replications of those personal data. 2. In doing so,\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Most mobile devices allow you to turn off location services."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.64,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences ."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.64,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "As explained here we sometimes provide personal information to third parties to perform services on our behalf."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.64,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may be required to disclose personal information that we handle under the Privacy Shield in response to lawful requests by public authorities, including to meet national security or law enforcement requirements."
+      "text": "You can edit Your Browsing History, as well."
     },
     {
       "citation_status": "supported",
       "confidence": 0.63,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "As a result of those actions, you might supply us with such information as your name, address, and phone numbers; credit card information; people to whom purchases have been shipped, including addresses and phone number; people (with addresses and phone numbers) listed in 1-Click settings; e-mail addresses of your friends and other people; content of reviews and e-mails to us; personal description and photograph in Your Profile ; and financial information, including Social Security and driver's license numbers."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.63,
-      "confidence_label": "High",
-      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
-      "gdpr_evidence": "[GDPR Recital 71] Profiling Automated decision-making and profiling based on special categories of personal data should be allowed only under specific conditions. * This title is an unofficial description.",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may use this information to provide you with location-based services, such as advertising, search results, and other personalized content."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
       "confidence_label": "High",
       "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
       "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Cookies are unique identifiers that we transfer to your device to enable our systems to recognize your device and to provide features such as 1-Click purchasing, Recommended for You , personalized advertisements on other Web sites (e.g., Amazon Associates with content served by Amazon.com and Web sites using Checkout by Amazon payment service), and storage of items in your Shopping Cart between visits."
+      "text": "Amazon Services, we use cookies and other identifiers."
     },
     {
       "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Obviously, however, this does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Notice."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
+      "confidence": 0.59,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Most mobile devices provide users with the ability to disable location services."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
-      "gdpr_evidence": "[GDPR Recital 58] The Principle of Transparency 1. The principle of transparency requires that any information addressed to the public or to the data subject be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. 2. Such information could be provided in electronic form, for example, when addressed to the\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "For example, like many Web sites, we use \"cookies,\" and we obtain certain types of information when your Web browser accesses Amazon.com or advertisements and other content served by or on behalf of Amazon.com on other Web sites."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.7 Conditions for Consent violation",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may also collect technical information to help us identify your device for fraud prevention and diagnostic purposes."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We have certified with the Department of Commerce that we adhere to the Privacy Shield Principles."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We share customer information only as described below and with subsidiaries Amazon.com, Inc. controls that either are subject to this Privacy Notice or follow practices at least as protective as those described in this Privacy Notice."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.55,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you have questions about how to disable your device's location services, we recommend you contact your mobile service carrier or your device manufacturer."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.54,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Affiliated Businesses We Do Not Control: We work closely with affiliated businesses."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Amazon.com knows that you care how information about you is used and shared, and we appreciate your trust that we will do so carefully and sensibly."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "In other cases, we operate stores, provide services, or sell product lines jointly with these businesses."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
-      "gdpr_evidence": "[GDPR Recital 58] The Principle of Transparency 1. The principle of transparency requires that any information addressed to the public or to the data subject be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. 2. Such information could be provided in electronic form, for example, when addressed to the\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Our site includes third-party advertising and links to other Web sites."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "The information we learn from customers helps us personalize and continually improve your Amazon experience."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.7 Conditions for Consent violation",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Mobile: When you download or use apps created by Amazon or our subsidiaries, we may receive information about your location and your mobile device, including a unique identifier for your device."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Also, in the unlikely event that Amazon.com, Inc., or substantially all of its assets are acquired, customer information will of course be one of the transferred assets."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.49,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If we are unable to satisfactorily resolve any complaint relating to the Privacy Shield, or if we fail to acknowledge your complaint in a timely fashion, you can submit your complaint to TRUSTe, which provides an independent third-party dispute resolution service based in the United States."
+      "text": "In certain cases, we collect and use your personal information to comply with laws."
     },
     {
       "citation_status": "tentative",
@@ -290,53 +60,23 @@
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "As discussed above, you can always choose not to provide information, even though it might be needed to make a purchase or to take advantage of such Amazon.com features as Your Profile, Wish Lists , Customer Reviews, and Amazon Prime."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We sell children's products for purchase by adults."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.7 Conditions for Consent violation",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "For information about specific devices, click here."
-    },
-    {
-      "citation_status": "tentative",
       "confidence": 0.47,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 60] Information Obligation That information may be provided in combination with standardised icons in order to give in an easily visible, intelligible and clearly legible manner, a meaningful overview of the intended processing. 6. Where the icons are presented electronically, they should be machine-readable. * This title is an unofficial description.",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "For more information about third-party advertising at Amazon.com, including personalized or interest-based ads, please read our Interest-Based Ads policy."
+      "text": "(such as scrolling, clicks, and mouse-overs);"
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.47,
+      "confidence": 0.46,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "If you choose to visit Amazon.com, your visit and any dispute over privacy is subject to this Notice and our Conditions of Use, including limitations on damages, resolution of disputes, and application of the law of the state of Washington."
+      "text": "Purchase and delivery of products and services."
     },
     {
       "citation_status": "tentative",
@@ -346,7 +86,7 @@
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Business Transfers: As we continue to develop our business, we might sell or buy stores, subsidiaries, or business units."
+      "text": "Business Transfers: As we continue to develop our business, we might sell or buy other businesses or services."
     },
     {
       "citation_status": "tentative",
@@ -359,74 +99,44 @@
       "text": "Be sure to sign off when finished using a shared computer."
     },
     {
-      "citation_status": "tentative",
-      "confidence": 0.46,
+      "citation_status": "weak",
+      "confidence": 0.45,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "As of September 30, 2016, the following entities are included in Amazon.com, Inc.'s Privacy Shield Certification:"
+      "text": "you contact your mobile service carrier or your device manufacturer."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Author Portal and Author Central by accessing your accounts in the Author Portal and Author Central, respectively."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.44,
+      "confidence": 0.42,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "What About Third-Party Advertisers and Links to Other Websites?"
+      "text": "you with more effective Amazon ads."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.44,
+      "confidence": 0.42,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Click here for some examples of co-branded and joint offerings."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If neither Amazon nor TRUSTe resolves your complaint, you may pursue binding arbitration through the Privacy Shield Panel."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Protection of Amazon.com and Others: We release account and other personal information when we believe release is appropriate to comply with the law; enforce or apply our Conditions of Use and other agreements; or protect the rights, property, or safety of Amazon.com, our users, or others."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Of course, we transmit the entire credit card number to the appropriate credit card company during order processing."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may e-mail periodic reminders of our notices and conditions, but you should check our Web site frequently to see recent changes."
+      "text": "You can add or update certain information on pages such as those referenced in What Information Can I Access?."
     },
     {
       "citation_status": "weak",
@@ -436,149 +146,109 @@
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Most likely, these controls are located in the device's settings menu."
+      "text": "To learn more, please read our Interest-Based Ads notice."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.4,
+      "confidence": 0.35,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Amazon.com, Inc. and certain of its controlled US affiliates (together, the Amazon Group Companies, or \"We\") participate in the EU-US Privacy Shield Framework regarding the collection, use, and retention of personal information from European Union member countries."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.39,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Examples of businesses with which we offer joint or co-branded products and other offerings include Starbucks, OfficeMax, Verizon Wireless, Sprint, T-Mobile, AT&T, J&R Electronics, Eddie Bauer and Northern Tool + Equipment."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.38,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Promotional Offers: Sometimes we send offers to selected groups of Amazon.com customers on behalf of other businesses."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.38,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Amazon.com, Inc. participates in the EU-US Privacy Shield framework."
+      "text": "Provide, troubleshoot, and improve Amazon Services."
     }
   ],
   "ethical_points": [
     {
       "citation_status": "supported",
-      "confidence": 0.69,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.7 Conditions for Consent",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "With Your Consent: Other than as set out above, you will receive notice when information about you might go to third parties, and you will have an opportunity to choose not to share the information."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.68,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.7 Conditions for Consent + Art.13",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "This notice describes our privacy policy."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.68,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Examples of the information we collect and analyze include the Internet protocol (IP) address used to connect your computer to the Internet; login; e-mail address; password; computer and connection information such as browser type, version, and time zone setting, browser plug-in types and versions, operating system, and platform; purchase history, which we sometimes aggregate with similar information from other customers to create features like Top Sellers ; the full Uniform Resource Locator (URL) clickstream to, through, and from our Web site, including date and time; cookie number; products you viewed or searched for; and the phone number you used to call our 800 number."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.66,
       "confidence_label": "High",
       "gdpr_basis": "Art.15 Right of Access",
       "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Information from Other Sources: We might receive information about you from other sources and add it to our account information."
+      "text": "Information from Other Sources: We might receive information about you from other sources."
     },
     {
       "citation_status": "supported",
-      "confidence": 0.63,
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You provide information to us when you:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(a) Transparency",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "You provide most such information when you search, buy, post, participate in a contest or questionnaire, or communicate with customer service."
+      "text": "See examples of information we collect or receive."
     },
     {
       "citation_status": "supported",
-      "confidence": 0.58,
+      "confidence": 0.59,
       "confidence_label": "High",
-      "gdpr_basis": "Art.32 Security of Processing",
-      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
       "label": "ethical",
-      "reasoning": "Ethical signals: secure",
-      "text": "We work to protect the security of your information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input."
+      "reasoning": "Classified via semantic analysis",
+      "text": "You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "you may go to Data Privacy Queries."
     },
     {
       "citation_status": "supported",
       "confidence": 0.57,
       "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "When we do this, we do not give that business your name and address."
+      "text": "your security by following the guidance at our Your Security page."
     },
     {
       "citation_status": "supported",
-      "confidence": 0.56,
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To adjust your advertising preferences, please visit Your Ads Privacy Choices."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.57,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(a) Transparency",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Here are the types of information we gather."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Automatic Information: We receive and store certain types of information whenever you interact with us."
+      "text": "Examples of the information we collect and analyze include:"
     },
     {
       "citation_status": "tentative",
       "confidence": 0.54,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.15(3) Right of Access",
-      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject For any further copies requested by the data subject, the controller may charge a reasonable fee based on administrative costs. 3. Where the data subject makes the request by electronic means, and unless otherwise requested by the data subject, the information shall be provided in a commonly used electronic form. 6. The right to obtain a copy\u2026",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "When you update information, we usually keep a copy of the prior version for our records."
+      "text": "Examples of information you can access through Amazon Services include:"
     },
     {
       "citation_status": "tentative",
@@ -594,83 +264,83 @@
       "citation_status": "tentative",
       "confidence": 0.5,
       "confidence_label": "Medium",
-      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
-      "gdpr_evidence": "[GDPR Recital 49] Network and Information Security as Overriding Legitimate Interest This could, for example, include preventing unauthorised access to electronic communications networks and malicious code distribution and stopping \u2018denial of service\u2019 attacks and damage to computer and electronic communication systems. * This title is an unofficial description.",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "For instance, if you block or otherwise reject our cookies, you will not be able to add items to your Shopping Cart, proceed to Checkout, or use any Amazon.com products and services that require you to Sign in."
+      "text": "(for example, disable/access location services, contacts)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Account\" section of the website."
     },
     {
       "citation_status": "tentative",
       "confidence": 0.48,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.7 Conditions for Consent",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "If you do not want to receive such offers, please adjust your Customer Communication Preferences ."
+      "text": "your settings on the applicable Amazon website (for example, Manage Your Content and Devices), device, or application."
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.47,
+      "confidence": 0.48,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "gdpr_basis": "Art.8 Child's Consent \u2014 protective",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child.",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Click here to see examples of the information we receive."
+      "text": "Amazon does not sell products for purchase by children."
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.15 Right of Access",
-      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We will respond to your inquiry promptly."
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.45,
       "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Amazon.com does not sell products for purchase by children."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Click here to see examples of what we collect."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Click here for more information on how to sign off."
+      "text": "Learn more about how to manage the security settings of your device at Digital Services and Device Support."
     }
   ],
   "unclear_points": [
     {
       "citation_status": "weak",
-      "confidence": 0.61,
+      "confidence": 0.72,
       "confidence_label": "High",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Examples of information we receive from other sources include updated delivery and address information from our carriers or other third parties, which we use to correct our records and deliver your next purchase or communication more easily; account information, purchase or redemption information, and page-view information from some merchants with which we operate co-branded businesses or for which we provide technical, fulfillment, advertising, or other services; search term and search result information from some searches conducted through the Web search features offered by our subsidiary, Alexa Internet; search results and links, including paid listings (such as Sponsored Links); and credit history information from credit bureaus, which we use to help prevent and detect fraud and to offer certain credit or financial services to some customers."
+      "text": "Like many websites, we use \"cookies\""
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Depending on your data choices, certain services may be limited or unavailable."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "you may do so by signing out of your account and blocking cookies on your browser."
     },
     {
       "citation_status": "weak",
@@ -680,17 +350,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Because cookies allow you to take advantage of some of Amazon.com's essential features, we recommend that you leave them turned on."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Unless stated otherwise, our current Privacy Notice applies to all information that we have about you and your account."
+      "text": "Learn more about certain devices at our Privacy Settings FAQ page."
     },
     {
       "citation_status": "weak",
@@ -700,7 +360,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Information You Give Us: We receive and store any information you enter on our Web site or give us in any other way."
+      "text": "View the prior version of this Privacy Notice."
     },
     {
       "citation_status": "weak",
@@ -710,7 +370,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "You can review our Privacy Shield registration here."
+      "text": "Here are the types of personal information we collect:"
     },
     {
       "citation_status": "weak",
@@ -720,27 +380,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "We use the information that you provide for such purposes as responding to your requests, customizing future shopping for you, improving our stores, and communicating with you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Information about our customers is an important part of our business, and we are not in the business of selling it to others."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "You can tell when a third party is involved in your transactions, and we share customer information related to those transactions with that third party."
+      "text": "Information You Give Us: We receive and store any information you provide in relation to Amazon Services."
     },
     {
       "citation_status": "weak",
@@ -750,7 +390,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "They have access to personal information needed to perform their functions, but may not use it for other purposes."
+      "text": "For more information, please see our Children's Privacy Disclosure."
     },
     {
       "citation_status": "weak",
@@ -760,67 +400,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.54,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "To learn more about the Privacy Shield Principles, click here."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The Help feature on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "It is important for you to protect against unauthorized access to your password and to your computer."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "To learn more about the Privacy Shield Panel, click here."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.52,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Our business changes constantly, and our Privacy Notice and the Conditions of Use will change also."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.52,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you have any inquiries or complaints about our handling of your personal data under Privacy Shield, or about our privacy practices generally, please contact us at: privacyshield@amazon.com."
+      "text": "(unless, of course, the customer consents otherwise)."
     },
     {
       "citation_status": "weak",
@@ -830,7 +410,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "By visiting Amazon.com, you are accepting the practices described in this Privacy Notice."
+      "text": "We design our systems with your security and privacy in mind."
     },
     {
       "citation_status": "weak",
@@ -840,37 +420,37 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "You can choose not to provide certain information, but then you might not be able to take advantage of many of our features."
+      "text": "Examples of information we receive from other sources include:"
     },
     {
       "citation_status": "weak",
-      "confidence": 0.51,
+      "confidence": 0.5,
       "confidence_label": "Medium",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "We stand behind the promises we make, however, and will never materially change our policies and practices to make them less protective of customer information collected in the past without the consent of affected customers."
+      "text": "your name or other information that directly identifies you when we do this."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.49,
+      "confidence": 0.48,
       "confidence_label": "Medium",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "For example, you provide information when you search for a product; place an order through Amazon.com or one of our third-party sellers; provide information in Your Account (and you might have more than one if you have used more than one e-mail address when shopping with us) or Your Profile ; communicate with us by phone, e-mail, or otherwise; complete a questionnaire or a contest entry form; use our services such as Amazon Instant Video; compile Wish Lists or other gift registries; participate in Discussion Boards or other community features; provide and rate Reviews; and employ Product Availability Alerts, such as Available to Order Notifications."
+      "text": "Notice applies to all information that we have about you and your account."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.47,
+      "confidence": 0.46,
       "confidence_label": "Medium",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "In such transactions, customer information generally is one of the transferred business assets but remains subject to the promises made in any pre-existing Privacy Notice (unless, of course, the customer consents otherwise)."
+      "text": "You can read more about Alexa, Echo Devices, and Your Privacy."
     },
     {
       "citation_status": "weak",
@@ -880,37 +460,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Examples include fulfilling orders, delivering packages, sending postal mail and e-mail, removing repetitive information from customer lists, analyzing data, providing marketing assistance, providing search results and links (including paid listings and links), processing credit card payments, and providing customer service."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.45,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "(If you do not want to receive Conditions of Use and other legal notices from us, such as this Privacy Notice, those notices will still govern your use of Amazon.com, and it is your responsibility to review them for changes.)"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.45,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you have any concern about privacy at Amazon.com, please contact us with a thorough description, and we will try to resolve it."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Examples of information you can access easily at Amazon.com include up-to-date information regarding recent orders; personally identifiable information (including name, e-mail, password, communications and personalized advertising preferences, address book, and 1-Click settings); payment settings (including credit card information and promotional certificate and gift card balances); e-mail notification settings (including Product Availability Alerts, Delivers, and newsletters); Recommendations (including Recommended for You and Improve Your Recommendations); shopping lists and gift registries (including Wish Lists and Baby and Wedding Registries); Seller accounts; and Your Profile (including your product Reviews, Recommendations, Listmania lists, Reminders, personal profile, and Wish List)."
+      "text": "your communications preferences, by updating your account in Seller Central."
     },
     {
       "citation_status": "weak",
@@ -920,7 +470,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Amazon.com gives you access to a broad range of information about your account and your interactions with Amazon.com for the limited purpose of viewing and, in certain cases, updating that information."
+      "text": "As a result of those actions, you might supply us with such information as:"
     },
     {
       "citation_status": "weak",
@@ -930,17 +480,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "We also compare our customer list to lists received from other companies, in an effort to avoid sending unnecessary messages to our customers."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you do not want to receive e-mail or other mail from us, please adjust your Customer Communication Preferences ."
+      "text": "your accounts, on the Kindle Direct Publishing (KDP) or Author Central website, as applicable."
     },
     {
       "citation_status": "weak",
@@ -950,27 +490,17 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Click here to see some examples, the list of which will change as our Web site evolves."
+      "text": "Cart, proceed to Checkout, or use any Services that require you to Sign in."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.38,
+      "confidence": 0.39,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "You can add or update certain information on pages such as those referenced in the Which Information Can I Access? section."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.38,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you are under 18, you may use Amazon.com only with the involvement of a parent or guardian."
+      "text": "You can control these features and configure them based on your needs."
     },
     {
       "citation_status": "weak",
@@ -980,7 +510,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "We reveal only the last four digits of your credit card numbers when confirming an order."
+      "text": "your trust that we will do so carefully and sensibly."
     },
     {
       "citation_status": "weak",
@@ -990,27 +520,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "In some cases, such as Marketplace sellers, these businesses operate stores at Amazon.com or sell offerings to you at Amazon.com."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "TRUSTe has committed to respond to complaints and to provide appropriate recourse at no cost to you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The Amazon Group Companies are subject to the investigatory and enforcement powers of the Federal Trade Commission (FTC)."
+      "text": "Amazon Services, we recommend that you leave them turned on."
     },
     {
       "citation_status": "weak",
@@ -1020,77 +530,27 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "To see what has changed, click here."
+      "text": "Provide voice, image and camera services."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.33,
+      "confidence": 0.32,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "To learn more about TRUSTe's dispute resolution services or to refer a complaint to TRUSTe, visit here."
+      "text": "See our Generative AI Development Disclosure for more information."
     },
     {
       "citation_status": "weak",
-      "confidence": 0.31,
+      "confidence": 0.27,
       "confidence_label": "Low",
       "gdpr_basis": "",
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "There's a problem loading this menu right now."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.3,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "E-mail Communications: To help us make e-mails more useful and interesting, we often receive a confirmation when you open e-mail from Amazon.com if your computer supports such capabilities."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.29,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "For more information about how to do this,click here."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.28,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Click here to learn more."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.28,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Learn more about Amazon Prime."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.23,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books."
+      "text": "(including Recommended for You and Improve Your Recommendations);"
     },
     {
       "citation_status": "weak",

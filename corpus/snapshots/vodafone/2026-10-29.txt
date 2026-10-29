@@ -1,0 +1,291 @@
+Data Privacy – Vodafone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skip to main content
+
+DATA PRIVACY
+
+Link to Home
+page
+
+Link to Our impact
+page
+
+Link to Trust
+page
+
+Link to Security and resilience
+page
+
+Link to
+
+Data Privacy
+
+Data Privacy is for everyone
+
+We believe that everyone has a right to data privacy, wherever they live in the world and our commitment to our customers’ data privacy goes beyond legal compliance. Our data privacy management policy, based on the EU’s GDPR, establishes a framework within which local data protection and data privacy laws are respected and sets a baseline for those markets where there are no specific legal requirements.  
+
+We always seek to respect and protect our customers’ right to data privacy, and the lawful rights to hold and express opinions and share information and ideas without interference. At the same time, as a licensed national operator, we are obliged to comply with lawful orders from national authorities and the judiciary, including law enforcement.
+
+Protecting data: Data Privacy
+
+On this page:
+
+Managing data privacy
+
+Data privacy principles
+
+Using customer data
+
+Approach to data privacy
+
+Governance
+
+Monitoring and response
+
+Permissions management
+
+Main Content
+
+Managing data privacy
+
+As data volumes continue to grow and regulatory and customer scrutiny increases, it is important we are clear on the data privacy risks we face, as well as how our policies and programmes can mitigate these risks. We constantly evaluate our business strategy, new technologies, products and services as well as government policies and regulation to help us manage evolving risks.
+
+Collection
+
+Collection of personal data without permissions or excessive collection of data.
+
+Access & Use
+
+Use of personal data for unauthorised purposes, excessive data retention or poor data quality.
+
+Sharing
+
+Unauthorised disclosure of personal data, including supplier non-compliance.
+
+Our data privacy principles
+
+Our data privacy programme governs how we collect, use and manage our customers’ personal data to ensure we respect the confidentiality of their communications and any choices that they have made regarding the use of their data.  It’s based on the eight key principles.
+
+Accountability
+
+We are accountable for living up to our commitments throughout Vodafone and with our partners and suppliers.
+
+Fairness and lawfulness
+
+We comply with data privacy laws and act with integrity and fairness. We actively engage with stakeholders to shape better, more meaningful data privacy laws and standards.
+
+Choice and access
+
+We let people make simple, meaningful choices about their data privacy. We allow them to access, update or delete their personal data, where appropriate.
+
+Security safeguards
+
+We implement appropriate technical and organisational measures to protect personal data against unauthorised access, use, modification or loss.
+
+Data privacy by design
+
+Respect for data privacy is a key component in the design, development and delivery of our products and services.
+
+Openness and honesty
+
+We communicate clearly about our actions that may impact data privacy, we ensure our actions reflect our words and we are open to feedback.
+
+Responsible data management
+
+Personal data is governed with appropriate management practices. We carefully select external partners, limit disclosure and ensure it is not stored for longer than necessary, or required by applicable laws.
+
+Balance
+
+We work to minimise data privacy impacts, when we are required to balance the right to data privacy against other obligations necessary for a free and secure society.
+
+Using customer data
+
+Our mission is to enable our customers to get the most out of our products and services. In order to provide these services, we need to use our customers’ personal information. We are committed to looking after our customers’ data, using it for its stated purpose, and we are always open about what we collect.
+
+HOW WE USE CUSTOMER DATA
+
+How we use customer data
+
+Provision of services
+
+We process customer personal data to provide our customers with the products and services they have requested, to fulfil our contractual and legal obligations, and to provide customer care. To provide our services and to charge our customers the correct amount, we must process communications metadata regarding calls, texts and data usage.
+
+Quality, development and security of services
+
+We monitor the quality and use of our connectivity and other services so that we can continually improve and optimise them. This information also helps detect and prevent fraud, as well as keeping our networks and services secure.
+
+Marketing
+
+With customer permission, we will use customer data to market our products and services and for advertising to provide more accurate recommendations. This means we can present our customers with offers when they need them most - for example, when they are about to run out of data. We do not sell individual data to third-parties.
+
+Permissions
+
+Our multi-channel permission management platforms, deployed across all our channels (MyVodafone app, website, call centres and retail stores), allow our customers to control how we use their data for marketing and other purposes. For example, customers can express their opt-in consent to the use of their communications metadata for marketing purposes or for receiving third party marketing messages, or they can opt-out from marketing entirely. All permissions can be revoked and choices can be changed at any time.
+
+Rights of individuals
+
+We process customer personal data to provide our customers with the products and services they have requested, to fulfil our contractual and legal obligations, and to provide customer care. To provide our services and to charge our customers the correct amount, we must process communications metadata regarding calls, texts and data usage.
+
+Sharing of data
+
+Where we rely on external suppliers and service providers to process data on our behalf, they are subject to security and data privacy due diligence processes, and appropriate data processing agreements govern their activities. We do not share customers’ personal data otherwise, unless required by law or with the consent of the customer.
+
+Local market statements
+
+Each local market publishes a Privacy Statement to provide clear, transparent and relevant information on how we collect and use personal data, what choices are available regarding its use and how to exercise their rights. You can find links to our local market websites on our Where we operate page.
+
+Close
+
+Our approach to data privacy
+
+Our operating model
+
+Our experienced team of data privacy specialists ensure compliance with data protection laws and our policies in the countries where we operate.
+
+We apply a process-based model to managing data privacy risks across the data lifecycle. We work closely with corporate security and cyber security, products, IT and digital, networks, HR, finance, supply chain and other teams to ensure end-to-end coverage. 
+
+Our dedicated security teams ensure technical and organisational information security measures to protect personal data against unauthorised access, disclosure, loss or use during transit and at rest.
+
+Cyber security
+
+A data privacy first approach
+
+All our products, services and processes are subject to data privacy impact assessments as part of their development and throughout their lifecycle. We maintain personal data processing records, supplier data privacy compliance, data breach management and individual rights processes, as well as internal and international data rransfer compliance frameworks and training and awareness programmes.
+
+Our teams monitor and influence regulatory and industry developments and work to build and maintain relationships with local data protection authorities and other key stakeholders.
+
+Data privacy training for all
+
+Our data privacy control frameworks are subject to continuous risk-based improvements. As well as introducing global data privacy control updates, our data privacy module is part of our mandatory ‘Doing What’s Right’ training. Every employee must complete the training within six weeks of joining Vodafone and then every two years. We have also refined training for high-risk roles aimed at teams with a key role in personal data processing. With the updated approach we aim to achieve 90% completion on both types of training across all target groups across our global footprint.
+
+The effectiveness of control implementation is subject to regular reporting and testing by the data privacy and internal audit teams. Any findings are subject to remedial actions by the responsible control operator, and completion is monitored.
+
+POLICY
+
+Governance
+
+Previous
+
+Next
+
+Data privacy policy management
+
+The Group General Counsel and Company Secretary (a member of the Group Executive Committee) oversees our global data privacy programme. The Group Data Privacy Officer, reporting to the Group General Counsel, is responsible for managing and overseeing the data privacy programme on a day to day basis across the markets and provides regular status reports to Group General Counsel and an annual update to the Group Audit and Risk Committee. 
+
+Key roles and responsibilities
+
+Each employee is responsible for protecting the personal data they are trusted with, but accountability for compliance sits with each operating company. A member of the local executive committee oversees the implementation of our data privacy programme. Each operating company also has a dedicated data privacy officer, data privacy legal counsel and specialists. Local data privacy officers report to the Group Data Privacy Officer throughout the year.
+
+Working in partnership
+
+The Data Privacy Leadership Team approves new standards and guidelines and monitors the implementation of global data privacy plans. Operating companies also maintain data privacy steering committees that bring together data privacy and security teams and senior management from relevant business functions.
+
+Monitoring and response
+
+We monitor compliance with data privacy controls and have an experienced team to manage incidents.
+
+Our data privacy controls are subject to rigorous and regular evidence-based testing by our data privacy governance, risk and compliance team. In addition, our internal audit team performs reviews selected data privacy controls and relevant business activities. Possible findings are subject to mitigation plans and heightened monitoring.
+
+Our processes ensure any identified incidents are contained and steps taken to mitigate negative effects. We notify regulators as well as customers, as required.
+
+More about data breach responses
+
+Permissions management
+
+We give control to our customers when it comes to use of their data. Each Vodafone local market has a centralised permissions platform to help customers manage their preferences in near real-time.
+
+MANAGE PERMISSIONS
+
+Our customers can manage how we contact them and what network and location data they share with us to support personalised communications. These permissions can be managed through the MyVodafone app, or with the support of our local market customer service teams, online, by telephone or in our retail stores. Our centralised permissions approach means customers only need to use one channel to update their permissions, and this will be fed through to all our systems.
+
+You can control what device data we access through the MyVodafone app, such as location data. These permissions can be updated, changed or withdrawn at any time from within the app settings.
+
+Vodafone’s dedicated data privacy and security team is there to ensure we are always adhering to these permission principles when designing new products and services.
+
+We can provide personalised advertisements you see online, if you have consented to cookies. These advertisements are tailored based on how you interact with us and we work with advertising partners to provide you those adverts on third party websites. You can reject to the use of cookies via our cookie preference tools but you may still see Vodafone adverts, they just wont be tailored based on your online browsing.
+
+In the rare instance there are any complaints around our permission handling, then there are dedicated teams ready to resolve those issues. Visit our Data Privacy and Cookie Policy for more information.
+
+Data Privacy and Cookie Policy
+
+Close
+
+Our strategy in action
+
+Vodafone publishes updated cyber security factsheet
+
+Vodafone UK launches Secure Net Home for hassle-free digital security
+
+We connect for a better future
+
+Discover more
+
+Link to Cyber security
+
+Cyber security
+
+Our controls are designed to prevent, detect, respond and recover from attacks to minimise the risks for our customers and maintain resilient services. 
+
+Link to Code of conduct
+
+Code of conduct
+
+We seek to support children and their parents to become responsible digital citizens while they engage with technology in their everyday lives. 
+
+Back to top

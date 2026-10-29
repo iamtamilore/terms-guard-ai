@@ -1,0 +1,775 @@
+Data Protection Information | Deutsche Telekom
+
+Deutsche Telekom
+
+Data Protection Information
+
+08-25-2026
+
+22 min read
+
+Protecting your personal data is a top priority for Deutsche Telekom AG. We want you to know what personal data we collect, how it is used, and what choices you have in the process.
+
+
+
+
+Cookie Settings: You can view your cookie settings at any time to manage your preferences.
+
+
+Privacy Notice
+
+What data do we collect, how is it used, and how long is it stored?
+
+a) Required processing for providing the digital service (Art. 6 para. 1b GDPR, §25 para. 2 no. 2 TDDDG) 
+
+When you use our website telekom.com, hereinafter referred to as the digital service:
+
+When you visit our web pages, the web server temporarily records the domain name or IP address of your computer, the client's file request (file name and URL), the http response code, and the website from which you visit us. The logged data is used exclusively for data security purposes, in particular to defend against attempted attacks on our web server (Art. 6 para. 1f GDPR). This data is not used to create individual user profiles, nor is it shared with third parties, and it is deleted after a maximum of seven days. We reserve the right to statistically evaluate anonymized data sets.
+
+b) Additional processing for providing the digital service, carried out on the basis of your consent, e.g., optional communication channels (Art. 6 para. 1a GDPR, §25 para. 1 TDDDG)
+
+Web forms: We do not collect additional personal data such as your name, address, telephone number, or email address unless you provide this information voluntarily—for example, when you subscribe to our newsletter. For more information about newsletters, see section 1e).
+
+ 
+
+c) Processing activities for providing the digital service that are based on legitimate interest (Art. 6(1)(f) GDPR, §25(2)(2) TDDDG)
+
+When you use our digital service, our servers temporarily log the domain name or IP address of your device, along with other data such as the requested content or response code. 
+
+We use the logged data solely for data security purposes, especially to protect our servers from attempted attacks. We do not use this data to create individual user profiles, nor do we share it with third parties. All data is deleted after no more than 7 days. We reserve the right to perform statistical analysis on anonymized data sets.
+
+ 
+
+d) Processing performed by third parties when providing the digital service
+
+Many operating systems offer the option to dictate text in addition to entering it via keyboard. When you use this feature, your speech is processed by the third party (for example, Apple, Google, or Microsoft) as the controller, and the result is displayed in the input field. For details about how this feature works, how you can enable or disable it, and the legal basis for processing, please refer to the relevant operating system provider (third party).
+
+ 
+
+e) Privacy notice of Deutsche Telekom AG for newsletter delivery on telekom.com.
+
+The General Privacy Notice of Deutsche Telekom AG applies to the processing of your personal data. 
+
+If you use and/or subscribe to our newsletters, the following additional information also applies.
+
+The privacy notice for newsletter delivery informs you which personal data is collected for newsletter delivery, for what purposes this data is processed, when this data is deleted, and on what legal basis this takes place.
+
+ 
+
+What data is collected and for what purpose is it processed? 
+
+If you sign up for a newsletter, we use your email address to send you the respective newsletter, which keeps you regularly informed about topics related to Deutsche Telekom AG. The legal basis is your consent in accordance with Art. 6(1)(a) GDPR. To ensure your newsletter registration is valid—that is, to prevent unauthorized sign-ups on behalf of others—we will send you a confirmation email as part of the double opt-in process after your initial registration, asking you to confirm your subscription.
+
+In connection with your newsletter registration, we also store your registration data (such as email address, date, and time of registration/confirmation of opt-in) so that we can later verify and prove your registration if needed. The legal basis for this storage is our legitimate interest, Art. 6(1)(f), Art. 7(1) GDPR. This legitimate interest is based on the need to provide proof of your consent.
+
+How long do we keep your data?
+
+We store your email address so we can send you the newsletter, until you unsubscribe or we stop sending the newsletter to you. After you unsubscribe, your registration data will be kept—solely for documentation purposes—for up to 3 ½ years.
+
+How can I withdraw from receiving the newsletter?
+
+You can withdraw your consent to receive newsletters from Deutsche Telekom AG at any time with effect for the future by clicking the unsubscribe link at the end of any newsletter you receive.
+
+Data control for social media plug-ins and links to social media platforms
+
+Some pages include buttons from social media networks (such as Facebook, Google, Instagram, X [Twitter], Pinterest, Xing, TikTok, or LinkedIn) that let you recommend the offerings on the corporate website telekom.com to your friends and contacts. 
+
+To ensure you have full control over your data, these buttons only create a direct connection between the social network and you as a visitor once you actively click the button (one-click solution).
+
+In our digital service, we only use the pictograms of each social media network. You will only be redirected to our company page on the respective social media platform after clicking on the pictogram. The social media platforms and third-party content providers that can be accessed via these pictograms provide their services and process your data under their own responsibility.  
+
+By activating the social media plug-in or link through the pictogram, including for sharing content (Art. 6 para. 1 a GDPR), the following data may be transmitted to the social media providers: IP address, browser information, operating system, screen resolution, installed browser plug-ins, previous page if you followed a link (referrer), the URL of the current page, and so on.
+
+The next time you visit, the social media plug-ins will again be provided in the default inactive mode, ensuring that no data is transmitted on your next visit. 
+
+You can find more information about social media plug-ins, the scope and purposes of the respective data processing, as well as additional privacy-related information in the privacy policies of each provider and in the explanation of the  <<1-Click Solution on Heise.de>>.
+
+Is my usage behavior analyzed, for example for advertising or tracking purposes?
+
+Explanations and definitions
+
+We want you to enjoy using our digital services and to benefit from our products and services. To help you find content that interests you and to make our digital service as user-friendly as possible, we analyze your usage behavior in a pseudonymized way. In line with legal requirements, usage profiles are created. Below, we provide you with general information about the different purposes of processing. When you access our digital service, you will see a prompt asking for your 'Consent to data processing.' Here, you can choose to accept these processing activities, reject them in part, or decline them completely. Processing activities that are necessary to provide the digital service (see the explanation above under 1.) cannot be declined.
+
+Tag management (required)
+
+Tag management helps us control which tools are used on our website and where they are deployed.  With tag management, we can manage exactly where each tool is active. 
+
+Market research / reach measurement (opt-in)
+
+The purpose of reach measurement is to determine, for statistical purposes, how intensively our website is used and how many people visit it, as well as to obtain comparable figures for all connected services. We never identify individual users. Your identity is always protected.
+
+a) Basic functionality of the digital service
+
+These processes are always active and necessary for the digital service to work properly.
+
+Functional
+
+These processing activities are essential for you to navigate the digital service and use its key features. They also enable us to anonymously analyze user behavior, which helps us continuously improve our digital service for you. The legal basis for these processing activities is §Section 25 (2) No. 2 TDDDG, Article 6 (1)(b) GDPR, or for third countries, Articles 44 et seq. GDPR.
+
+Telekom
+
+Opt-in procedure
+
+Cookie (3 months)
+
+Germany
+
+Tealium*
+
+Tag management
+
+Cookie (12 months)
+
+Germany
+
+Adobe
+
+Website improvement, fault analysis
+
+Session  cookie
+
+Netherlands
+
+Adobe
+
+Tag Management
+
+Session cookie
+
+Netherlands
+
+* Details about our external service providers can be found below in the partner list.
+
+ 
+
+Analytical: 
+
+These processing’s are necessary for us to carry out technical analyses, usage evaluations and reach measurements, with which we can ensure the quality and services offered and improve structural defects of the digital service and its functions. The necessary analytical processing is carried out without access to your terminal device and is based on information already collected for the provision of the digital service, see functionally necessary processing. After pseudonymisation, these are further processed exclusively for the purpose of ensuring a high-quality and service-oriented service implementation, storage period 3 months. The legal basis for this processing is Art. 6 (4) GDPR.
+
+ 
+
+b) Optional processing
+
+These processing’s are used when you use additional features, such as chat. The possible functions are explained in section 1 of this Privacy Policy. The legal basis for this processing is §25 (1) TDDDG, Art. 6 (1) (a) GDPR or, in the case of third countries, Art. 49 (1) (a) GDPR.
+
+ 
+
+Company
+
+Purpose
+
+Storage duration
+
+Country of processing
+
+Mapp* (formerly Teradata)
+
+Newsletter
+
+no cookies
+
+Germany
+
+Google LLC*
+
+Google YouTube videos
+
+Cookies (up to 2 years)
+
+USA
+
+EQS
+
+Stock exchange function
+
+Session cookie
+
+Germany
+
+* Details about our external service providers can be found below in the partner list.
+
+ 
+
+c) Analysis by Deutsche Telekom AG
+
+These processing’s help us improve our understanding of user behavior.
+
+We use cookies and analytics technologies to get a better understanding of how our digital service is used. They help us optimize our digital services. For example, we can determine how many people visit our website or a particular service. They are also useful for statistical evaluations that show us how people use our digital services. The analysis is based on pseudonymous information. The legal basis for this processing is §25 (1) TDDDG, Art. 6 (1) (a) GDPR or, in the case of third countries, Art. 49 (1) (a) GDPR.
+
+ 
+
+Tealium*
+
+Tag management
+
+Cookie (12 months)
+
+Germany
+
+Adobe
+
+Website improvement, fault analysis
+
+Session Cookie
+
+Netherlands
+
+Adobe
+
+ Identity- ECID
+
+Cookie (12 months)
+
+Netherlands
+
+Adobe
+
+Edge Network Region (location hint)
+
+Cookie (30 minutes)
+
+Netherlands
+
+Adobe
+
+User consent
+
+Cookie (180 days)
+
+Netherlands
+
+Adobe
+
+Session-scoped consent
+
+Cookie (2 hours)
+
+Netherlands
+
+* Details about our external service providers can be found below in the partner list.
+
+ 
+
+Cookie settings: You can revisit your cookie settings at any time to manage your preferences.
+
+d) Marketing by Deutsche Telekom AG
+
+We use these processing’s to show you personalized ads and content that is relevant to you.
+
+Cookies and similar marketing technologies ensure that you only see ads that match your interests instead of random ads. We also use marketing technologies to check how well users receive an advertisement. This helps us constantly improve our advertising.
+
+Marketing technologies are also used in digital services of our advertising partners. This is called retargeting. It enables us to show you suitable advertising on other sites as well.
+
+With the help of marketing technologies, we create pseudonymous profiles about the content and ads you view. This information helps us understand what interests you. It also enables us to show you relevant advertising in other digital services.
+
+The legal basis for this processing is §25 (1) TDDDG, Art. 6 (1a) GDPR or, in the case of third countries, Art. 49 (1a) GDPR..
+
+ 
+
+Company/Service
+
+Purpose
+
+Storage duration
+
+Country of processing
+
+Meta Platforms Ireland Ltd.* (Facebook)
+
+Event tracking
+
+Privacy Policy
+
+Cookie (3 months)
+
+USA
+
+Adobe
+
+Identity-ECID
+
+Cookie (12 months)
+
+Netherlands
+
+Adobe
+
+Edge Netork Region (location hint)
+
+Cookie (30 minutes)
+
+Netherlands
+
+Adobe
+
+User consent
+
+Cookie (180 days)
+
+Netherlands
+
+Adobe
+
+Session-scoprd consent
+
+Cookie 82 hours)
+
+Netherlands
+
+* Details about our external service providers can be found below in the partner list.
+
+ 
+
+e) Marketing by our partners
+
+We and our partners use these processings to show you personalized content that is relevant to you.
+
+We and our partners use cookies and similar marketing technologies to serve personalized advertising. Some of our partners act independently or in joint controllership with Deutsche Telekom AG. They use these technologies to collect data for marketing purposes. The data can be used for the partners’ advertising purposes, processed further and combined with data from other sources.
+
+When you use our digital service, we create a profile. This helps us show you ads in other digital services that are tailored to your interests. We also measure the effectiveness of this advertising and collect further information about your online behavior.
+
+ 
+
+Company
+
+Purpose
+
+Storage duration
+
+Country of processing
+
+Meta Platforms Inc.*
+
+Meta Business Tools
+
+Cookie (12 months)
+
+USA
+
+*) You can find details about our external service providers in the partner list below.
+
+Cookie settings: You can revisit your cookie settings at any time to manage your preferences.
+
+Where can I find the information that's important to me?
+
+As a Telekom Deutschland GmbH customer, you can find additional information about data protection when using our products at www.telekom.de/datenschutzhinweise, at any Telekom Shop, or at www.telekom.com/datenschutz.
+
+What rights do I have?
+
+You have the right to
+
+a) to request information about the categories of data processed, the purposes of processing, any recipients of the data, and the planned retention period (Art. 15 GDPR);
+
+b) to request the correction or completion of inaccurate or incomplete data (Art. 16 GDPR); 
+
+c) to withdraw your consent at any time with effect for the future (Art. 7 para. 3 GDPR);
+
+d) to object to data processing that is based on legitimate interests, at any time for reasons arising from your particular situation (Art. 21 para. 1 GDPR), by stating those reasons. You may object to data processing for direct marketing purposes at any time without stating any reasons (Art. 21 paras. 2, 3 GDPR);
+
+e) in certain cases under Art. 17 GDPR to request the erasure of data—especially if the data is no longer needed for its intended purpose or is being processed unlawfully, or if you have withdrawn your consent as described above (c) or have objected as described above (d); 
+
+f) under certain conditions, to request the restriction of data processing if erasure is not possible or the obligation to erase is disputed (Art. 18 GDPR);
+
+g) to data portability, meaning you can receive your data that you have provided to us in a commonly used, machine-readable format, such as CSV, and, if applicable, transmit it to others (Art. 20 GDPR);
+
+h) to lodge a complaint with the competent supervisory authority regarding data processing (for telecommunications contracts: Federal Commissioner for Data Protection and Freedom of Information; otherwise: State Commissioner for Data Protection and Freedom of Information North Rhine-Westphalia).
+
+Who does Deutsche Telekom AG share my data with?
+
+To data processors—these are companies we commission to process data on our behalf, as permitted by law under Article 28 GDPR (service providers, agents). Even in these cases, Telekom remains responsible for protecting your data. We commission companies especially in the following areas: IT, sales, marketing, finance, consulting, customer service, human resources, logistics, and printing.
+
+To cooperation partners who provide services for you or in connection with your Telekom contract under their own responsibility. This applies if you order services from such partners through us, if you consent to the partner being involved, or if we involve the partner based on a legal provision.
+
+Additionally, Telekom seeks partnerships with other service providers (for example, Smart Home Services). If you also use these services, you can link your individual account with them. You must set up this link separately for each service. Once you have linked your account, the personal data listed in this privacy notice can be used from your respective account for the relevant service. The respective service provider will inform you about how your personal data is processed.
+
+Due to legal obligations: In certain cases, we are required by law to transmit specific data to the requesting government authority. 
+
+Where is my data processed?
+
+Your data (as a customer of Telekom Deutschland GmbH) is processed in Germany and other European countries. 
+
+In some cases, your data may also be processed in countries outside the European Union (so-called third countries), currently including: 
+
+Storage/hosting of customer data (excluding traffic data) by Amazon Web Services EMEA SARL, Microsoft Ireland Operations Ltd., Google Cloud EMEA Limited, Ireland, and Salesforce.com Germany GmbH in Europe. Only administrator access for technical support purposes is possible from the USA.
+
+For the corporate website telekom.com, the following applies: If data is processed in third countries, this only happens if you have given your explicit consent, if it is required for us to provide our services to you, or if it is required by law (Art. 49 GDPR).
+
+Your data will only be processed in third countries if specific measures ensure an adequate level of data protection (e.g., an adequacy decision by the EU Commission or so-called appropriate safeguards, Art. 44ff. GDPR, see here).
+
+Who is responsible for data processing? Who can I contact if I have questions about data protection at Telekom?
+
+The data controller is Deutsche Telekom AG. If you have any questions, you can contact our customer service or our data protection officer, Ms. Susanne Eichhorn, Friedrich-Ebert-Allee 140, 53113 Bonn, datenschutz@telekom.de.
+
+List of partners
+
+Processing company with
+
+Company address/data recipient
+
+Tealium Inc.
+
+11095 Torreyana Road
+
+San Diego, CA 92121,
+
+United States of America
+
+Purpose of processing according to
+
+Consent category
+
+necessary
+
+Products used/short description of the service used
+
+Tag management
+
+Description of specific processing purpose
+
+Tealium manages whether a cookie, pixel, or server-to-server communication is loaded based on your consent decision and determines which data may be processed via cookies, pixels, or server-to-server connections. Data is transferred to third-party providers through your browser and/or directly via server connections. Tealium as a provider does not have access to the content of cookies and pixels. This software is required to provide the service and to implement your privacy settings, so it cannot be disabled.
+
+Responsibilities
+
+Deutsche Telekom AG is legally responsible for data protection in this context. Tealium acts on behalf of Telekom.
+
+Data processed
+
+Browser version, IP address, device characteristics, services used, viewed and clicked products and articles, visited pages, time measurements, device operating system, number of visits, usage data, screen resolution, usage/click behavior, and viewed advertisements
+
+Storage duration
+
+3 months
+
+Legal basis (data processing)
+
+The legal basis for this processing is §Section 25(1) TDDDG, Article 6(1)(a) GDPR, or for third countries, Article 49(1)(a) GDPR
+
+Third country processing
+
+USA
+
+Legal basis (third country processing)
+
+EU adequacy decision as well as consent under Article 49 GDPR
+
+ 
+
+ 
+
+Processing company with
+
+Company address/data recipient
+
+EQS Group GmbH
+
+Karlstr. 47
+
+80333 München
+
+Purpose of processing according to
+
+Consent category
+
+optional
+
+Products used / brief description of the service
+
+Share price centre with 8 peer-comparators and 4 trace-indices
+
+Share price feed
+
+Share price mini chart
+
+ 
+
+Description of specific processing purpose
+
+A share price centre, which offers 4 trace indices and 8 peer comparators, allows investors to consider key benchmark indices and competitor stocks for in-depth analysis. This functionality provides a comprehensive overview of the performance of stocks compared to various benchmark indices and competitor companies. 
+
+A stock price JSON feed enables the provision of stock price data in JSON format, which can be integrated into applications and systems for processing and analysing stock data. This feed provides a structured and machine-readable representation of share price information.
+
+A stock price mini-chart provides a compact and clear visualisation of a stock's price performance. This visual tool provides investors with a quick insight into share price performance and is ideal for rapid analysis.
+
+Responsibilities
+
+Deutsche Telekom AG is responsible for data protection. EQS acts on behalf of Deutsche Telekom.
+
+Data processed
+
+IP-address
+
+Storage duration
+
+Session cookie
+
+Legal basis (data processing)
+
+This web service is used on the basis of § 25 para. 1 sentence 1 TDDDG, the subsequent processing of your personal data is carried out on the basis of Art. 6 para. 1 a) GDPR.
+
+Third-country processing
+
+no third-country processing
+
+ 
+
+ 
+
+ 
+
+ 
+
+Processing company with
+
+Company address/Data recipient
+
+MAPP DIGITAL GERMANY GMBH
+
+Sandstr. 3
+
+80335 Munich
+
+Purpose of processing according to
+
+Consent category
+
+Marketing by Telekom
+
+Products used/short description of the service used
+
+Newsletter subscription
+
+Description of specific processing purpose
+
+If you register for a newsletter, we will use your e-mail address to send you the respective newsletter, in which we regularly inform you about Deutsche Telekom AG topics. The legal basis is your consent in accordance with Art. 6 (1) (a) GDPR. In order to ensure your proper registration for the newsletter, i.e. to prevent unauthorised registrations on behalf of third parties, we will send you a confirmation e-mail after your first newsletter registration using the double opt-in procedure, in which we ask you to confirm your registration. In connection with your newsletter registration, we also store your registration data (e.g. e-mail address, date and time of registration/confirmation of opt-in) so that we can trace and prove the registration at a later date.
+
+Responsibilities
+
+Deutsche Telekom AG is responsible for data protection. MAPP Digital acts on behalf of Deutsche Telekom.
+
+Data processed
+
+Email address, login data
+
+Retention period
+
+no cookies
+
+Legal basis (data processing)
+
+The legal basis for storing this data is a legitimate interest, Article 6 (1) f and Article 7 (1) GDPR. 
+
+Third-country processing
+
+No third-country processing
+
+ 
+
+ 
+
+Processing company with
+
+Company address/Data recipient
+
+Google Ireland Ltd.,
+
+Gordon House, Barrow Street,
+
+Dublin 4, Ireland.
+
+Processing purpose according to
+
+Consent category
+
+optional
+
+Products used/brief description of the service used
+
+Google YouTube videos
+
+Description of specific processing purpose
+
+YouTube collects data to provide users with better services—from identifying basic information, such as your language, to more complex topics like advertising. The data YouTube collects and how it is used depends on how you use the services and how you manage your privacy settings.
+
+If you are not signed in to a Google Account, the data collected is stored with unique identifiers linked to your browser, app, or device. For example, this helps ensure your language settings are retained across all sessions.
+
+If you are signed in to a Google Account, data is also collected that is stored in your Google Account and considered personal data.
+
+Responsibilities
+
+Deutsche Telekom and Google Ireland Ltd are responsible for this. You can find further information on data processing by Google in the data protection information of Google Ireland Ltd (insert link: https://business.safety.google/privacy/?hl=en-US).
+
+Data processed
+
+IP address, Device information (browser, operating system, etc.), Location data, Usage behaviour (videos viewed, length of stay, etc.)
+
+Storage period
+
+up to 2 years
+
+Legal basis (data processing)
+
+This web service is used on the basis of § 25 para. 1 sentence 1 TDDDG, the subsequent processing of your personal data is carried out on the basis of Art. 6 para. 1 a) GDPR.
+
+Third-country processing
+
+USA
+
+Legal basis (third-country processing)
+
+EU adequacy decision or - Standard Contractual Clauses (SCC) with TIA or - Consent pursuant to Art 49 GDPR)
+
+ 
+
+ 
+
+Processing company with
+
+Company address/Data recipient
+
+Meta Platforms Ireland Limited, 
+
+Merrion Road, Dublin 4,
+
+D04 X2K5, Ireland
+
+Purpose of processing according to
+
+Consent category
+
+Marketing with partners
+
+Products used/short description of the service used
+
+We use the Meta business tools to play out our campaigns. The Meta Pixel is used to measure and analyse the success of Facebook advertising campaigns and re-targeting on Meta platforms
+
+Description of the specific processing purpose
+
+The Facebook service is used to display relevant adverts. For this reason, we share the interactions on our online service with Facebook. This is necessary to ensure that the content of the adverts is tailored to you. For example, we share information with Facebook about which products were of interest to you so that we can suggest products and services on Facebook that may be of interest to you. The data that is forwarded to Facebook also helps us to track and analyse the success of our marketing activities. This information is used to optimise the ads to ensure a high level of efficiency. 
+
+Responsibilities
+
+Deutsche Telekom AG and Meta Platforms Ireland Limited are acting on their own responsibility. You can find further information on data processing in Meta's privacy policy (https://www.facebook.com/privacy/policy).
+
+Processed data
+
+Viewed ads, Viewed content, Device information, Geographic location, HTTP header, Interactions with ads, services and products, IP address, Clicked elements, Marketing information, Visited pages, Pixel ID, Referrer URL, Usage data, User behaviour, Facebook cookie information, Facebook user ID, Usage/click behaviour, Browser information, Device operating system, Device ID, User agent, Browser type, Browser ID (fbq), Event ID
+
+Storage duration
+
+12 months
+
+Legal basis (data processing)
+
+This web service is used on the basis of § 25 para. 1 sentence 1 TDDDG, the subsequent processing of your personal data is carried out on the basis of Art. 6 para. 1 a) GDPR.
+
+Third-country processing
+
+USA
+
+Legal basis (third-country processing)
+
+EU adequacy decision or - Standard Contractual Clauses (SCC) with TIA or - Consent pursuant to Art 49 GDPR)
+
+ 
+
+ 
+
+Processing company with
+
+Company address/data recipient
+
+Adobe Systems Software Ireland Limited, 4-6 Riverwalk, Citywest Business Campus, Dublin 24, Ireland (EU entity); Parent: Adobe Inc., 345 Park Avenue, San Jose, CA 95110, USA
+
+Processing purpose according to consent category
+
+Analysis by Telekom
+
+Products used/short description of the service used
+
+Adobe Customer Journey Analytics (CJA) is an advanced analytics solution that provides comprehensive analysis of customer interactions across online and offline channels. It enables organizations to unify and analyze customer journey data from multiple sources, delivering actionable insights into customer behavior, engagement, and business performance through flexible reporting and visualization capabilities.
+
+Description of specific processing purpose
+
+The processing purpose is to optimize and improve digital customer experiences through customer journey analysis. Adobe Customer Journey Analytics is used to analyze customer interactions across channels, generate business insights, and support data-driven decision-making.
+
+Responsibilities
+
+Data Controller: Deutsche Telekom AG (or the respective Telekom entity); Data Processor: Adobe Systems Software Ireland Limited (processes data on behalf and under instructions of the controller)
+
+ Processed data
+
+Customer Data processed through Adobe Customer Journey Analytics is determined and controlled by the customer and may include online identifiers, device information, browser and application data, behavioral and interaction data, event data, audience segment information, and other customer experience data ingested by the customer. Depending on the customer's implementation, the data may also include pseudonymous identifiers and customer-defined attributes used for reporting, and analytics purposes.
+
+Storage period
+
+Configurable by the data controller via AEP dataset expiration and profile TTL policies; default profile data retention up to 30 days after last activity for pseudonymous profiles (configurable); event data retained per dataset-level expiry set by controller; Analytics data retained per configured retention (default 25 months)
+
+Legal basis  (Processing)
+
+This service is provided based on § Section 25 This web service is used on the basis of § 25 para. 1 sentence 1 TDDDG, the subsequent processing of your personal data is carried out on the basis of Art. 6 para. 1 a) GDPR.
+
+Third country processing
+
+USA
+
+Legal basis
+
+(Third country processing)
+
+EU adequacy decision or - Standard Contractual Clauses (SCC) with TIA or - Consent pursuant to Art 49 GDPR)
+
+ 
+
+ 
+
+Processing company with company address/data recipient 
+
+Adobe Systems Software Ireland Limited, 4-6 Riverwalk, Citywest Business Campus, Dublin 24, Ireland (EU entity); Parent: Adobe Inc., 345 Park Avenue, San Jose, CA 95110, USA
+
+Processing purpose according to consent category
+
+Marketig by Deutsche Telekom
+
+Products used/short description of the service used
+
+Adobe Target is a personalization and experimentation solution that enables organizations to deliver tailored digital experiences across websites, mobile applications, and other digital channels. The service supports A/B testing, multivariate testing, audience segmentation, recommendations, and AI-driven optimization to enhance customer engagement and business outcomes.
+
+Adobe Customer Journey Analytics (CJA) is an advanced analytics solution that provides comprehensive analysis of customer interactions across online and offline channels. It enables organizations to unify and analyze customer journey data from multiple sources, delivering actionable insights into customer behavior, engagement, and business performance through flexible reporting and visualization capabilities.
+
+Description of specific processing purpose
+
+The processing purpose is to optimize and improve digital customer experiences through personalization, experimentation, and customer journey analysis. Adobe Target is used to deliver relevant content and experiences to specific audiences and to measure the effectiveness of digital experiences, while Adobe Customer Journey Analytics is used to analyze customer interactions across channels, generate business insights, and support data-driven decision-making.
+
+Responsibilities
+
+Data Controller: Deutsche Telekom AG (or the respective Telekom entity); Data Processor: Adobe Systems Software Ireland Limited (processes data on behalf and under instructions of the controller)
+
+Processed data
+
+Customer Data processed through Adobe Target and Adobe Customer Journey Analytics is determined and controlled by the customer and may include online identifiers, device information, browser and application data, behavioral and interaction data, event data, audience segment information, and other customer experience data ingested by the customer. Depending on the customer's implementation, the data may also include pseudonymous identifiers and customer-defined attributes used for personalization, experimentation, reporting, and analytics purposes.
+
+Storage period
+
+25 months
+
+Legal basis  (Pprocessing)
+
+This web service is used on the basis of § 25 para. 1 sentence 1 TDDDG, the subsequent processing of your personal data is carried out on the basis of Art. 6 para. 1 a) GDPR.
+
+Third-country processing
+
+USA
+
+Legal basis
+
+(Third country processing)
+
+EU adequacy decision or - Standard Contractual Clauses (SCC) with TIA or - Consent pursuant to Art 49 GDPR)
+
+Status of privacy notice: 25/08/2026
+
+Privacy and security
+
+Security tips and the latest information on privacy and data security.
+
+© 2026 Deutsche Telekom AG

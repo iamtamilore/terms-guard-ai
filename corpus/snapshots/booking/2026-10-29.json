@@ -4,14 +4,14 @@
   "url": "https://www.booking.com/content/privacy.html",
   "summary": {
     "risk_level": "Medium",
-    "clauses_analyzed": 608,
-    "flagged_count": 175,
-    "cleared_count": 94,
-    "uncertain_count": 339,
-    "avg_flagged_confidence": 0.515,
+    "clauses_analyzed": 460,
+    "flagged_count": 131,
+    "cleared_count": 72,
+    "uncertain_count": 257,
+    "avg_flagged_confidence": 0.508,
     "avg_cleared_confidence": 0.526,
-    "score": 0.515,
-    "summary": "Medium risk: 122 potential concern(s) flagged across 608 clauses for human review.",
+    "score": 0.508,
+    "summary": "Medium risk: 88 potential concern(s) flagged across 460 clauses for human review.",
     "classification_method": "gdpr_semantic_cosine_similarity",
     "processing_seconds": 0,
     "changed_lines": 0,
@@ -37,16 +37,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "In certain circumstances, we\u2019ll share your personal data with third parties."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.77,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "You can ask us not to sell your personal data to third parties."
     },
     {
       "citation_status": "supported",
@@ -87,26 +77,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "The data that we collect from you, as described in this privacy notice, could be accessible from, transferred to, or stored in countries that may not have the same data protection laws as those of the country in which you initially provided the information."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.72,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may also share your personal data with service providers who assist us with delivering marketing messages or advertisements."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.7,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We may share certain elements of your personal data with third parties, which under US state privacy laws may be considered the sale of personal data."
     },
     {
       "citation_status": "supported",
@@ -162,16 +132,6 @@
       "citation_status": "supported",
       "confidence": 0.67,
       "confidence_label": "High",
-      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
-      "gdpr_evidence": "[GDPR Recital 61] Time of Information Where the origin of the personal data cannot be provided to the data subject because various sources have been used, general information should be provided. * This title is an unofficial description.",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Internet or other electronic network activity information (e.g., information about your website or app usage)"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.67,
-      "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
       "label": "non_ethical",
@@ -207,16 +167,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "For transfers of your personal data outside of the United Kingdom (UK), we apply the equivalent mechanisms and appropriate safeguards for the UK."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.65,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Our affiliates, sister companies, and subsidiaries;"
     },
     {
       "citation_status": "supported",
@@ -292,26 +242,6 @@
       "citation_status": "supported",
       "confidence": 0.63,
       "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Commercial information (e.g., your purchase information or buying history)"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.63,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "This sale of personal data may include information related to inferences."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.63,
-      "confidence_label": "High",
       "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
       "gdpr_evidence": "[GDPR Recital 71] Profiling Automated decision-making and profiling based on special categories of personal data should be allowed only under specific conditions. * This title is an unofficial description.",
       "label": "non_ethical",
@@ -350,36 +280,6 @@
     },
     {
       "citation_status": "supported",
-      "confidence": 0.61,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Accordingly, if you disclose personal data to us in connection with the purchase of an insurance product, we encourage you to also review the insurer\u2019s privacy notice to understand how your personal data will be handled by them."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.61,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "In addition to the information provided in the sections on \u201cHow we share personal data\u2026\u201d, we may share your personal data with the following categories of recipients where necessary to offer, administer, and manage the insurance products and services provided to you:"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Where your Personal Information is processed by us acting as a service provider, that other company\u2019s privacy notice will explain its privacy practices."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.59,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
@@ -397,26 +297,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "Be aware that any information you provide directly to the company/companies supplying your car and/or related products will be stored and used in accordance with their own privacy notice(s) and terms and conditions."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.59,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "From time to time, we may also de-identify your Personal Information, retain it, and use it for a business purpose in compliance with CCPA."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.59,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Geolocation data (e.g. your physical location)"
     },
     {
       "citation_status": "supported",
@@ -447,36 +327,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "You're responsible for notifying others when you provide their information through our platform."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Right to Compensation violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Where more than one controller or processor, or both a controller and a processor, are involved in the same processing and where they are, under paragraphs 2 and 3, responsible for any damage caused by processing, each controller or processor shall be held liable for the entire damage in order to ensure effective compensation of the data subject.\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If the information provided is either incomplete and/or inaccurate, we may be unable to offer the insurance products and/or services to you and/or we may terminate the services provided with immediate effect."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Depending on how you use our insurance products and services, we, the insurer, or the third-party claims administrative company may collect (or you might provide) the following categories of Personal Information:"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We disclose this information to third-party advertising networks, analytics providers, and social networks for purposes of marketing and advertising."
     },
     {
       "citation_status": "supported",
@@ -523,46 +373,6 @@
       "confidence": 0.57,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Third-party suppliers: where we outsource our processing operations to suppliers that process personal data on our behalf."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Our vendors and service providers (e.g. third-party administrators)."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We use and disclose sensitive personal information permitted by law and as reasonably necessary and proportionate: (i) to perform our services requested by you; (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents; (iii) to detect, prevent, and respond to malicious, fraudulent, deceptive, or illegal conduct; (iv) to verify or maintain the quality and safety of our services; (v) for compliance with our legal obligations; (vi) to our service providers who perform services on our behalf; and (vii) for purposes other than inferring characteristics about you."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "The categories of third parties and other recipients to whom we may disclose personal information for a business purpose may include:"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
@@ -597,36 +407,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "You may also be asked to provide additional information, such as names of family members or other beneficiaries or details about a claim (\u201cInsurance-Specific Data\u201d)."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "This means that we may collect and use Personal Information on behalf of another company (for example, where BDIS provides insurance products and services to third-party insurers and producers)."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Geolocation Data, such as physical location or movements."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "The categories of Personal Information we may have disclosed for a business purpose in the preceding twelve (12) months include:"
     },
     {
       "citation_status": "tentative",
@@ -700,16 +480,6 @@
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.54,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.7 Conditions for Consent violation",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Information we collect as a motor vehicle record and that is subject to the Driver's Privacy Protection Act of 1994."
-    },
-    {
-      "citation_status": "tentative",
       "confidence": 0.53,
       "confidence_label": "Medium",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
@@ -747,26 +517,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "These strategic partners distribute and advertise Booking.com services, including the services and products of our trip providers."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
-      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Online Identifiers, such as unique personal identifiers, device IDs, ad IDs, IP addresses, and cookie data."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Right to Compensation \u2014 unenforceable waiver",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you live in the US (other than in California), and would like to understand and exercise your rights, see our section on US (other than California)."
     },
     {
       "citation_status": "tentative",
@@ -817,16 +567,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "To provide offers, arrange insurance cover and handle insurance claims, some personal data, provided to us during the reservation process (\u201cGeneral Order Data\u201d), may have to be shared within other Booking.com entities."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.52,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Professional or employment-related information (e.g., employer and business travel details)"
     },
     {
       "citation_status": "tentative",
@@ -910,26 +650,6 @@
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Controller Liability violation",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Note that in some instances, BDIS and other Booking.com companies or business units may be acting as a service provider for other members of Booking.com, and, in those instances, this section of the privacy notice will apply."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.82 Right to Compensation \u2014 unenforceable waiver",
-      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "To understand and exercise your rights under California law, see our section on California."
-    },
-    {
-      "citation_status": "tentative",
       "confidence": 0.5,
       "confidence_label": "Medium",
       "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
@@ -967,26 +687,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "For more information on personalized marketing, see the section How we use artificial intelligence and make automated decisions."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "When offering insurance, BDIS may have to use and share personal data that is relevant to underwrite and sell the insurance product."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "In order to transact in insurance, provide offers, arrange insurance coverage, and handle insurance claims (where relevant), the personal data you provide to us during the booking process is shared with BDIS, potentially other parties retained by Booking.com, third-party administrators of claims, and the insurer providing the policy."
     },
     {
       "citation_status": "tentative",
@@ -1030,16 +730,6 @@
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.49,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you make a request to us to exercise your rights where we act as a service provider under the CCPA, we may be required to disclose your request to the relevant company."
-    },
-    {
-      "citation_status": "tentative",
       "confidence": 0.48,
       "confidence_label": "Medium",
       "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
@@ -1077,26 +767,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "If you make a claim under an insurance policy, this claim may be directly handled by the insurer."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.33 Breach Notification violation",
-      "gdpr_evidence": "[GDPR Art. 33] Notification of a personal data breach to the supervisory authority (3) describe the likely consequences of the personal data breach; (4) describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects. 5. Where, and in so far as, it is not possible to provide\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Carry out due diligence, identity, credit reference, bankruptcy, sanctions, data validation, anti-money laundering, \u201cKnow Your Customer,\u201d and other business acceptance, vetting, and risk management agency checks;"
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.13 Right to be Informed violation",
-      "gdpr_evidence": "[GDPR Art. 13] Information to be provided where personal data are collected from the data subject (3) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing; (4) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party; (5) the recipients or categories of\u2026",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "For example, we will retain certain identifiers for as long as it is necessary to comply with our tax, accounting, and recordkeeping obligations, to administer certain policies and coverage, and for research, development, and safety purposes, as well as an additional period of time as necessary to protect, defend, or establish our rights, defend against potential claims, and to comply with our legal obligations."
     },
     {
       "citation_status": "tentative",
@@ -1230,16 +900,6 @@
     },
     {
       "citation_status": "weak",
-      "confidence": 0.45,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Conduct market research and canvas your views about the insurance products and services to develop and improve our products and services generally;"
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.44,
       "confidence_label": "Low",
       "gdpr_basis": "",
@@ -1257,26 +917,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "When you link your Booking.com account to a social media account you control, you may trigger data exchanges between Booking.com and that social media provider."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you purchase an insurance product while using our platform and live in the US, the information in this section applies to you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Offer, administer, and manage the insurance products and services provided to you, including providing initial and renewal quotations and client care information;"
     },
     {
       "citation_status": "weak",
@@ -1307,16 +947,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "We use service providers to support us in providing our trip services."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you make a claim under an insurance policy, this claim may be directly handled by BDIS, by the insurer, or by a third-party administrator."
     },
     {
       "citation_status": "weak",
@@ -1396,16 +1026,6 @@
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "If you do not live in the US and purchase an insurance product then this section on Insurance applies to you instead."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
       "text": "Where we detect such malicious attacks impacting travelers, we quickly take countermeasures such as blocking accounts at risk and alerting account holders."
     },
     {
@@ -1470,16 +1090,6 @@
     },
     {
       "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Imprint Payments, Inc, as recipient of your personal data, manages our co-branded credit card program and acts as an independent controller."
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.4,
       "confidence_label": "Low",
       "gdpr_basis": "",
@@ -1507,16 +1117,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "Communications between you and our trip providers, or between you and us (for example, for customer service purposes)"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "For the purpose of awarding you rewards under this program, we shall share with Imprint Payments, Inc.:"
     },
     {
       "citation_status": "weak",
@@ -1630,16 +1230,6 @@
     },
     {
       "citation_status": "weak",
-      "confidence": 0.38,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Booking.com B.V. acts as a controller for any personal data it collects on our platform for insurance purposes."
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.37,
       "confidence_label": "Low",
       "gdpr_basis": "",
@@ -1696,16 +1286,6 @@
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Where BDIS is the distributor, offering an insurer\u2019s insurance products and services to Booking.com customers that live in the US, it acts as a controller for any processing of personal data it undertakes outside of Booking.com B.V. systems."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.37,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
       "text": "This service allows you to ask questions about your booking to an AI-powered agent."
     },
     {
@@ -1736,16 +1316,6 @@
       "gdpr_evidence": "",
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
-      "text": "Support or assist the insurer to administer, investigate, and settle claims or complaints in relation to insurance policies and/or the services provided;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.36,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
       "text": "We use AI to develop and offer interactive chats which allow you to ask questions about a trip or service and receive AI-generated responses or suggestions."
     },
     {
@@ -1757,16 +1327,6 @@
       "label": "non_ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "A sister company of Booking.com B.V.BTL trades as Rentalcars.com."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "non_ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "The insurance products you purchase are distributed by BDIS."
     }
   ],
   "ethical_points": [
@@ -1839,16 +1399,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "We may also receive information about you from other sources."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.69,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "You can ask us not to use your personal data for targeted advertising."
     },
     {
       "citation_status": "supported",
@@ -1932,16 +1482,6 @@
     },
     {
       "citation_status": "supported",
-      "confidence": 0.63,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(c) Data Minimisation + Art.25",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "We retain the Personal Information we collect only as reasonably necessary for the purposes described in this notice or otherwise disclosed to you at the time of collection."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.62,
       "confidence_label": "High",
       "gdpr_basis": "Art.15 Right of Access",
@@ -2002,26 +1542,6 @@
     },
     {
       "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "In addition to the categories of personal data we may collect about you listed in Personal data we collect and process, other categories include:"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.7 Conditions for Consent",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you subscribe to receive SMS or other text messages, we will not share your text messaging opt-in data and consent with third parties for their own marketing or promotional purposes."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.59,
       "confidence_label": "High",
       "gdpr_basis": "Art.7 Conditions for Consent",
@@ -2039,16 +1559,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "Most browsers will also allow you to choose which cookies to accept and which to reject."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Usage Data, such as Internet or other electronic network activity information regarding a California resident's interaction with portals, Internet websites, applications, or advertisements, including, but not limited to, browsing history, clickstream data, search history, and content of public posts."
     },
     {
       "citation_status": "supported",
@@ -2082,26 +1592,6 @@
     },
     {
       "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Information we collect and provide for use that is subject to the Fair Credit Reporting Act."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.7(3) Right to Withdraw Consent",
-      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "You can withdraw from the program, as outlined in the card terms."
-    },
-    {
-      "citation_status": "supported",
       "confidence": 0.56,
       "confidence_label": "High",
       "gdpr_basis": "Art.5(1)(a) Transparency",
@@ -2119,56 +1609,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "Finally, where needed under applicable law, Booking.com will obtain your consent prior to processing your personal data, including for direct marketing purposes, for use of AI systems or technology, or where otherwise required by law."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.15 Right of Access",
-      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "In addition to what we list in the section Personal data you give to us, to offer you insurance we might also collect:"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "This may include information related to inferences and analytics."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Financial Information, such as your bank account or credit card number and other payment details."
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Visual information (e.g. any photographs you upload on your account)"
-    },
-    {
-      "citation_status": "supported",
-      "confidence": 0.56,
-      "confidence_label": "High",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you would like more information about the categories previously mentioned, the specific types of personal information we collect, or the purposes for which we collect them, see also the sections on Personal data we collect and process and Purposes of collecting and processing your personal data."
     },
     {
       "citation_status": "tentative",
@@ -2314,16 +1754,6 @@
       "citation_status": "tentative",
       "confidence": 0.49,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.28 Processor Agreements",
-      "gdpr_evidence": "[GDPR Art. 28] Processor 1. Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject. 1. The processor shall not\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "These processing operations shall remain under our control and will be carried out in accordance with our security standards and strict instructions;"
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.49,
-      "confidence_label": "Medium",
       "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
       "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
       "label": "ethical",
@@ -2364,26 +1794,6 @@
       "citation_status": "tentative",
       "confidence": 0.48,
       "confidence_label": "Medium",
-      "gdpr_basis": "Art.28 Processor Agreements",
-      "gdpr_evidence": "[GDPR Art. 28] Processor 1. Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject. 1. The processor shall not\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Fulfill legal and regulatory obligations, resolve disputes, and monitor compliance with same;"
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "When you exercise your rights, we verify your identity based on whether the name and the email address you provide in the request match the data you provided when using our services and other verification details."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
       "gdpr_basis": "Art.20 Right to Data Portability",
       "gdpr_evidence": "[GDPR Art. 20] Right to data portability (2) the processing is carried out by automated means. 2. In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible. 1. The exercise of the right referred to in paragraph 1 of this Article shall be\u2026",
       "label": "ethical",
@@ -2412,36 +1822,6 @@
     },
     {
       "citation_status": "tentative",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Previous claims: information about previous claims, which may include health data, criminal records data, and other special categories of personal data (as described in the Insured risk definition);"
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.5(1)(a) Transparency",
-      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Current claims: information about current claims, which may include health data, criminal records data, and other special categories of personal data (as described in the Insured risk definition);"
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.28 Processor Agreements",
-      "gdpr_evidence": "[GDPR Art. 28] Processor 1. Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject. 1. The processor shall not\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Enforce our agreements, trace debtors, and recover any outstanding debt in connection with the insurance products and services provided;"
-    },
-    {
-      "citation_status": "tentative",
       "confidence": 0.46,
       "confidence_label": "Medium",
       "gdpr_basis": "Art.15 Right of Access",
@@ -2459,16 +1839,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "For example, we let you save properties to your wish lists, keep track of saved searches, and use our itinerary planning features."
-    },
-    {
-      "citation_status": "tentative",
-      "confidence": 0.45,
-      "confidence_label": "Medium",
-      "gdpr_basis": "Art.15 Right of Access",
-      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Comments, feedback, or other information provided to us: such as social media interactions with our social media presence, comments provided on feedback forms or surveys, and questions or information sent to our support services."
     },
     {
       "citation_status": "weak",
@@ -2489,26 +1859,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "In order to receive a verification badge on your account, we cross-check the data you give us with any historical data we may have about you as well as other publicly available data."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Vetting and risk management agencies: Such as credit reference, criminal record, fraud prevention, data validation, and other professional advisory agencies, where necessary to prevent and detect fraud in the insurance industry and take steps to assess the risk in relation to prospective or existing insurance policies and services;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "Directly from you and automatically;"
     },
     {
       "citation_status": "weak",
@@ -2569,16 +1919,6 @@
       "label": "ethical",
       "reasoning": "Classified via semantic analysis",
       "text": "Depending on your location, when you call our customer service team, we may use a digital assistant to understand the intent of your call and create a summary before routing you to a customer service agent."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "ethical",
-      "reasoning": "Classified via semantic analysis",
-      "text": "If you exercise your right of erasure of your Booking.com account, your cardholder rights will not be affected."
     },
     {
       "citation_status": "weak",
@@ -2740,16 +2080,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "We may share your personal data, including your consent status, with third parties that assist us in providing our messaging services."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.69,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "If we become aware (for example, through a Customer Support request) that we\u2019ve processed personal data about minors without the valid consent of their parent or guardian where required, we will delete it."
     },
     {
@@ -2791,16 +2121,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "We may be required to disclose personal data to:"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.66,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "You can choose how your personal data is used by us as described in the section Your rights and other rights as follows:"
     },
     {
       "citation_status": "weak",
@@ -2910,27 +2230,7 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "The following identifies the categories of Personal Information we may collect about you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.62,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "We also use other types of cookies."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.61,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "In addition to the purposes described in Purposes of collecting and processing your personal data, we use the information we collect about you in connection with the insurance products and services to:"
     },
     {
       "citation_status": "weak",
@@ -2991,36 +2291,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Agoda or OpenTable), or share your personal data with them, for the following purposes:"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We generally collect personal data as part of providing insurance products."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "IP address, browser type, domain name, operating system, unique device identifier), details of your visits to our websites or apps, and information collected through cookies and other tracking technologies, including traffic data, location data, web logs, and other communication data, and the resources that you access."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.6,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "In addition to the purposes described in Purposes of collecting and processing your personal data, we collect and otherwise process the personal information we collect for the following business or commercial purposes:"
     },
     {
       "citation_status": "weak",
@@ -3120,26 +2390,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Where personal data is shared in these circumstances, it will continue to be used in accordance with this privacy notice;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Note that our collection, use, and disclosure of Personal Information about you will vary depending upon the circumstances and nature of our interactions or relationship with you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.58,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "To protect your personal information, we may need to verify your identity before completing your request."
     },
     {
@@ -3211,56 +2461,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "We follow specific protocols when law enforcement agencies and other government bodies request that we disclose personal data about one or more travelers in connection with a possible criminal matter."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We, alongside our contracted insurer, are each individually responsible for determining how your personal data will be handled for our respective business processes."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "You are required to provide any personal data we reasonably require (in a form acceptable to us) to meet our obligations in connection with the insurance products and services we provide to you, including any legal and regulatory obligations."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Note that this exclusion may not apply to all of your Personal Information, including to personal information collected before you become a customer."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We may \u201cshare\u201d the following categories of Personal Information: online identifiers and usage data."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.57,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "You can ask us not to use your personal data for profiling, which may have a legal effect or other significant impact on you."
     },
     {
       "citation_status": "weak",
@@ -3370,36 +2570,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "It adds to, or replaces, the relevant information in other parts of this privacy notice."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.55,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Website and communication usage: such as internet and other electronic network activity information, computer, device, and connection information (e.g."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.55,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "You may authorize another individual to exercise opt-out rights on your behalf."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.55,
-      "confidence_label": "High",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "A web browser cookie is a small text file placed by a website in the data that a web browser automatically stores on your computer or mobile device."
     },
     {
@@ -3471,16 +2641,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "As part of the account verification process, we may share some of your account data (such as your name, email address, phone number, passport number, physical address), linked social media account, passport, or other identification document(s) with a third party."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.54,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Note that other sections of the Notice may still apply in addition to other privacy notices that we may issue addressing our specific relationship with you, including privacy notices that are sent to individuals."
     },
     {
       "citation_status": "weak",
@@ -3580,26 +2740,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Publicly available information from government records and information we have a reasonable basis to believe is lawfully made available to the general public by you or by widely distributed media, or by a person to whom you have disclosed the information and not restricted it to a specific audience."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We generally collect Personal Information from the following categories of sources:"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.53,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "Any personal data you share with us when interacting with our customer service agents, including your booking details, may be included in the AI summary."
     },
     {
@@ -3684,46 +2824,6 @@
     },
     {
       "citation_status": "weak",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Individual details: name, address (and proof of address), other contact details, gender, marital status, family details, date and place of birth, professional or employment-related information (e.g. employer and business travel details, job title and employment history), relationship to the policyholder, insured, beneficiary or claimant, images, visual information (e.g. any photos you upload on your account);"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Additional information may also be requested in order to provide the insurance coverage and services and in order to issue a policy and/or handle an insurance claim, including names of family members, medical information and records, and/or other beneficiaries\u2019 information, as well as other information necessary to conduct or support the investigation of an insurance claim (\u201cInsurance-Specific Data\u201d)."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "For this type of data, a separate HIPAA privacy notice is provided to certain individual consumers as required under applicable laws, rules, and regulations."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.51,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Audio, Video, and Other Electronic Data, such as audio information including call recordings, video and photographs, recorded meetings and webinars, and CCTV footage to secure our offices and premises."
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.5,
       "confidence_label": "Medium",
       "gdpr_basis": "",
@@ -3751,26 +2851,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Car rental companies may also ask for additional personal data, for example, to provide additional services or to comply with local restrictions."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "This is because we may be required to do so in accordance with the applicable federal and state laws, rules, and regulations of all states."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.5,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Financial, medical, or health insurance information (e.g., your bank account number, payment card number, or medical information\u2014if provided by you or on your behalf)"
     },
     {
       "citation_status": "weak",
@@ -3830,26 +2910,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Where we refer to personal data in this section of the privacy notice, it means the same as personal information under California law and non-public personal information under, for example, the Gramm-Leach-Bliley Act."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.49,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Health data: current or former physical or mental medical conditions, health status, injury or disability information, medical procedures performed, relevant personal habits (e.g. smoking or consumption of alcohol), prescription information, medical history;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.49,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "The Intelligent Voice Assistance will use any data you share with it, including personal data, and your booking details."
     },
     {
@@ -3881,56 +2941,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "To do this, we use personal data such as your first name or display name, review score, and any specific content or images you have included in your review."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Other special categories of personal data: racial or ethnic origin, biometric data (for example from a passport or identity document that is used to identify the passport or document holder);"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Where you provide health information in connection with a claim against your insurance policy;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "This means that you may be asked to provide personal data in order to submit the claim directly to the claims adjuster."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Sensitive Personal Information, such as social security number, driver\u2019s license number, racial or ethnic origin, religious or philosophical beliefs, medical condition, and physical or mental disability."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.48,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Sensitive information (e.g. driver\u2019s license, state identification or passport number, account sign-in details, communications between you and a Trip Provider via Booking.com)"
     },
     {
       "citation_status": "weak",
@@ -3981,36 +2991,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Managing personal settings gives you the ability to keep and share lists, share photos, easily see trip services you\u2019ve searched for, and check travel-related information you\u2019ve provided."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Information we collect in connection with the issuance of financial products or services to you that are to be used primarily for your personal, family, or household purposes and that is subject to the Gramm-Leach-Bliley Act (\u201cGLBA\u201d) or the California Financial Information Privacy Act."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Customer or Claimant Records, such as paper or electronic customer or claimant records containing Personal Information, as well as information provided by an insurance broker/agent or reinsurer for underwriting purposes and information included in a list of claims, such as name, signature, physical characteristics or description, address, telephone number, education, current employment, employment history, social security number, passport number, driver\u2019s license or state identification card number, insurance policy number, bank account number, payment card number, gender, height, weight, medical information (including reports and medical bills), health insurance information, details about home address, security and travel plan arrangements, records of personal property, products or services purchased or obtained."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.47,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If we receive such a request, we\u2019ll send an email to confirm you authorized the requester to act for you."
     },
     {
       "citation_status": "weak",
@@ -4111,16 +3091,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "This may also include a copy of your reservation confirmation or the IP address used to make your reservation."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.46,
-      "confidence_label": "Medium",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The following sets out some of the categories of Personal Information that are not subject to the CCPA, and therefore are not covered by this section of the Notice."
     },
     {
       "citation_status": "weak",
@@ -4250,36 +3220,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Policy information: information about the quotes you receive and the policies you obtain;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Biometric Information, such as individual biological or behavioral characteristics including measurements of physical characteristics such as height, weight and blood pressure, sleep, health, or exercise data that contain identifying information."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you\u2019re a parent, legal guardian, or the authorized agent of a consumer and wish to exercise rights on behalf of a consumer, contact us as described in Your rights."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.44,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "We assess our AI systems against data protection principles, such as minimization, accuracy, and purpose limitation."
     },
     {
@@ -4364,56 +3304,6 @@
     },
     {
       "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Financial information: payment card number and information, bank account numbers and account details, income, and other financial information;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Public authorities, regulators, and government bodies: Where necessary for us to comply with our legal and regulatory obligations;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "This list of information relates to you as a potential or actual policyholder, and to the beneficiaries under a policy, family members, claimants, and other parties involved in a claim."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you live in the US (other than in California), the information in this section applies to you."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.43,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We may need to verify your identity and authorization before completing the request."
-    },
-    {
-      "citation_status": "weak",
       "confidence": 0.42,
       "confidence_label": "Low",
       "gdpr_basis": "",
@@ -4451,46 +3341,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Review the information provided during the reservation process for more information about us and the parties who work together with us to offer you these products and services."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The details of the insurer will be visible in the insurance policy and related documentation provided to you when you purchase insurance on our platform."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Insured risk: information about the insured risk, which contains personal data and may include, only to the extent relevant to the risk being insured:"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Credit and anti-fraud data: credit history and credit score, information about fraud convictions, allegations of crimes, and sanctions details received from various anti-fraud and sanctions databases, regulators, or law enforcement agencies;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.42,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Professional or Employment-Related Information, such as employment history, qualifications, licensing, and disciplinary record."
     },
     {
       "citation_status": "weak",
@@ -4561,36 +3411,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "This data relates to you as a potential or actual policyholder, the beneficiaries under a policy, family members, claimants, and other parties involved in a claim:"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Health or medical information that we collect and that is subject to the Health Insurance Portability and Accountability Act of 1996 (\u201cHIPAA\u201d), the California Confidentiality of Medical Information Act, or the Health Information Technology for Economic and Clinical Health Act."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Identifiers, such as real name, alias, job title, address, email address, date of birth, policy number, salary information, social security number, driver\u2019s license number, other government identifiers, credit card number, and tax ID."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.41,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Identifiers (e.g. your name, account number, email address, IP address, government-issued identification number)"
     },
     {
       "citation_status": "weak",
@@ -4671,46 +3491,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "For purpose G, we rely, where applicable, on compliance with legal obligations (e.g. lawful law enforcement requests)."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Perform benchmarking, modeling, market research, and data analyses associated with the development of new and existing processes, products, and services."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "We may act as service providers under the California Consumer Protection Act (CCPA)."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "For example, where we handle a claim for you as an individual."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.4,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Information related to all trip reservations made using your card or associated additional cards on Booking.com;"
     },
     {
       "citation_status": "weak",
@@ -4821,26 +3601,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Protect and defend our rights or the rights and interests of our business partners."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.39,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Facilitate the prevention, detection, and investigation of crime and the apprehension or prosecution of offenders;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.39,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Education Information, such as education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, and student disciplinary records."
     },
     {
       "citation_status": "weak",
@@ -4980,26 +3740,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Background checking information: such as inclusion on a sanctions list or a public list of disqualified directors, the existence of previous or alleged criminal offenses, or confirmation of clean criminal records, and information in relation to politically exposed persons (\u201cPEPs\u201d)."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.37,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "However, you will not be able to receive rewards under this program."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.37,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "Use unique passwords for every online service, including for your Booking.com account."
     },
     {
@@ -5031,36 +3771,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "For transfers within Booking.com group entities, we've implemented Binding Corporate Rules (BCRs) as a further safeguard to help ensure your data remains appropriately protected when transferred outside of the EEA."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.36,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The Booking.com entities responsible for offering insurance product options on our platform, and the associated processing of your personal data, are Booking.com B.V. and Booking.com Distribution Insurance Solutions, LLC (\u201cBDIS\u201d)."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.36,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Inferences (e.g. analytics and preferences)"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.36,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Information related to all trip reservations made by you while logged in to your Booking.com account, regardless of the form of payment used."
     },
     {
       "citation_status": "weak",
@@ -5111,46 +3821,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "We may collaborate with our joint controllers to ensure an adequate response to your request."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Insurance market participants: Where necessary to offer, administer, and manage the insurance products and services provided to you, such as insurers and insurance underwriters, reinsurers, agents, brokers, producers, and claims adjusters."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "When your claim is handled by the insurer, BDIS and/or BDBV may receive information about the status of your claim in order to provide you with customer support services."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Support and/or assist insurers in performing analytics for risk modeling purposes and trends;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.35,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Characteristics of protected classifications under California or federal law (e.g., your gender, religion, or sexual orientation)"
     },
     {
       "citation_status": "weak",
@@ -5251,26 +3921,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "The offering of insurance can involve multiple parties, such as intermediaries, underwriters, and other agents."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.34,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Unique Identification details: identification numbers issued by government bodies or agencies (e.g. social security or national insurance number, passport number, ID number, tax identification number, driver\u2019s license number);"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.34,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Law enforcement bodies: Where necessary to facilitate the prevention or detection of crime or the apprehension or prosecution of offenders;"
     },
     {
       "citation_status": "weak",
@@ -5440,26 +4090,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Successors of the business: where Booking.com or the insurance products and services are sold to, acquired by, or merged with another organization, in whole or in part."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.33,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "The application for this card is voluntary and is subject to approval in accordance with the card terms."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.33,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "We are always looking for opportunities to innovate and improve the customer experience by using new technologies such as artificial intelligence (AI) systems."
     },
     {
@@ -5570,16 +4200,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Process payments, including your payments for the insurance premium and any adjustments;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.32,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "You should contact Customer Service if you suspect there is a possible fraud attempt in connection with your reservation."
     },
     {
@@ -5621,36 +4241,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "The reviews help to inform other travelers about the quality of the trip service you used, the destination you chose, the ground transportation, or any other experiences you choose to share without disclosing your identity."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.31,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "(\u201cBDBV\u201d) is the designated company manager of BDIS."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.31,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "This may include any of the details in section 2 and travel details."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.31,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "If you apply for a Genius Reward Visa Signature\u00ae Credit Card (\u201ccard\u201d), we shall share certain personal data with Imprint Payments, Inc. for the purpose of providing you with travel credits as defined in the terms and conditions that you receive when you apply for the card (\u201ccard terms\u201d)."
     },
     {
       "citation_status": "weak",
@@ -5740,26 +4330,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "Apply the insurer\u2019s product-specific eligibility rules to allow them to evaluate risks relating to your prospective or existing insurance policy;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.3,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Characteristics of Protected Classifications under California Law, such as age (40 years or older), race, national ancestry, national origin, citizenship, religion or creed, marital status, pregnancy, medical condition, physical or mental disability, sex, sexual orientation, and veteran or military status."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.3,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "Depending on your location, when you call us, we may use AI to offer you an option called Intelligent Voice Assistance to help with your query."
     },
     {
@@ -5811,16 +4381,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "Where Booking.com Distribution B.V. is involved, it will act as the intermediary and authorized agent or appointed representative (depending on the jurisdiction) on behalf of the insurer, by offering insurance products and services to Booking.com customers."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.29,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Inferences and Preferences, such as inferences drawn from any of the information described in this section about a consumer including inferences reflecting the consumer\u2019s preferences, characteristics, behavior, and abilities."
     },
     {
       "citation_status": "weak",
@@ -5900,26 +4460,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "The insurance underwriter is the insurer that is underwriting your insurance statement and is named in your policy documentation."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.28,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "Legal advisers, claims adjusters, and claims investigators: Where necessary to investigate, adjudicate, or defend legal claims, insurance claims, or other claims of similar nature;"
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.28,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "You can do this in the following ways:"
     },
     {
@@ -5990,16 +4530,6 @@
       "gdpr_evidence": "",
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
-      "text": "BDIS has a resident license in Connecticut, with offices in Connecticut at 800 Connecticut Ave, Norwalk, CT 06854."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.26,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
       "text": "When guests stay at the property, they check out how quiet the room is, how friendly the staff is, and more."
     },
     {
@@ -6041,16 +4571,6 @@
       "label": "unclear",
       "reasoning": "Low confidence or unclear classification",
       "text": "We provide our travelers with customer service in more than 40 languages, and we\u2019re here to help 24 hours a day, 7 days a week."
-    },
-    {
-      "citation_status": "weak",
-      "confidence": 0.24,
-      "confidence_label": "Low",
-      "gdpr_basis": "",
-      "gdpr_evidence": "",
-      "label": "unclear",
-      "reasoning": "Low confidence or unclear classification",
-      "text": "BDIS is a Delaware Limited Liability Company registered to conduct business in all states, as well as the District of Columbia, and is a duly licensed insurance producer in all states and the District of Columbia."
     },
     {
       "citation_status": "weak",

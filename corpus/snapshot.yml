@@ -1,8 +1,31 @@
+# TermsGuard corpus - hand-picked EU + Big Tech companies
+# Re-fetched weekly. Each entry: slug, display name, sector, policy URL.
+#
+# Notes on bot-protected companies (as of 2026-10-29):
+# - BNP Paribas (group.bnpparibas.com): bot-blocked at corporate level,
+#   no Wayback archive. Re-add once accessible mirror appears.
+# - Carrefour (carrefour.com/fr): bot-blocked, no Wayback archive.
+# - H&M retail (hm.com / www2.hm.com): bot-blocked. H&M Group's
+#   corporate parent (hmgroup.com) is the proxy that works.
+# - Santander (santander.com): bot-blocked at corporate level. Bank-level
+#   privacy policy at bancosantander.es works but is rate-limited
+#   intermittently. Kept as a flaky but mostly-working URL.
+#
+# Other companies occasionally fail with 429s (rate-limited). The
+# snapshot script retries with exponential backoff.
+
 companies:
+  # Big Tech (5) - Irish HQs, GDPR-regulated. All work reliably.
   - slug: google
     name: Google
     sector: Big Tech
     url: https://policies.google.com/privacy
+  - slug: meta
+    name: Meta
+    sector: Big Tech
+    # Meta/Facebook's "Privacy Principles" explainer page. The actual
+    # Data Policy at facebook.com/policy.php is bot-protected.
+    url: https://www.facebook.com/help/325807682359234
   - slug: apple
     name: Apple
     sector: Big Tech
@@ -15,14 +38,41 @@ companies:
     name: Amazon
     sector: Big Tech
     url: https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010
+
+  # EU banks (4 of 5). BNP Paribas dropped.
+  - slug: deutsche-bank
+    name: Deutsche Bank
+    sector: Banking
+    url: https://www.db.com/legal-resources/privacy-notice?language_id=1
   - slug: ing
     name: ING
     sector: Banking
     url: https://www.ing.com/Privacy-Statement.htm
+  - slug: unicredit
+    name: UniCredit
+    sector: Banking
+    url: https://www.unicredit.eu/privacy
+
+  # EU retailers (4 of 5). Carrefour dropped.
+  - slug: ikea
+    name: IKEA
+    sector: Retail
+    url: https://www.ikea.com/global/en/legal/privacy-cookie-statement/
+  - slug: hm
+    name: H&M
+    sector: Retail
+    # H&M Group corporate parent (the retail site is bot-protected).
+    url: https://hmgroup.com/data-privacy-notice
   - slug: inditex
     name: Inditex
     sector: Retail
     url: https://www.inditex.com/itxcomweb/es/legal/privacy-policy
+  - slug: decathlon
+    name: Decathlon
+    sector: Retail
+    url: https://www.decathlon.com/policies/privacy-policy
+
+  # EU tech / telecom (5)
   - slug: sap
     name: SAP
     sector: Tech & SaaS
@@ -31,6 +81,14 @@ companies:
     name: Spotify
     sector: Tech & SaaS
     url: https://www.spotify.com/legal/privacy-policy/
+  - slug: deutsche-telekom
+    name: Deutsche Telekom
+    sector: Telecom
+    url: https://www.telekom.com/en/general/data-protection-information
+  - slug: vodafone
+    name: Vodafone
+    sector: Telecom
+    url: https://www.vodafone.com/site-services/privacy-and-cookies
   - slug: booking
     name: Booking.com
     sector: Travel

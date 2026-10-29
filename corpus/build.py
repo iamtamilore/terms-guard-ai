@@ -231,10 +231,10 @@ def render_company_card(company: dict, snapshots: list) -> str:
     Last fetched <span class="mono">{latest['date']}</span>
     {' · changed ' + str(latest['changed_lines']) + ' lines vs prior' if latest['prior'] else ' · first snapshot'}
   </p>
-  <details>
-    <summary>latest diff</summary>
+  <div class="diff-section">
+    <p class="diff-section-label">Latest diff</p>
     {diff_block}
-  </details>
+  </div>
 </article>
 """
 
@@ -369,6 +369,10 @@ PAGE_CSS = """
   color: var(--text-3); cursor: pointer; user-select: none;
   letter-spacing: 0.04em; text-transform: uppercase; }
 .company details[open] summary { color: var(--accent); }
+.diff-section { margin-top: var(--space-3); }
+.diff-section-label { font-family: var(--font-mono); font-size: var(--text-xs);
+  letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--text-3); margin-bottom: var(--space-2); }
 .company .empty-state { color: var(--text-3); font-size: var(--text-sm);
   font-style: italic; }
 

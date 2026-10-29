@@ -1,8 +1,8 @@
 {
   "date": "2026-10-29",
-  "elapsed_seconds": 30.6,
-  "ok_count": 9,
-  "total_count": 9,
+  "elapsed_seconds": 101.1,
+  "ok_count": 14,
+  "total_count": 17,
   "results": [
     {
       "slug": "google",
@@ -12,6 +12,11 @@
       "risk": "Medium",
       "flagged": 173,
       "changed_lines": 0
+    },
+    {
+      "slug": "meta",
+      "ok": false,
+      "reason": "too little text: 20 chars"
     },
     {
       "slug": "apple",
@@ -34,20 +39,48 @@
     {
       "slug": "amazon",
       "ok": true,
-      "text_chars": 23989,
-      "score": 0.518,
+      "text_chars": 27836,
+      "score": 0.478,
       "risk": "Medium",
-      "flagged": 46,
+      "flagged": 14,
+      "changed_lines": 0
+    },
+    {
+      "slug": "deutsche-bank",
+      "ok": true,
+      "text_chars": 11026,
+      "score": 0.55,
+      "risk": "Medium",
+      "flagged": 12,
       "changed_lines": 0
     },
     {
       "slug": "ing",
+      "ok": false,
+      "reason": "fetch: live fetch failed: 404 Client Error: Not Found for url: https://ing.com/Privacy-Statement.htm; wayback fetch failed: exceptions must derive from BaseException"
+    },
+    {
+      "slug": "unicredit",
       "ok": true,
-      "text_chars": 4745,
-      "score": 0.636,
+      "text_chars": 6392,
+      "score": 0.56,
       "risk": "Medium",
-      "flagged": 7,
+      "flagged": 3,
       "changed_lines": 0
+    },
+    {
+      "slug": "ikea",
+      "ok": true,
+      "text_chars": 47707,
+      "score": 0.547,
+      "risk": "Medium",
+      "flagged": 73,
+      "changed_lines": 0
+    },
+    {
+      "slug": "hm",
+      "ok": false,
+      "reason": "fetch: live fetch failed: 404 Client Error: Not Found for url: https://hmgroup.com/data-privacy-notice; wayback fetch failed: 404 Client Error: NOT FOUND for url: https://web.archive.org/web/0/https://hmgroup.com/data-privacy-notice"
     },
     {
       "slug": "inditex",
@@ -59,12 +92,21 @@
       "changed_lines": 0
     },
     {
+      "slug": "decathlon",
+      "ok": true,
+      "text_chars": 16127,
+      "score": 0.592,
+      "risk": "Medium",
+      "flagged": 33,
+      "changed_lines": 0
+    },
+    {
       "slug": "sap",
       "ok": true,
-      "text_chars": 17259,
-      "score": 0.531,
+      "text_chars": 67255,
+      "score": 0.543,
       "risk": "Medium",
-      "flagged": 27,
+      "flagged": 72,
       "changed_lines": 0
     },
     {
@@ -77,12 +119,30 @@
       "changed_lines": 0
     },
     {
+      "slug": "deutsche-telekom",
+      "ok": true,
+      "text_chars": 33045,
+      "score": 0.536,
+      "risk": "Medium",
+      "flagged": 51,
+      "changed_lines": 0
+    },
+    {
+      "slug": "vodafone",
+      "ok": true,
+      "text_chars": 13104,
+      "score": 0.561,
+      "risk": "Medium",
+      "flagged": 16,
+      "changed_lines": 0
+    },
+    {
       "slug": "booking",
       "ok": true,
-      "text_chars": 102233,
-      "score": 0.515,
+      "text_chars": 75007,
+      "score": 0.508,
       "risk": "Medium",
-      "flagged": 175,
+      "flagged": 131,
       "changed_lines": 0
     }
   ]

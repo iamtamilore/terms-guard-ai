@@ -39,10 +39,6 @@ Ground transportation
 
 Insurance
 
-US Insurance
-
-US (other than California)
-
 How we protect personal data
 
 How we use cookies & other tracking technologies
@@ -601,302 +597,6 @@ Insurance-related call recordings may be kept for up to 12 months to comply with
 
 Back to top
 
-US Insurance
-
-If you purchase an insurance product while using our platform and live in the US, the information in this section applies to you. It adds to, or replaces, the relevant information in other parts of this privacy notice. If you do not live in the US and purchase an insurance product then this section on Insurance applies to you instead.
-
-Where we refer to personal data in this section of the privacy notice, it means the same as personal information under California law and non-public personal information under, for example, the Gramm-Leach-Bliley Act.
-
-We generally collect personal data as part of providing insurance products. We, alongside our contracted insurer, are each individually responsible for determining how your personal data will be handled for our respective business processes. Accordingly, if you disclose personal data to us in connection with the purchase of an insurance product, we encourage you to also review the insurer’s privacy notice to understand how your personal data will be handled by them.
-
-Responsible parties
-
-The Booking.com entities responsible for offering insurance product options on our platform, and the associated processing of your personal data, are Booking.com B.V. and Booking.com Distribution Insurance Solutions, LLC (“BDIS”).
-
-Booking.com Distribution B.V. (“BDBV”) is the designated company manager of BDIS. The details of the insurer will be visible in the insurance policy and related documentation provided to you when you purchase insurance on our platform.
-
-The insurance products you purchase are distributed by BDIS. BDIS is a Delaware Limited Liability Company registered to conduct business in all states, as well as the District of Columbia, and is a duly licensed insurance producer in all states and the District of Columbia. BDIS has a resident license in Connecticut, with offices in Connecticut at 800 Connecticut Ave, Norwalk, CT 06854. The BDIS Connecticut Resident Producer License Number is 3002601274.
-
-Where BDIS is the distributor, offering an insurer’s insurance products and services to Booking.com customers that live in the US, it acts as a controller for any processing of personal data it undertakes outside of Booking.com B.V. systems. Booking.com B.V. acts as a controller for any personal data it collects on our platform for insurance purposes.
-
-Personal data we collect
-
-In addition to what we list in the section Personal data you give to us, to offer you insurance we might also collect:
-
-Individual details: name, address (and proof of address), other contact details, gender, marital status, family details, date and place of birth, professional or employment-related information (e.g. employer and business travel details, job title and employment history), relationship to the policyholder, insured, beneficiary or claimant, images, visual information (e.g. any photos you upload on your account);
-
-Unique Identification details: identification numbers issued by government bodies or agencies (e.g. social security or national insurance number, passport number, ID number, tax identification number, driver’s license number);
-
-Financial information: payment card number and information, bank account numbers and account details, income, and other financial information;
-
-Insured risk: information about the insured risk, which contains personal data and may include, only to the extent relevant to the risk being insured:
-
-Health data: current or former physical or mental medical conditions, health status, injury or disability information, medical procedures performed, relevant personal habits (e.g. smoking or consumption of alcohol), prescription information, medical history;
-
-Criminal records data: criminal convictions, including driving offenses; and
-
-Other special categories of personal data: racial or ethnic origin, biometric data (for example from a passport or identity document that is used to identify the passport or document holder);
-
-Policy information: information about the quotes you receive and the policies you obtain;
-
-Credit and anti-fraud data: credit history and credit score, information about fraud convictions, allegations of crimes, and sanctions details received from various anti-fraud and sanctions databases, regulators, or law enforcement agencies;
-
-Previous claims: information about previous claims, which may include health data, criminal records data, and other special categories of personal data (as described in the Insured risk definition);
-
-Current claims: information about current claims, which may include health data, criminal records data, and other special categories of personal data (as described in the Insured risk definition);
-
-Marketing data: whether or not the individual has consented to receive marketing from us and/or from third parties and/or their marketing preferences; and
-
-Website and communication usage: such as internet and other electronic network activity information, computer, device, and connection information (e.g. IP address, browser type, domain name, operating system, unique device identifier), details of your visits to our websites or apps, and information collected through cookies and other tracking technologies, including traffic data, location data, web logs, and other communication data, and the resources that you access.
-
-Background checking information: such as inclusion on a sanctions list or a public list of disqualified directors, the existence of previous or alleged criminal offenses, or confirmation of clean criminal records, and information in relation to politically exposed persons (“PEPs”).
-
-Inferences (e.g. analytics and preferences)
-
-Comments, feedback, or other information provided to us: such as social media interactions with our social media presence, comments provided on feedback forms or surveys, and questions or information sent to our support services.
-
-Recipients of your personal data
-
-We may share certain elements of your personal data with third parties, which under US state privacy laws may be considered the sale of personal data. This may include information related to inferences and analytics. We may also share your personal data with service providers who assist us with delivering marketing messages or advertisements.
-
-In addition to the information provided in the sections on “How we share personal data…”, we may share your personal data with the following categories of recipients where necessary to offer, administer, and manage the insurance products and services provided to you:
-
-Insurance market participants: Where necessary to offer, administer, and manage the insurance products and services provided to you, such as insurers and insurance underwriters, reinsurers, agents, brokers, producers, and claims adjusters. The insurance underwriter is the insurer that is underwriting your insurance statement and is named in your policy documentation.
-
-Vetting and risk management agencies: Such as credit reference, criminal record, fraud prevention, data validation, and other professional advisory agencies, where necessary to prevent and detect fraud in the insurance industry and take steps to assess the risk in relation to prospective or existing insurance policies and services;
-
-Legal advisers, claims adjusters, and claims investigators: Where necessary to investigate, adjudicate, or defend legal claims, insurance claims, or other claims of similar nature;
-
-Medical professionals: e.g. Where you provide health information in connection with a claim against your insurance policy;
-
-Law enforcement bodies: Where necessary to facilitate the prevention or detection of crime or the apprehension or prosecution of offenders;
-
-Public authorities, regulators, and government bodies: Where necessary for us to comply with our legal and regulatory obligations;
-
-Third-party suppliers: where we outsource our processing operations to suppliers that process personal data on our behalf. These processing operations shall remain under our control and will be carried out in accordance with our security standards and strict instructions;
-
-Successors of the business: where Booking.com or the insurance products and services are sold to, acquired by, or merged with another organization, in whole or in part. Where personal data is shared in these circumstances, it will continue to be used in accordance with this privacy notice;
-
-How your personal data is processed and used for insurance products and services
-
-When offering insurance, BDIS may have to use and share personal data that is relevant to underwrite and sell the insurance product. This list of information relates to you as a potential or actual policyholder, and to the beneficiaries under a policy, family members, claimants, and other parties involved in a claim.
-
-In order to transact in insurance, provide offers, arrange insurance coverage, and handle insurance claims (where relevant), the personal data you provide to us during the booking process is shared with BDIS, potentially other parties retained by Booking.com, third-party administrators of claims, and the insurer providing the policy. This may include any of the details in section 2 and travel details. Additional information may also be requested in order to provide the insurance coverage and services and in order to issue a policy and/or handle an insurance claim, including names of family members, medical information and records, and/or other beneficiaries’ information, as well as other information necessary to conduct or support the investigation of an insurance claim (“Insurance-Specific Data”).
-
-If you make a claim under an insurance policy, this claim may be directly handled by BDIS, by the insurer, or by a third-party administrator. This means that you may be asked to provide personal data in order to submit the claim directly to the claims adjuster. The insurer will inform you accordingly at the point of collection of your information. When your claim is handled by the insurer, BDIS and/or BDBV may receive information about the status of your claim in order to provide you with customer support services.
-
-In addition to the purposes described in Purposes of collecting and processing your personal data, we use the information we collect about you in connection with the insurance products and services to:
-
-Offer, administer, and manage the insurance products and services provided to you, including providing initial and renewal quotations and client care information;
-
-Carry out due diligence, identity, credit reference, bankruptcy, sanctions, data validation, anti-money laundering, “Know Your Customer,” and other business acceptance, vetting, and risk management agency checks;
-
-Apply the insurer’s product-specific eligibility rules to allow them to evaluate risks relating to your prospective or existing insurance policy;
-
-Process payments, including your payments for the insurance premium and any adjustments;
-
-Support or assist the insurer to administer, investigate, and settle claims or complaints in relation to insurance policies and/or the services provided;
-
-Facilitate the prevention, detection, and investigation of crime and the apprehension or prosecution of offenders;
-
-Enforce our agreements, trace debtors, and recover any outstanding debt in connection with the insurance products and services provided;
-
-Fulfill legal and regulatory obligations, resolve disputes, and monitor compliance with same;
-
-Support and/or assist insurers in performing analytics for risk modeling purposes and trends;
-
-Conduct market research and canvas your views about the insurance products and services to develop and improve our products and services generally;
-
-Research, audit, report, and for other business operations purposes, including determining the effectiveness of our promotional campaigns and evaluating business performance; and
-
-Perform benchmarking, modeling, market research, and data analyses associated with the development of new and existing processes, products, and services.
-
-Impact of failing to provide information
-
-You are required to provide any personal data we reasonably require (in a form acceptable to us) to meet our obligations in connection with the insurance products and services we provide to you, including any legal and regulatory obligations. If the information provided is either incomplete and/or inaccurate, we may be unable to offer the insurance products and/or services to you and/or we may terminate the services provided with immediate effect. This is because we may be required to do so in accordance with the applicable federal and state laws, rules, and regulations of all states.
-
-For California Residents – California Law
-
-Service Provider
-
-We may act as service providers under the California Consumer Protection Act (CCPA). This means that we may collect and use Personal Information on behalf of another company (for example, where BDIS provides insurance products and services to third-party insurers and producers). Where your Personal Information is processed by us acting as a service provider, that other company’s privacy notice will explain its privacy practices. Note that in some instances, BDIS and other Booking.com companies or business units may be acting as a service provider for other members of Booking.com, and, in those instances, this section of the privacy notice will apply. If you make a request to us to exercise your rights where we act as a service provider under the CCPA, we may be required to disclose your request to the relevant company.
-
-Personal Information Not Covered by this California Section of the Privacy Notice
-
-The following sets out some of the categories of Personal Information that are not subject to the CCPA, and therefore are not covered by this section of the Notice. Note that other sections of the Notice may still apply in addition to other privacy notices that we may issue addressing our specific relationship with you, including privacy notices that are sent to individuals.
-
-Health or medical information that we collect and that is subject to the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”), the California Confidentiality of Medical Information Act, or the Health Information Technology for Economic and Clinical Health Act. For this type of data, a separate HIPAA privacy notice is provided to certain individual consumers as required under applicable laws, rules, and regulations.
-
-Information we collect in connection with the issuance of financial products or services to you that are to be used primarily for your personal, family, or household purposes and that is subject to the Gramm-Leach-Bliley Act (“GLBA”) or the California Financial Information Privacy Act. For example, where we handle a claim for you as an individual. Note that this exclusion may not apply to all of your Personal Information, including to personal information collected before you become a customer.
-
-Information we collect and provide for use that is subject to the Fair Credit Reporting Act.
-
-Information we collect as a motor vehicle record and that is subject to the Driver's Privacy Protection Act of 1994.
-
-Publicly available information from government records and information we have a reasonable basis to believe is lawfully made available to the general public by you or by widely distributed media, or by a person to whom you have disclosed the information and not restricted it to a specific audience.
-
-De-identified or aggregated information.
-
-Categories of Personal Information Collected & Disclosed
-
-The following identifies the categories of Personal Information we may collect about you. Note that our collection, use, and disclosure of Personal Information about you will vary depending upon the circumstances and nature of our interactions or relationship with you.
-
-Depending on how you use our insurance products and services, we, the insurer, or the third-party claims administrative company may collect (or you might provide) the following categories of Personal Information:
-
-Identifiers, such as real name, alias, job title, address, email address, date of birth, policy number, salary information, social security number, driver’s license number, other government identifiers, credit card number, and tax ID.
-
-Online Identifiers, such as unique personal identifiers, device IDs, ad IDs, IP addresses, and cookie data.
-
-Customer or Claimant Records, such as paper or electronic customer or claimant records containing Personal Information, as well as information provided by an insurance broker/agent or reinsurer for underwriting purposes and information included in a list of claims, such as name, signature, physical characteristics or description, address, telephone number, education, current employment, employment history, social security number, passport number, driver’s license or state identification card number, insurance policy number, bank account number, payment card number, gender, height, weight, medical information (including reports and medical bills), health insurance information, details about home address, security and travel plan arrangements, records of personal property, products or services purchased or obtained.
-
-Financial Information, such as your bank account or credit card number and other payment details.
-
-Characteristics of Protected Classifications under California Law, such as age (40 years or older), race, national ancestry, national origin, citizenship, religion or creed, marital status, pregnancy, medical condition, physical or mental disability, sex, sexual orientation, and veteran or military status.
-
-Usage Data, such as Internet or other electronic network activity information regarding a California resident's interaction with portals, Internet websites, applications, or advertisements, including, but not limited to, browsing history, clickstream data, search history, and content of public posts.
-
-Biometric Information, such as individual biological or behavioral characteristics including measurements of physical characteristics such as height, weight and blood pressure, sleep, health, or exercise data that contain identifying information.
-
-Education Information, such as education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, and student disciplinary records.
-
-Geolocation Data, such as physical location or movements.
-
-Audio, Video, and Other Electronic Data, such as audio information including call recordings, video and photographs, recorded meetings and webinars, and CCTV footage to secure our offices and premises.
-
-Professional or Employment-Related Information, such as employment history, qualifications, licensing, and disciplinary record.
-
-Inferences and Preferences, such as inferences drawn from any of the information described in this section about a consumer including inferences reflecting the consumer’s preferences, characteristics, behavior, and abilities.
-
-Sensitive Personal Information, such as social security number, driver’s license number, racial or ethnic origin, religious or philosophical beliefs, medical condition, and physical or mental disability.
-
-Sources of Personal Information
-
-We generally collect Personal Information from the following categories of sources:
-
-Directly from you and automatically;
-
-Our affiliates, sister companies, and subsidiaries;
-
-Brokers and agents;
-
-Corporate policyholders; and
-
-Our vendors and service providers (e.g. third-party administrators).
-
-Purposes for Collecting and Disclosing Personal Information
-
-In addition to the purposes described in Purposes of collecting and processing your personal data, we collect and otherwise process the personal information we collect for the following business or commercial purposes:
-
-Inferences;
-
-Find locations on request.
-
-If you would like more information about the recipients of your personal information, see also the sections on “How we share personal data.”
-
-Sensitive Personal Information
-
-We use and disclose sensitive personal information permitted by law and as reasonably necessary and proportionate: (i) to perform our services requested by you; (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents; (iii) to detect, prevent, and respond to malicious, fraudulent, deceptive, or illegal conduct; (iv) to verify or maintain the quality and safety of our services; (v) for compliance with our legal obligations; (vi) to our service providers who perform services on our behalf; and (vii) for purposes other than inferring characteristics about you.
-
-Retention of Personal Information
-
-We retain the Personal Information we collect only as reasonably necessary for the purposes described in this notice or otherwise disclosed to you at the time of collection. For example, we will retain certain identifiers for as long as it is necessary to comply with our tax, accounting, and recordkeeping obligations, to administer certain policies and coverage, and for research, development, and safety purposes, as well as an additional period of time as necessary to protect, defend, or establish our rights, defend against potential claims, and to comply with our legal obligations. From time to time, we may also de-identify your Personal Information, retain it, and use it for a business purpose in compliance with CCPA.
-
-Disclosure of Personal Information to Third Parties and Other Recipients
-
-The categories of Personal Information we may have disclosed for a business purpose in the preceding twelve (12) months include:
-
-Identifiers (e.g. your name, account number, email address, IP address, government-issued identification number)
-
-Financial, medical, or health insurance information (e.g., your bank account number, payment card number, or medical information—if provided by you or on your behalf)
-
-Characteristics of protected classifications under California or federal law (e.g., your gender, religion, or sexual orientation)
-
-Commercial information (e.g., your purchase information or buying history)
-
-Internet or other electronic network activity information (e.g., information about your website or app usage)
-
-Geolocation data (e.g. your physical location)
-
-Visual information (e.g. any photographs you upload on your account)
-
-Inferences (e.g. analytics and preferences)
-
-Professional or employment-related information (e.g., employer and business travel details)
-
-Sensitive information (e.g. driver’s license, state identification or passport number, account sign-in details, communications between you and a Trip Provider via Booking.com)
-
-If you would like more information about the categories previously mentioned, the specific types of personal information we collect, or the purposes for which we collect them, see also the sections on Personal data we collect and process and Purposes of collecting and processing your personal data.
-
-The categories of third parties and other recipients to whom we may disclose personal information for a business purpose may include:
-
-Agents and brokers;
-
-Insurers;
-
-Reinsurers.
-
-We may “share” the following categories of Personal Information: online identifiers and usage data. We disclose this information to third-party advertising networks, analytics providers, and social networks for purposes of marketing and advertising.
-
-Your rights
-
-If you live in the US (other than in California), and would like to understand and exercise your rights, see our section on US (other than California).
-
-To understand and exercise your rights under California law, see our section on California.
-
-Back to top
-
-US (other than California)
-
-If you live in the US (other than in California), the information in this section applies to you. It adds to, or replaces, the information in other parts of this privacy notice.
-
-In addition to the categories of personal data we may collect about you listed in Personal data we collect and process, other categories include:
-
-Geolocation data (e.g. your physical location)
-
-Inferences (e.g. analytics and preferences)
-
-Sensitive data (citizenship or immigration status, data revealing your racial or ethnic origin, religious beliefs, mental or physical health diagnosis, or sexual orientation) you provide
-
-We may share certain elements of your personal data with third parties, which under US state privacy laws may be considered the sale of personal data. This sale of personal data may include information related to inferences.
-
-If you subscribe to receive SMS or other text messages, we will not share your text messaging opt-in data and consent with third parties for their own marketing or promotional purposes. We may share your personal data, including your consent status, with third parties that assist us in providing our messaging services.
-
-Genius Reward Visa Signature® Credit Card
-
-If you apply for a Genius Reward Visa Signature® Credit Card (“card”), we shall share certain personal data with Imprint Payments, Inc. for the purpose of providing you with travel credits as defined in the terms and conditions that you receive when you apply for the card (“card terms”). Imprint Payments, Inc, as recipient of your personal data, manages our co-branded credit card program and acts as an independent controller.
-
-For the purpose of awarding you rewards under this program, we shall share with Imprint Payments, Inc.:
-
-Information related to all trip reservations made using your card or associated additional cards on Booking.com;
-
-Information related to all trip reservations made by you while logged in to your Booking.com account, regardless of the form of payment used.
-
-The application for this card is voluntary and is subject to approval in accordance with the card terms. If you exercise your right of erasure of your Booking.com account, your cardholder rights will not be affected. However, you will not be able to receive rewards under this program. You can withdraw from the program, as outlined in the card terms.
-
-You can choose how your personal data is used by us as described in the section Your rights and other rights as follows:
-
-Right
-
-Description
-
-Opt out of the selling of data
-
-You can ask us not to sell your personal data to third parties.
-
-Opt out of targeted advertising
-
-You can ask us not to use your personal data for targeted advertising.
-
-Opt out of profiling
-
-You can ask us not to use your personal data for profiling, which may have a legal effect or other significant impact on you.
-
-If you’re a parent, legal guardian, or the authorized agent of a consumer and wish to exercise rights on behalf of a consumer, contact us as described in Your rights. We may need to verify your identity and authorization before completing the request.
-
-When you exercise your rights, we verify your identity based on whether the name and the email address you provide in the request match the data you provided when using our services and other verification details. You may authorize another individual to exercise opt-out rights on your behalf. If we receive such a request, we’ll send an email to confirm you authorized the requester to act for you.
-
-Back to top
-
 How we protect personal data
 
 We combine people, processes, and technology to protect your personal data and respect your privacy.
@@ -1311,6 +1011,12 @@ How We Work
 
 Privacy Notice
 
+Cookie Settings
+
+Manage cookie settings
+
+Manage personalized recommendations
+
 Modern Slavery Statement
 
 Human Rights Statement
@@ -1370,8 +1076,6 @@ End of dialog content
 
 »
 
-Su
-
 Mo
 
 Tu
@@ -1383,6 +1087,8 @@ Th
 Fr
 
 Sa
+
+Su
 
  
 

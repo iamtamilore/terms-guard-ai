@@ -1,370 +1,739 @@
-SAP Privacy Statement | SAP
-
-Feb
-
-MAR
-
-Apr
-
-27
-
-2013
-
-2014
-
-2015
-
-success
-
-fail
-
-About this capture
-
-TIMESTAMPS
-
-The Wayback Machine - https://web.archive.org/web/20140327152941/http://www.sap.com:80/about/legal/privacy.html
-
-The Best-Run Businesses Run SAP
-
-United States
-
-Newsletter
-
-Community
-
-Free Trials
-
-Login
-
-Your SAP.com
-
-Forgot Password
-
-+1-800-872-1727
-
-Contact Us
-
-Store
-
-Search
-
-Industries & Solutions
-
-Services and Support
-
-About SAP
-
-Products
-
-Customer Testimonials
-
-Our Partners
-
-Thought Leadership
-
-Training & Education
-
-Events
-
-SAP News
-
-March 26, 2014SAP to Acquire Fieldglass, the Global Cloud Technology Leader in Contingent Workforce Management
-
-March 25, 2014SAP Helps Customers Apply BYOD Trends to Mobile Device, App and Content Protection
-
-March 25, 2014SAP Changes the Data Warehousing Landscape With SAP HANA®
-
-March 25, 2014Adobe and SAP Team Up to Deliver Insight-Driven Marketing for Enterprise Customers
-
-March 24, 2014SAP Greens Its Cloud, Will Power Data Centers and Facilities With 100 Percent Renewable Electricity in 2014
-
-March 21, 2014Gartner names SAP a Leader in Business Intelligence and Corporate Performance Management
-
-March 21, 2014SAP Announces Availability of 2013 Annual Report and U.S. Securities and Exchange Commission Filing of Annual Report on Form 20-F
-
-March 20, 2014SAP Recommends a Dividend of €1.00 per Share – Year-Over-Year Increase of 18%
-
-March 19, 2014Intelligent Business Operations Bundle powered by SAP HANA® Helps Organizations Contextualize Big Data Insights into Processes
-
-March 19, 2014SAP® PowerDesigner® Software Integrates With Broad Range of SAP Technology to Offer Support for an Organization’s Enterprise Architecture, Data and Modeling Needs
-
-Open News Reader
+SAP Privacy Statement
 
 SAP Privacy Statement
 
-Imprint
+Effective Date: October 1, 2026
 
-Please read these terms and conditions in effect on this site.
+View previous version
 
-Copyright and Trademarks»
+Welcome!
 
-SAP Privacy Statement»
+Protecting the individual's privacy is crucial to the future of business. We have created this privacy statement to demonstrate our firm commitment to the individual’s right to data protection and privacy. It outlines how we handle information that can directly or indirectly identify an individual (“personal data”).
 
-Legal Disclosure»
+ 
+
+Respecting your time and with the goal of providing you with the quickest possible access to the relevant passages of the privacy statement, we offer you the following summary:
+
+ 
+
+Summary
+
+The privacy statement aims to explain what personal data is processed by SAP, who uses your personal data, for what purpose, for how long, and explains what rights you have in this context.
+
+ 
+
+Who collects and processes your personal data? SAP does, in the form of the respective legal entity, being either SAP SE in Walldorf, Germany or any other member of the global SAP Group. The sap.com Privacy Statement describes in detail which processing activities of which SAP Group members apply.
+
+ 
+
+SAP is processing information including personal data about the users of sap.com using cookies or similar technologies for the purposes set out in the Cookie Statement. You will find further information and have the option to exercise your preferences by clicking on the Cookie Preferences link in the footer of this page.
+
+ 
+
+What personal data does SAP collect? 
+
+SAP may collect various types of personal data about you when conducting its business, including:
+
+personal contact data,
+
+personal data related to your or your employer’s business relationship with SAP,
+
+personal data SAP must collect due to legal- and compliance-related purposes,
+
+personal usage, registration, and participation data which SAP may generate through your use of its web and online offerings,
+
+special categories of personal data,
+
+application-related personal data,
+
+personal data which SAP may receive from third parties,
+
+personal data SAP requires to ensure your or your employer’s satisfaction with our products, services, and offerings.
+
+For what purpose(s) does SAP collect personal data?
+
+SAP processes your personal data to:
+
+pursue its business relationships with you, your employer, or your employer’s customers, including ensuring your satisfaction with and keeping you up to date on the latest news about our products and services,
+
+develop and offer you its software products, cloud, and other services,
+
+protect the quality and safety of its premises, facilities, products, or services,
+
+secure and, if necessary, defend its protected legal assets against unlawful attacks, assert our rights or defend SAP against legal claims,
+
+ensure compliance with statutory laws and regulations applicable to SAP,
+
+operate SAP’s internet pages, web offerings, or other online events including analyzing the behavior of the users, enabling you to create a user profile, benefit from an identity service and to promote and continuously improve your user experience,
+
+search you as a potential talent for SAP,
+
+transfer it to recipients like other members of the SAP Group, third-party service providers, SAP partners and others.
+
+If you want to learn more about each of these purposes for which SAP may collect, transfer, and use your personal data, including for how long your data is being retained and specific to the General Data Protection Regulation (GDPR), the legal ground on which SAP is pursuing them, please refer to the full privacy statement below.
+
+ 
+
+What are your data protection rights? 
+
+You have the right to request from SAP access to, correction of, and/or the return or the deletion of your personal data. You may request from SAP to restrict the access to your personal data or to exclude it from further processing. You may revoke a once given consent or object to processing activities which SAP may intend to pursue in a given case. When you believe that SAP was processing your personal data not in accordance with this privacy statement or under breach of applicable data protection laws, you have the right to lodge a complaint with a relevant supervisory authority. The sap.com Privacy Statement describes each of these rights in detail, including how you can reach us to exercise any of these rights against SAP and how to identify, if necessary, the relevant data protection authority.
+
+ 
+
+In the final section below, SAP addresses several country-specific aspects that must be explained in a privacy statement under relevant country laws. The country-specific requirements include but are not limited to those from the EU and EEA, Australia, Brazil, Canada, Colombia, the Kingdom of Saudi Arabia, India, Indonesia, Malaysia, Mexico, New Zealand, the Philippines, Singapore, South Africa, South Korea, Thailand, and the United States of America.
 
 SAP Privacy Statement
 
-Consent
+Who is the responsible SAP Group member
 
-Collection of Your Personal Data
+This privacy statement applies to the collection and processing of personal data:
 
-Use and Purpose of Collected Personal Data
+during the central operation of this website and other globally operated SAP business activities by
 
-IP Addresses
+SAP SE, Dietmar-Hopp-Allee 16, Walldorf 69190, Germany if you are in a member state of the EU or the EWR or in any of the countries of Andorra, Faroe Islands, Guernsey, Isle of Man, Jersey, Switzerland, or the United Kingdom or by
 
-Automated Tools
+SAP America Inc., 3809 West Chester Pike, Suite 200, Newtown Square, PA 19073, USA if you are in any other country, or by
 
-Embedded Web Links
+a specific SAP Group member as may be stated in the Additional Country and Regional Specific Provisions at the end of this privacy statement.
 
-Cookies
+in the context of a pre-contractual or contractual business relationship with you or your employer by a local SAP Group member.
 
-E-Mail Addresses
+in the context of a registration form when a specific SAP Group member is directly collecting personal data for the purpose of registering to a service or event and is therefore presented as the relevant controller on this registration page or website by referencing to this privacy statement.
 
-Shopping or Event Registration
+SAP SE, SAP America, Inc., and each relevant SAP Group member are, depending on the given case, hereinafter referred to as “SAP”.
 
-Sharing Your Personal Data
+This privacy statement does not apply to SAP internet-pages or web-services which present their own privacy statement.
 
-Security of Your Personal Data
+For what purposes does SAP process your Personal Data and based on what legal basis?
 
-Links to Other Sites
+Depending on the applicable law there must be a justification for processing of personal data, which is sometimes referred to as legal basis. Here are details on both the purpose of processing and the legal basis for doing so.
 
-Choice / Opt-Out
+ 
 
-Data Retention
+SAP’s compliance with statutory obligations
+
+SAP processes your personal data for the purpose of ensuring an adequate level of technical and organizational security of SAP's products, services, online events, facilities, and premises. For this, SAP will take the measures necessary to verify or maintain the quality and safety of a product or service which is owned, manufactured by or for, or controlled by SAP. This may comprise the use of personal data for sufficient identification and authorization of designated users, internal quality control through auditing, analysis, and research, debugging to identify and repair errors that impair existing or intended functionality, account and network security, replication for loss prevention, detecting security incidents, protection against malicious, deceptive, fraudulent, or illegal activity, and prosecuting those responsible for such kind of activity. We may further process your name, likeness, and other contact or compliance related data when you visit a local SAP affiliate or lab in the context of access management and video surveillance to protect the security and safety of our locations and assets. SAP may process personal data to create anonymized data sets which may then be used to safeguard and protect SAP systems including data, equipment, facilities and networks.
+
+SAP processes Personal Data (name, surname, country, IP address) to the extent necessary to fulfil sanctions and embargo requirements under European Economic Area (“EEA”) laws to which SAP is subject, and laws and regulations extraterritorial to the EEA (based on SAP’s legitimate interest).
+
+If necessary, SAP uses personal data to prevent or prosecute criminal activities such as any form of cybercrime, the illegal use of our products and services or fraud, to assert our rights or defend SAP against legal claims.
+
+To comply with data protection and unfair competition law related requirements. Depending on the country in which the relevant SAP Group member operates, and whether you have expressly consented to or opted out of receiving commercial information, SAP may process personal data necessary to accommodate your data protection and privacy choices for the receipt of such information and, when necessary to ensure compliance, exchange such information with the other members of the SAP Group.
+
+When ensuring compliance, SAP processes your personal data if and to the extent necessary to fulfill legal requirements under European Union or EU Member State law to which SAP is subject, and laws and regulations extraterritorial to the EU (legitimate interest to comply with extraterritorial laws and regulations).
+
+SAP’s Web Services
+
+SAP processes personal data for the purpose of operating, providing to you and administering your use of SAP’s internet pages, web offerings, or other online events. This may include, without limitation:
+
+To provide web services and functions, create and administer your online account, update, secure, troubleshoot the service, provide support, improve, and develop the web services and/or answer and fulfill your requests or instructions.
+
+To process information that relates to your visit to our web offerings to improve your user experience, identify your individual demand and to personalize the way we provide you with the information you are looking for. For this purpose, we collect information from all interactions and engagements that you have with SAP's web services, regardless of whether you register with a user profile or not.
+
+To share basic participant information (your name, company, and email address) with other participants of the same event, seminar, or webinar to promote the interaction between the participants and to stimulate the communication and the exchange of ideas.
+
+To manage and ensure the security of our web services and prevent and detect security threats, fraud or other criminal or malicious activities and as reasonably necessary to enforce the web services terms, to establish or preserve a legal claim or defense, to prevent fraud or other illegal activities, including attacks on our information technology systems.
+
+To register and create a user profile to use certain web offerings linked to SAP’s websites, including forums, blogs, and networks (e.g., the SAP Community). The user profiles serve to personalize the interactions between the users (for example, by way of messaging or follow functionality) and to allow SAP to foster the collaboration and quality of communication through such offerings. The profile settings of the relevant web offering allow you to determine which information you want to share. Through the user profile you can share personal information about you with other users, such as your name, photo, social media accounts, postal or email address, telephone number, personal interests, skills, and basic information about your company.
+
+To create a user profile, which may be specific to a single web offering of SAP or it may also allow you to access other web offerings of SAP or of other members of the SAP Group. It is your choice whether to use any of these additional web offerings. If you do, SAP will make your personal data available to such other web offerings to provide you with initial access. Kindly note that without your consent for SAP to create such user profiles, SAP will not be able to offer such services to you where your consent is a statutory requirement so that SAP can provide these services to you.
+
+When operating SAP’s web services, SAP processes your personal data if and to the extent,
+
+SAP obtained your consent, if required by law, to process your personal data for this purpose,
+
+necessary to fulfill (pre-) contractual obligations with you,
+
+necessary to fulfill legal requirements applicable to SAP,
+
+necessary to pursue SAP’s legitimate interest to efficiently perform or manage SAP’s web services and business operation and assert or defend itself against legal claims.
+
+We believe that SAP’s interest in pursuing these business purposes is legitimate and thereby not outweighed by your personal rights and interest to refrain processing for such purpose. In any of these cases, we duly factor into our balancing test: the business purpose reasonably pursued by SAP in the given case, the categories, amount and sensitivity of personal data that is necessarily being processed, the level of protection of your personal data which is ensured by means of our general data protection policies, guidelines, and processes, and the rights you have in relation to the processing activity.
+
+ 
+
+SAP’s business relationships
+
+SAP processes personal data to pursue its business relationships with customers, partners, and other users to fulfill pre-contractual and contractual business relations. This may include satisfying requests, processing orders, delivering an ordered product or service, or engaging in any other relevant action to establish, fulfill and maintain our business relationships, including:
+
+Products and services: This may include any of SAP’s on-premise and cloud software products, web services, apps, online-forums, webinars and events, non-marketing related newsletters, white papers, tutorials, trainings, as well as other offerings like contests or sweepstakes. When you purchase or intend to purchase products or services from SAP on behalf of a corporate customer or are otherwise associated as contact person for the business relationship between SAP and a corporate customer or partner (“Customer Contact”), SAP will use your personal data for this purpose. More specifically, SAP may use your personal data to confirm your opening of an account, manage the contract execution, send you disclosures as may be required by law, notice of payments, and other information about our products and services. SAP may respond to related inquiries, provide you with necessary support and process your feedback. In the context of your or your employers use of our products or services, SAP may communicate with you by post, email, live chat, contact forms, phone or any other medium to resolve your, a user’s, or a customer’s question or complaint or to investigate suspicious transactions. In case of telephone calls or chat sessions, SAP may record such calls or chat sessions to improve the quality of SAP’s services after informing you accordingly during that call and, subject to applicable law, receiving your prior consent before the recording begins.
+
+Customer Satisfaction: Within an existing business relationship between you or your employer and SAP, SAP processes your personal data to help us understand how satisfied you are with the functionality and quality of our products and services, to provide you with relevant information on our latest product announcements, software updates or upgrades, events, special offers, and other information about SAP’s software and services that is relevant and useful to you.
+
+To keep you up to date: Within an existing business relationship between you or your employer and SAP, SAP processes your personal data to inform you about SAP events, products or services which are similar or relate to products and services you or your employer have already purchased or used. SAP will inform you by postal mail, email, phone or other electronic means about such news if SAP has collected such information in the context of the business relationship or has obtained this information from a publicly available source as far as it is allowed by law, or you have consented. You are entitled to object to SAP’s use for this purpose at any time by selecting the opt-out option at the bottom of each marketing-related communication.
+
+Feedback requests and surveys: To the extent allowed by applicable law, SAP may contact you for feedback regarding the improvement of the relevant material, product, or service. SAP may also invite you to participate in questionnaires and surveys. These will generally be designed so you can participate without having to provide information that identifies you as a participant. If you nonetheless provide your personal data, SAP will use it for the purpose stated in the questionnaire or survey or to improve its products and services.
+
+To get in touch with you: To establish new business relationships between SAP and you or your employer, SAP processes your personal data to inform you about SAP events, products or services that have a substantive or material connection to your role or function in your organization. We may also contact you to discuss further your interest in SAP’s products or services. SAP will contact you by postal mail, email, phone or other electronic means if you have either consented to such use, or if SAP has obtained your personal data from a publicly available source as allowed by law or to address you for further consent. You are entitled to object to SAP’s use for this purpose at any time by selecting the opt-out option at the bottom of each marketing-related communication.
+
+Personalized Content: SAP processes information about your interactions with SAP across its various business areas and its offerings (your or your employers prior and current use of SAP products or services, your participation in and use of SAP’s web offerings, events, white papers, free trials or newsletters) to provide you with the requested products and services and to improve our personal communications with you. This data may also be used to efficiently operate SAP’s business, which also includes: the automation and aggregation of data to support various analytic and statistical efforts, performance and predictive analytics and exploratory data science to support your customer journey and to fulfill such requests. To the extent permitted by law, SAP may combine and use such information in an aggregated manner to help us understand your interests and business demands, develop our business insight and marketing strategies, and to create, develop, deliver, and improve our personalized communications with you. It may also be used by SAP to display relevant content on SAP owned or third-party websites.
+
+Advertising IDs: Provided your consent or to the extent permitted by applicable law, SAP may create a hashed user ID to provide to third-party operated social networks or other web offerings (such as X, LinkedIn, Facebook, Instagram or Google). This information is then matched against the third-party’s own user database to display to you more relevant SAP content.
+
+When pursuing its business relationships, including engaging in direct marketing and sales activities, SAP may process your personal data if and to the extent that:
+
+The contract or pre-contractual relation relates to a company or other legal body and if SAP processes your personal data as Customer Contact and it is necessary
+
+to fulfill (pre-) contractual obligations (legitimate interest to efficiently perform or manage SAP’s business operation),
+
+to maintain our business relationships with you or your employer, to ensure your satisfaction as a user or customer contact, to map the relevant group internal structures and bundle relevant business activities at central sources within the SAP Group, to operate them uniformly and to provide you with information about other SAP products and services as indicated by your demand or interest, which may also comprise the combination of information about you from different sources (profiling) (legitimate interest to maintain and operate intelligent and sustainable business processes in a group structure optimized for the division of labor and in the best interest of our employees, customers, partners, and shareholders and to operate sustainable business relationship with SAP customers and partners).
+
+when providing you with information about other SAP products and services, we may send them to your email address provided that we (i) received your email address in connection with the purchase of our products or services, (ii) you did not object to the use of your email address for direct advertising and (iii) we inform you in every approach, at any time that you may object to our use of your email address for marketing purposes. We may also send you such information by other electronic means (e.g., telephone, SMS, MMS) to the extent permitted under applicable law or explicit or presumed consent.
+
+We serve or maintain our business relationships with you, ensure your satisfaction as a user or customer representative, and/or provide you with information about other SAP products and services as indicated by your demand or interest (necessary for the performance of a contract and/or legitimate interest to operate sustainable business relationship with SAP customers and partners).
+
+We operate to establish a new business relationship with you or your employer and you have consented to SAP’s use of your personal data for such marketing purpose or we (i) obtained your email from a publicly available source (ii) you did not object to the use of your email address for direct advertising and (iii) we inform you in every approach that you may object to our use of your email address for marketing purposes at any time.
+
+Whenever you grant SAP consent that SAP may use your personal data to provide you with additional information on SAP products and services (General Marketing Consent), SAP will process your data as described in the section above.
+
+What categories of Personal Data does SAP process?
+
+SAP processes various types of personal data about the people we interact with when conducting our business or operating our various web presences and other communication channels. Depending on the individual case, this may comprise the following types of personal data:
+
+Contact Data: SAP processes the following categories of personal data as contact data: first name, last name, email addresses, postal address/location (country, state/province, city), telephone numbers, and your relationship history with SAP.
+
+Personal data related to the business relationship with SAP: In the context of established business relationships, SAP processes the business partner’s company name, industry, your job title and role, department and function and your company’s relationship history to SAP. If you provide a credit card number or bank details to order products or services, SAP will collect this information to process your payment for the requested products or services.
+
+Compliance-related personal data: If required by statutory law or regulation, SAP may process data categories like date of birth, academic credentials, identity cards or other ID numbers, geolocation, business partner relevant information about e.g., significant litigation or other legal proceedings, and other export control or custom compliance relevant information.
+
+Data generated through your use of, or participation in SAP's internet pages, web, or online offerings:
+
+Usage data: SAP processes certain user-related information, e.g., info regarding your browser, operating system, or your IP address when you visit SAP’s web properties. We also process information regarding your use of our web offerings, like the pages you visit, the amount of time you spend on a page, the page which has referred you to our page and the links on our sites you select.
+
+Registration data: SAP may process your contact data as set out above and other information which you may provide directly to SAP if you register for any of SAP's events or other web offerings.
+
+Participation data: When you participate in webinars, virtual seminars, events, or other SAP web offerings, SAP may process your interactions with the relevant web service to organize the event including its sessions, polls, surveys, or other interactions between SAP and/or its participants. Depending on the event and subject to a respective notification of the participants, SAP may collect audio and video recordings of the event or session.
+
+Special categories of personal data: In connection with the registration for an event, SAP may ask for your dietary preferences or information about possible disabilities for purposes of consideration for the health and well-being of our guests. Any collection of such information is always based on the consent of the participants. Kindly note that if you do not provide such information about dietary preferences, SAP may not have the opportunity to respond to such requests at the time of the event.
+
+Personal data received during an application for a job at SAP: SAP processes personal data of individuals applying for a job at SAP as set out in the privacy statement of the SAP Career Portal.
+
+Personal data necessary for customer satisfaction: To the extent permitted by law or based on your consent, SAP may combine the information we collect either directly or indirectly about specific users to ensure the completeness and correctness of the data and to help us better tailor our interactions with you and determine the information which best serves your respective interest or demand.
+
+From What Types of Third Parties does SAP obtain Personal Data?
+
+SAP generally aims to collect personal data directly from the data subjects. If you are requested to provide personal data to SAP and you fail to provide such personal data, kindly note that SAP may not be able to provide you with the respective service and/or business relationship requested. If you or applicable law allows SAP to do so, SAP may obtain personal data also from third party sources. These third-party sources may include:
+
+your employer, in the context of its business dealings with SAP and/or the SAP Group members,
+
+third parties you directed to share your personal data with SAP,
+
+third-party sources and publicly available sources like business-oriented social networks or information brokers.
+
+When we collect personal data from third-party sources, we establish internal controls to ensure that the third-party source was permitted to provide this information to SAP and that we may use it for this purpose. SAP will treat this personal data according to this privacy statement, plus any additional restrictions imposed by the third party that provided the personal data to SAP or by applicable national law.
+
+How long does SAP store your Personal Data?
+
+SAP may retain your personal data for additional periods if necessary for compliance with legal obligations to process your personal data or if the personal data is needed by SAP to assert or defend itself against legal claims. SAP will retain your personal data until the end of the relevant retention period or until the claims in question have been settled. SAP stores your personal data only for as long as it is required:
+
+to make products and services requested by you or your employer available to you;
+
+to develop products or services until this is no longer necessary or SAP is informed that your relationship with the SAP customer has changed;
+
+to fulfill SAP’s legitimate business purposes as further described in this privacy statement, unless you object to SAP’s use of your personal data for these purposes;
+
+for SAP to comply with statutory obligations to retain personal data, resulting inter alia e.g., from applicable export, finance, tax or commercial laws;
+
+until you revoke a consent you previously granted to SAP to process your personal data.
+
+Who are the recipients of your Personal Data?
+
+SAP Group: Members of the SAP Group may also receive or gain access to personal data either when rendering group internal services centrally and on behalf of SAP SE, when supporting others in the SAP Group or when personal data is transferred to them on a respective legal basis. In these cases, these members may process the personal data for the same purposes and under the same conditions as outlined in this privacy statement. If you would like to find out which SAP Group member is responsible for the business relationship with you or your employer, please contact us at webmaster[@]sap.com.
+
+Third-party service providers: SAP may engage third-party service providers to process personal data on SAP’s behalf, e.g., for consulting or other services, the provision of the website, the fulfillment and provisioning of offers from SAP or newsletter dispatch. These service providers may receive or are granted with access to personal data when rendering their services and will constitute recipients within the meaning of the relevant data protection law, including GDPR.
+
+SAP partners: With your consent or as otherwise indicated by your request, including to fulfill your ordered services, SAP may share your personal data with designated partner companies to provide you with the product or service you have requested.
+
+Other third-parties: SAP may transfer your registration data based on your consent or as otherwise indicated by your request to companies listed on the registration page of an SAP seminar, webinar or event. These companies may receive your personal data as co-organizer or sponsor of the event and will use your registration data for the purposes of their participation in the event. They will provide you directly with any legally required information about their processing purposes and how you may exercise your rights.
+
+What are your data protection rights and how can you exercise them?
+
+SAP honors your statutory rights when it comes to the processing of your personal data. To the extent provided by applicable data protection laws, you have the right to:
+
+Access your personal data that we have on you, or have it updated.
+
+Obtain a copy of the personal data you provided to SAP, if SAP uses your personal data based on your consent or to perform a contract with you. In this case, please refer to the section below "How you can exercise your Data Protection Rights(s)". Please note that you will need to specify the information or processing activities to which your request relates, the format in which you would like to receive the personal data and whether it should be sent to you or another recipient. SAP will carefully consider your request and communicate with you how it can best be fulfilled.
+
+Delete your personal data we hold about you. Please note, however, that SAP can or will delete your personal data only if there is no statutory obligation or prevailing right of SAP to retain it. If you request from SAP to delete your personal data, you may not be able to continue to use any SAP service that requires SAP’s use of your personal data.
+
+Object to SAP further processing your personal data, if and to the extent SAP is processing your personal data based on its legitimate interest. When you object to SAP's processing of your personal data, SAP will carefully review your objection and cease further use of the relevant information, subject to SAP’s compelling legitimate grounds for continued use of the personal data, which may override your interest in objecting, or if SAP requires the information for the establishment, exercise, or defense of legal claims.
+
+Object to direct marketing or to apply profiling in relation to direct marketing. When you object to SAP's processing of your personal data for direct marketing purposes, SAP will immediately cease to process your personal data for such purposes.
+
+Revoke consent, wherever SAP is processing your personal data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process personal data subject to this consent any longer unless legally required or permitted to do so (e.g., if your personal data is needed by SAP to assert or defend against legal claims). In case SAP is required or permitted to retain your personal data for other legal reasons your personal data will be restricted from further processing and only retained for the term required by law or to fulfil the other purpose. However, any withdrawal has no effect on past processing of personal data by SAP up to the point in time of your withdrawal. Furthermore, if your use of an SAP offering requires your prior consent, SAP will no longer be able to provide the relevant service, offer or event to you after your revocation.
+
+Not to be subject to a decision based solely on automated means, if the decision produces legal effects concerning you or significantly affects you in a similar way.
+
+Request from SAP to restrict your Personal Data from further processing in any of the following events:
+
+you state the Personal Data about you is incorrect, subject to the time SAP requires to check the accuracy of the relevant Personal Data,
+
+there is no legal basis for SAP to process your Personal Data and you demand SAP to restrict your Personal Data from further processing,
+
+SAP no longer requires your Personal Data, but you state you require SAP to retain such data to claim or exercise legal rights or to defend against third party claims, or
+
+in case you object to the processing of your Personal Data by SAP based on SAP’s legitimate interest, subject to the time required for SAP to determine whether it has a prevailing interest or legal obligation in processing your Personal Data.
+
+Lodge a complaint to the competent supervisory authority if you are not satisfied with how SAP is processing your personal data. Your competent supervisory authority can be found in the country specific section below.
+
+Depending on applicable local data protection laws, your rights may be subject to deviations, limitations, or exceptions as set out below in the country-specific section. Please be aware, that SAP honors your statutory rights when it comes to the processing of your personal data to the extent provided by applicable data protection laws.
+
+ 
+
+How you can exercise your data protection rights.
+
+If you want to unsubscribe from SAP Marketing communications, please contact webmaster[@]sap.com.
+
+ 
+
+If you want to exercise your data subject rights under applicable data protection law, then please fill out and submit the DSR Intake Request form. SAP will take steps to ensure it verifies your identity to a reasonable degree of certainty before it will process the data protection right you want to exercise.  When feasible, SAP will match personal data provided by you in submitting a request to exercise your rights with information already maintained by SAP. This could include matching two or more data points you provide when you submit a request with two or more data points that are already maintained by SAP.
+
+ 
+
+SAP will decline to process requests that are manifestly unfounded, excessive, fraudulent, represented by third parties without duly representing respective authority or are otherwise not required by local law.
+
+ 
+
+Automated Decision Making
+
+Automated decisions are defined as decisions about individuals that are based solely on the automated processing of Personal Data and that produce legal effects that significantly affect the individuals involved (“Automated Decision Making”).
+
+ 
+
+SAP only performs Automated Decision Making based on the necessity for the performance of or entering into a contract, your explicit consent or if a law specially allows the processing for Automated Decision Making.
+
+ 
+
+The following elements contribute to SAPs Automated Decision Making:
+
+Categories of data used in the profiling or decision-making process
+
+Why these categories are considered relevant
+
+How any profile used in the automated decision-making process is built, including any statistics used in the analysis
+
+Why this profile is relevant to the automated decision-making process
+
+How it is used for a decision concerning the data subject
+
+Fact that automated processing is in place and that he/ she can obtain human intervention if not satisfied with the outcome
+
+Can you use SAP’s services if you are a minor?
+
+In general, SAP websites and online services are not directed to users below the age of 16 years, or equivalent minimum age in the relevant jurisdiction. If you are younger than 16, you cannot register with and use these websites or online services.
+
+Additional country and regional specific Provisions
+
+Where SAP is subject to privacy requirements in the EU/EEA or a country with national laws equivalent to the GDPR:
+
+ 
+
+Who is the Data Protection Officer of the Controller?
+
+You can reach SAP Group’s data protection officer any time at privacy[@]sap.com.
+
+ 
+
+Who is the relevant Data Protection Authority?
+
+The contact details of your specific data protection supervisory authority can be found on the European Data Protection Board website. SAP’s lead data protection supervisory authority is the Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg and can be reached at Lautenschlagerstraße 20, 70173 Stuttgart/Germany.
+
+ 
+
+How does SAP justify international data transfers?
+
+As a global group of companies, SAP has group affiliates and uses third-party service providers also in countries outside the European Economic Area (the “EEA”). SAP may transfer your personal data to countries outside the EEA as part of SAP’s international business operations. If we transfer personal data from a country in the EU or the EEA to a country outside the EEA and for which the EU Commission has not issued an adequacy decision, SAP uses the EU standard contractual clauses to contractually require the data importer to ensure a level of data protection consistent with the one in the EEA to protect your personal data. You may obtain a copy (redacted to remove commercial or irrelevant information) of such standard contractual clauses by sending a request to privacy[@]sap.com. You may also obtain more information and their perspectives on international data protection issues on the European Commission’s International Dimension of Data Protection webpage.
+
+ 
+
+Where SAP is subject to privacy requirements in Australia
+
+Where SAP is subject to the requirements of the Privacy Act 1988 (Cth) (‘Privacy Act’), the following applies:
+
+ 
+
+SAP may store your Personal Data in paper-based files or as an electronic record in the Cloud or on physical devices e.g. computer systems. Your Personal Data will likely be held and stored by the SAP Group located in another country for our general business purposes including outsourcing and data processing. We will only do this where it is necessary or appropriate to achieve the purposes set out in this Privacy Statement. We take reasonable steps to protect your personal information from misuse, interference and loss and from unauthorized access, modification or disclosure.
+
+ 
+
+You can contact us either by the telephone number +61 2 9935 4939 or via email at: privacy[@]sap.com to exercise the following rights:
+
+You can request from SAP at any time access to information about which Personal Data SAP processes about you and, if necessary, the correction of such Personal Data. Please note, however, that SAP can or will delete your Personal Data only if there is no statutory obligation or prevailing right of SAP to retain it.
+
+Wherever SAP is processing your Personal Data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process Personal Data subject to this consent any longer unless legally required to do so. In case SAP is required to retain your Personal Data for legal reasons your Personal Data will be restricted from further processing and only retained for the term required by law. However, any withdrawal has no effect on past processing of Personal Data by SAP up to the point in time of your withdrawal.
+
+In Australia, a complaint should first be made to SAP in writing as required by law. You can find more information about privacy and the protection of Personal Data on the Office of the Australian Information Commissioner website.
+
+Where SAP is subject to the privacy requirements in Brazil
+
+Where SAP is subject to the requirements of the Brazilian General Data Protection Law (“LGPD”), the following applies:
+
+ 
+
+SAP has appointed a Data Protection Officer for Brazil. Written inquiries, requests or complaints to our Data Protection Officer may be addressed to:
+
+ 
+
+Paulo Theotonio Nittolo Costa
+
+Email: privacy[@]sap.com
+
+Address: Avenida das Nações Unidas 14171 - Marble Tower – 7th Floor - São Paulo-SP, Brazil 04794-000
+
+ 
+
+If you want to learn more about the details of an international data transfer made by SAP, please visit International Data Transfers under the Brazilian Data Protection Law (“LGPD”).
+
+ 
+
+Where SAP is subject to privacy requirements in Canada
+
+Your personal data may be processed globally. If personal data is processed across provincial/territorial or international borders, SAP complies with laws of the transfer of personal data between countries to keep your personal data protected. It may, however, based on the laws of such countries be subject to access by local law enforcement.
+
+ 
+
+Where SAP is subject to privacy requirements in Colombia
+
+Where SAP is subject to the requirements of the Colombian Statutory Law 1581 of 2012 and Decree 1377 of 2013, the following applies:
+
+Within Colombia you have the right to:
+
+access, update and rectify your Personal Data.
+
+request evidence of your consent.
+
+upon request, receive information about how SAP processes your Personal Data.
+
+lodge a complaint with the Superintendence of Industry and Commerce (“SIC”) about a violation of the applicable laws.
+
+revoke your consent and/or request the deletion of your Personal Data, provided that there is no supervenient legal or contractual obligation that allows SAP to keep your Personal Data in SAP’s databases.
+
+SAP Colombia S.A. may Process your Personal Data by itself or on behalf of the SAP Group, with its main office located at Carrera 9 No 115 – 06, Edificio Tierra Firme Of. 2401 Bogotá D.C., Colombia. You can contact us either by the telephone number +57-6003000 or via email at: webmaster[@]sap.com
+
+ 
+
+SAP will be responsible to answer any requests, questions, and complaints that you might have to your right to access, update, correct and delete your Personal Data, or revoke your consent.
+
+ 
+
+Where SAP is subject to privacy requirements in the Kingdom of Saudi Arabia (KSA)
+
+Where SAP is subject to the requirements of the Personal Data Protection Law (PDPL) the following applies:
+
+SAP processes your Personal Data by using electronic means for collecting, storing and other processing as described above.
+
+SAP destroys your Personal Data by using electronic means as appropriate for the purposes described above.
+
+Your Personal Data will be held and stored by SAP or the SAP Group which may be located in another country outside of Saudi Arabia for our general business purposes including outsourcing and data processing.
+
+Depending on the purpose, Personal Data may be shared regularly or occasionally.
+
+Compensation can only be claimed if the courts determined that you were harmed by material or moral damage as a result of any violation stipulated in the PDPL and its Implementing Regulations.
+
+If SAP does not comply with the PDPL you can file a complaint to the contact provided in the first section of this privacy statement.
+
+ 
+
+If you are not satisfied with how we process your complaint you can file a complaint at the competent authority:
+
+ 
+
+Saudi Data and Artificial Intelligence Authority (SDAIA), Digital City, Riyadh, 12382, Kingdom of Saudi Arabia, Website: sdaia.gov.sa
+
+ 
+
+Where SAP is subject to the privacy requirements of India
+
+Where SAP is subject to the requirements of the Digital Personal Data Protection Act, 2023 (‘DPDPA’) the following applies:
+
+ 
+
+As part of a global group of companies operating internationally, SAP has affiliates (the SAP Group) and third-party service providers outside of the Indian region and will transfer your Personal Data to countries outside the India region, subject to any restrictions as may be notified by the Central Government in this regard.
+
+ 
+
+You have the right to:
+
+Request from SAP at any time access to information about which Personal Data SAP processes about you and, if necessary, the correction, completion, update or deletion of such Personal Data. Please note, however, that SAP can or will delete your Personal Data only if there is no statutory obligation or prevailing right of SAP to retain it. If you request from SAP to delete your Personal Data, you may not be able to continue to use any SAP service that requires SAP’s use of your Personal Data.
+
+Wherever SAP is processing your Personal Data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process Personal Data subject to this consent any longer unless legally required to do so. In case SAP is required to retain your Personal Data for legal reasons, your Personal Data will be restricted from further processing and only retained for the term required by law. However, any withdrawal has no effect on past processing of Personal Data by SAP up to the point in time of your withdrawal.
+
+Request from SAP the right to have readily available means of grievance redressal provided by SAP in respect of any act or omission of SAP regarding the performance of SAP’s obligations in relation to your Personal Data or your exercise of rights in relation thereto.
+
+Nominate, any other individual, who shall, in the event of your death or incapacity, exercise your data protection rights.
+
+Please direct any requests/queries to exercise your rights to privacy[@]sap.com. In India, after exhausting the opportunity of redressing the right of grievance, you may lodge a complaint to the Data Protection Board of India.
+
+ 
+
+Where SAP is subject to the privacy requirements of Indonesia
+
+Where SAP is subject to the requirements of the Personal Data Protection Law (PDPL) the following applies:
+
+PT. SAP Indonesia processes your Personal Data, either by itself or on behalf of the SAP Group, with its main office located at WTC II, 9th Floor, Metropolitan Complex, Jl. Jend. Sudirman Kav. 29-31, Jakarta 12920, Indonesia.
+
+Your Personal Data may be stored and processed by the SAP Group in countries outside your jurisdiction for general business purposes. This will occur only when necessary or appropriate to achieve the purposes set out in this Privacy Statement.
+
+We implement reasonable technical and organizational measures to safeguard your Personal Data from misuse, interference, loss, unauthorized access, modification, or disclosure.
+
+To the extent provided by applicable data protection laws, you have the right to:
+
+Access and obtain a copy of your Personal Data being processed, subject to the requirements of the law.
+
+Request the rectification or completion of inaccurate or incomplete Personal Data processed for specified purposes, as permitted by applicable law.
+
+Request for the deletion of your Personal Data, under certain lawful circumstances.
+
+Withdraw your consent for the processing of your Personal Data at any time. The withdrawal of consent will not affect the lawfulness of processing based on consent before its withdrawal.
+
+Object to any decision-making process based solely on automated processing, including profiling, that produces legal effects concerning you or significantly impacts you.
+
+Object to or restrict the processing of your Personal Data where legitimate grounds exist, subject to applicable legal provisions.
+
+Lodge a complaint with the relevant data protection authority in Indonesia if you believe that your rights regarding the processing of your Personal Data have been infringed. You also have the right to claim damages if there are proven violations against regulations on the protection of your Personal Data, unless otherwise agreed upon or unless otherwise prescribed by law.
+
+Obtain a copy of your Personal Data in a structured, commonly used, and machine-readable format, as permitted by law.
+
+To exercise your rights, including requesting access to and/or copies of your Personal Data, submitting objections, or seeking verification and correction of your Personal Data, please contact us via email at: privacy[@]sap.com
+
+ 
+
+Where SAP is subject to the privacy requirements of Malaysia
+
+Where SAP is subject to the requirements of the Malaysian Personal Data Protection Act (“PDPA”), the following applies:
+
+SAP Malaysia Sdn. Bhd. processes your Personal Data, either by itself or on behalf of the SAP Group, with its main office located at Level 29, Menara Southpoint, Mid Valley City, Medan Syed Putra Selatan, 59200 Kuala Lumpur, Malaysia.
+
+Inquiries, requests, or complaints regarding the processing of Personal Data may be directed to the local Data Protection Officer at dpo_sap.my[@]sap.com or by phone at +603 3003 5000. To exercise your data subject rights, including requesting access to and/or copies of your Personal Data, submitting objections, or seeking verification and correction of your Personal Data, please contact us via privacy[@]sap.com.
+
+As part of its global operations, SAP may transfer your Personal Data to its affiliates and trusted third-party service providers located outside Malaysia. In conducting our international business operations, we may transfer your Personal Data to countries outside of Malaysia for the purposes described in this Privacy Statement. We conduct the international transfers in accordance with the local privacy laws and implement appropriate safeguards to ensure your Personal Data receives an adequate level of protection consistent with Malaysia’s PDPA. .
+
+We implement reasonable technical and organizational measures to safeguard your Personal Data from misuse, interference, loss, unauthorized access, modification, or disclosure.
+
+To the extent provided by applicable data protection laws, you have the right to:
+
+Access your Personal Data that we have on you, or have it updated.
+
+Object to the processing of Personal Data for direct marketing purposes.
+
+Object to the continued or intended processing of Personal Data, if such processing is likely to cause you or another person substantial and unwarranted damage or distress, subject to applicable legal requirements and exceptions.
+
+Data portability of the Personal Data you provided to SAP. In this case, please contact privacy[@]sap.com and specify the information or processing activities to which your request relates, the format in which you would like to receive the Personal Data, and whether it should be sent to you or another recipient. SAP will carefully consider your request and discuss with you how it can best be fulfilled, subject to requirements under the implementing guidelines issued by the data protection authority of Malaysia.
+
+Revoke consent, wherever SAP is processing your Personal Data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process Personal Data subject to this consent any longer unless legally required or permitted to do so (e.g. if your Personal Data is needed by SAP to assert or defend against legal claims). In case SAP is required or permitted to retain your Personal Data for other legal reasons your Personal Data will be restricted from further processing and only retained for the term required by law or fulfil the other purpose. However, any withdrawal has no effect on past processing of Personal Data by SAP up to the point in time of your withdrawal. Furthermore, if your use of an SAP offering requires your prior consent, SAP will no longer be able to provide the relevant service, offer or event to you after your revocation.
+
+Lodge a complaint to the competent authority if you are not satisfied with how SAP is processing your Personal Data.
+
+SAP also provides a Bahasa Malaysia version of this privacy statement to underscore its commitment to transparency and accessibility.
+
+ 
+
+Where SAP is subject to privacy requirements of Mexico
+
+Where SAP is subject to the requirements of the Mexican Federal Law for the Protection of Personal Data Held by Private Parties of 2010, the following applies:
+
+ 
+
+You have the right to file a complaint with the National Institute of Transparency Access to Information and Protection of Personal Data (INAI) to assert any disagreement related to the processing of your Personal Data by SAP.
+
+ 
+
+SAP reserves the right to change, modify, add or remove portions of this Privacy Statement at its sole discretion. In such case, SAP shall maintain available a complete version of SAP’s Privacy Statement. SAP will notify you of any change or modification to this Privacy Statement via the respective communication channel we have with you, e.g., at our website.
+
+ 
+
+Where SAP is subject to the privacy requirements of New Zealand
+
+Where SAP is subject to the requirements of the Privacy Act 2020 (Privacy Act), the following applies:
+
+ 
+
+SAP is required to Process this Personal Data in accordance with applicable national or local law for which the collection of this information is authorized or required. The supply of this Personal Data by you is voluntary.
+
+ 
+
+If the Personal Data is not collected, we may not be able to adequately provide the product or service you may request.
+
+ 
+
+You have the right to:
+
+Request from SAP at any time access to information about which Personal Data SAP processes about you and, if necessary, the correction of such Personal Data. Please note, however, that SAP can or will delete your Personal Data only if there is no statutory obligation or prevailing right of SAP to retain it.
+
+Wherever SAP is processing your Personal Data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process Personal Data subject to this consent any longer unless legally required to do so. In case SAP is required to retain your Personal Data for legal reasons your Personal Data will be restricted from further processing and only retained for the term required by law. However, any withdrawal has no effect on past processing of Personal Data by SAP up to the point in time of your withdrawal.
+
+Where SAP is subject to privacy requirements in Nigeria
+
+Where SAP is subject to Nigeria’s Data Protection Act (NDPA), the following applies:
+
+Within Nigeria as a data subject, you have following rights:
+
+Right to be Informed;
+
+Right of Access;
+
+Right to Rectification;
+
+Right to Object to Processing;
+
+Right to Data Portability;
+
+Right to be Forgotten;
+
+Right in Relation to Automated Decision Making (which essentially entitles you to human intervention); and
+
+Right to lodge a complaint with the Nigeria Data Protection Commission (NDPC).
+
+The contact details of your local Data Protection Officers in Nigeria are as follows:
+
+ 
+
+Mr. Femi Omotaiye and Mrs. Oluwaremilekun Adesina
+
+Address: Systems Applications Products Nigeria Limited, Mansard Place, 2nd Floor B Wing. Plot 927/928, Bishop Aboyade Cole Street. Victoria Island. Lagos, Nigeria
+
+Phone: +2342012776400
+
+Email: privacy@sap.com
+
+ 
+
+Where SAP is subject to privacy requirements in the Philippines
+
+Where SAP is subject to the Philippine Data Privacy Act and its Implementing Rules and Regulations, the following applies:
+
+When you request to update or correct your Personal Data, SAP may deny the request if it is manifestly unfounded, vexatious, or otherwise unreasonable.
+
+When requesting the data portability of the Personal Data you provided to SAP, you must additionally specify the commonly used electronic or structured format in which you would like to receive the Personal Data.
+
+When you request to object against the processing of your Personal Data: (i) You may do so if SAP is processing based on its Legitimate Interest. SAP will carefully review your objection and cease further use of the relevant information, unless SAP has other lawful basis for processing in Sections 12 and 13 of the Data Privacy Act. (ii)You can also object to the processing of your Personal Data for direct marketing, profiling, or in cases of automated processing where your Personal Data will, or is likely to, be made as the sole basis for any decision that significantly affects or will affect you.
+
+You can reach out via email at privacy[@]sap.com to exercise your data protection rights.
+
+Compensation can only be claimed when National Privacy Commission or the courts determined that you sustained damages due to inaccurate, incomplete, outdated, false, unlawfully obtained or unauthorized use of Personal Data, considering any violation of your rights and freedoms. You may likewise seek redress from the National Privacy Commission, but it must be clearly shown that you are the subject of a privacy violation, Personal Data breach, or are otherwise personally affected by a violation of the Data Privacy Act.
+
+The contact details of your local Data Protection Officer/s are as follows:
+
+Data Protection Officer, SAP Philippines Inc., 27th Floor NAC Tower, 32nd Street Bonifacio Global City, Taguig City, 1632; email: dpo_sap.ph[@]sap.com; telephone number: +632-8705-2500
+
+Data Protection Officer, Concur (Philippines) Inc., 7th Floor Alphaland Southgate Mall, Chino Roces, Makati City, email: dpo_concur.ph[@]sap.com; telephone number: +632-8705-2500
+
+Where SAP is subject to privacy requirements in Singapore
+
+Where SAP is subject to the requirements of the Singapore’s Personal Data Protection Act (PDPA), the following applies
+
+You can request from SAP personal data about you that is in the possession or under the control of SAP and information about the ways in which such personal data has been or may have been used or disclosed by SAP within a year prior to this request. Please be informed that SAP is not obliged to accede to your request if any exceptions under the PDPA apply.
+
+You may submit a request to have inaccurate/incomplete personal data corrected in our systems. Please be informed that SAP is not obliged to accede to your request if any exceptions under the PDPA apply.
+
+Revoke consent, wherever SAP is processing your Personal Data based on your consent, you may at any time withdraw your consent by unsubscribing or giving us respective notice of withdrawal. In case of withdrawal, SAP will not process Personal Data subject to this consent any longer unless legally required or permitted to do so (e.g. if your Personal Data is needed by SAP to assert or defend against legal claims). In case SAP is required or permitted to retain your Personal Data for other legal reasons your Personal Data will be restricted from further processing and only retained for the term required by law or fulfil the other purpose. However, any withdrawal has no effect on past processing of Personal Data by SAP up to the point in time of your withdrawal. Furthermore, if your use of an SAP offering requires your prior consent, SAP will no longer be able to provide the relevant service, offer or event to you after your revocation.
+
+Lodge a complaint to the Personal Data Protection Commission (PDPC) if you are not satisfied with how SAP is processing your Personal Data.
+
+SAP has appointed a Data Protection Officer for Singapore. Written inquiries, requests or complaints to our Data Protection Officer can be sent via post to Mapletree Business City, 30 Pasir Panjang Rd, #03-32, Singapore 117440 or email to privacy[@]sap.com with the subject “Data Protection Officer” or can be reached via phone +65 6664 6868
+
+ 
+
+Where SAP is subject to privacy requirements in South Africa.
+
+Where SAP is subject to the requirements of the Protection of Personal Information Act, 2013 (“POPIA”) in South Africa, the following applies:
+
+ 
+
+“Personal Data” as used in this privacy statement means Personal Information as such term is defined under POPIA. “You” and “Your” as used in this Privacy Statement means a natural person or a juristic person as such term is used under POPIA.
+
+ 
+
+Systems Applications Products (Africa Region) Proprietary Limited, Systems Applications Products (South Africa) Proprietary Limited with registered address at 1 Woodmead Drive, Woodmead (SAP South Africa) is subject to South Africa's Protection of Personal Information Act, 2013 (Act 4 of 2013) and responsible party under the POPIA.
+
+ 
+
+You have the right to:
+
+Request details of personal information which we hold about you under the Promotion of Access to Information Act 2 of 2000 (“PAIA”). For further information please review the SAP PAIA Manual. If you believe that SAP South Africa as responsible party has utilized your Personal Information contrary to POPIA, you undertake to first attempt to resolve any concerns with SAP South Africa. You can contact us via phone 011 325 6000, via post 1 Woodmead Drive, Woodmead, Johannesburg, South Africa 2148 or via email privacy[@]sap.com.
+
+If you are not satisfied with the process above, you have the right to lodge a complaint with the Information Regulator via post JD House, 27 Stiemens Street, Braamfontein, Johannesburg, 2001, P.O. Box 31533, Braamfontein, Johannesburg, 2017 or via email: complaints.IR[@]justice.gov.za or for enquires: inforeg[@]justice.gov.za.
+
+Where SAP is subject to privacy requirements in South Korea
+
+Where SAP is subject to the requirements of the South Korea Personal Information Protection Act (“PIPA”), the following applies:
+
+Your personal data may be processed globally. When personal data is processed across country borders, SAP complies with laws on the transfer of personal data between countries to keep your personal data protected. Your personal data may be transferred to, accessed or processed by the categories of third parties as described above.
+
+ 
+
+You can exercise your data protection rights or submit any enquiries or requests via email to: privacy[@]sap.com
+
+ 
+
+Where SAP is subject to the privacy requirements in Thailand
+
+Where SAP is subject to Thailand’s Personal Data Protection Act (“PDPA”), the following applies:
+
+SAP Systems, Applications and Products in Data Processing (Thailand) Ltd. (referred to as “SAP Thailand”) processes your Personal Data, either by itself or on behalf of the SAP Group, with its main office located at Units 1401-1402, 14th Floor, Park Silom Tower, 1 Convent Road, Silom, Bangrak, Bangkok 10500, Thailand.
+
+Inquiries, requests, or complaints regarding the processing of your Personal Data may be directed to the appointed Data Protection Officer for SAP Thailand at privacy[@]sap.com.
+
+As part of its global operations, SAP may transfer your Personal Data to its affiliates and trusted third-party service providers located outside Thailand. In conducting our international business operations, we may transfer your Personal Data to countries outside of Thailand for the purposes described in this Privacy Statement. We conduct the international transfers in accordance with the local privacy laws and implement appropriate safeguards to ensure your Personal Data receives an adequate level of protection consistent with Thailand’s PDPA.
+
+Where SAP is subject to privacy requirements in the United States of America
+
+Where SAP is subject to the requirements of the California Consumer Privacy Act of 2018 (CCPA), as amended by the California Privacy Rights Acts of 2020 (CPRA), from here on referred to as “CCPA” or where other US state laws have similar requirements, the following applies:
+
+ 
+
+You have the right to:
+
+Know what personal information the business has collected about the consumer, including the categories of personal information, the categories of sources from which the personal information is collected, the business or commercial purpose for collecting, selling, or sharing personal information, the categories of third parties to whom the business discloses personal information, and the specific pieces of personal information the business has collected about the consumer.
+
+Delete personal information that the business has collected from the consumer, subject to certain exceptions.
+
+Correct inaccurate personal information that a business maintains about a consumer.
+
+Opt-out of the sale or sharing of their personal information by the business (where applicable).
+
+Limit the use or disclosure of sensitive personal information by the business (subject to certain exceptions, where applicable).
+
+Receive non-discriminatory treatment for the exercise of these rights.
+
+Appeal any denial of your request to exercise these rights.
+
+How you can exercise your Data Protection Right(s)
+
+To exercise these rights, either directly or via an appropriately appointed agent, or to limit the sharing of your personal information, please fill out and submit the DSR Intake Request form or contact us at:
+
+ 
+
+Address: 3999 West Chester Pike, Newtown Square, PA 19073 USA
+
+ 
+
+In accordance with the verification process set forth under US relevant state law (as appropriate), SAP may require a more stringent verification process for deletion requests (or for personal data that is considered sensitive or valuable) to minimize the harm that might be posed to you by unauthorized access or deletion of your personal data. If SAP must request additional information from you outside of information that is already maintained by SAP, SAP will only use it to verify your identity so you can exercise your data protection rights, or for security and fraud-prevention purposes. You can designate an authorized agent to submit requests to exercise your data protection rights to SAP. The agent must submit authorization to act on your behalf and, where required by relevant law, the agent must be appropriately registered.
+
+ 
+
+California Metrics
+
+Metrics related to data subject requests received are available here on the California Data Subject Rights Metrics.
+
+ 
+
+New Jersey's Daniel's Law
+
+SAP does not disclose on the internet or otherwise make available information that is subject to a Daniel’s Law request.
+
+ 
+
+Financial Incentives
+
+SAP does not offer financial incentives in return for your consent to share your personal information, nor limit service offerings where you opt-out of such sharing (unless sharing is practically necessary to perform the relevant service).
+
+ 
 
 Children’s Privacy
 
-Inquiries, Access and Updating Your Personal Data
-
-Protecting the individual's privacy on the Internet is crucial to the future of Internet-based business and the move toward a true Internet economy. SAP has created this privacy statement to demonstrate our firm commitment to the individual's right to privacy. This policy outlines our personal information handling practices for this website.
-
-This Privacy Statement covers this website and other sites that reference this Privacy Statement. Some SAP entities, programs and/or sites may have their own, possibly different, privacy statements. We encourage you to read the privacy statements of each of the SAP websites or program information you visit or review.
-
-Global Privacy Fundamentals
-
-Our privacy practices reflect current global principles and standards on handling personal information. These principles include notice of data use, choice of data use, data access, data integrity, security, onward transfer, and enforcement/oversight. We abide by the privacy laws in the countries where we do business.
-
-Consent
-
-By using this Website, you consent to the collection and use of the information as described here. If we decide to make changes to this Privacy Statement, we will post the changes on this site so that you will always know what information we collect, and how we use it.
-
-From time to time, as may be required by applicable law, we may also seek your explicit consent to process certain data and information collected on this website or volunteered by you.
-
-Back to Top
-
-Collection and Processing of Your Personal Data
-
-To serve you better and understand your needs and interests, SAP collects, exports, and uses personal information with adequate notice and consent, along with required filings with data protection authorities, when applicable.
-
-When you visit our web site, we may record your IP address and use cookies and other Internet technologies (referred to below as Automated Tools and Embedded Web Links) to gather general information about our visitors and their interests. The technologies used and the information collected are described in more detail below.
-
-We may further collect and process any information and data that you volunteer to us, e.g. when you register for events, subscribe to newsletters, participate in online surveys, discussion groups or forums, or when make purchases.
-
-Back to Top
-
-Use and Purpose of Collected Personal Data
-
-The information SAP collects to understand your needs and interests helps SAP deliver a consistent and personalized experience. We will use such information only as described in this Privacy Statement and/or in the way we specify at the time of collection. We will not subsequently change the way your personal data is used without your consent, as required by applicable law. Some of the ways we may use your personal data include, but are not limited to:
-
-To process your orders and deliver the products and services that you have ordered;
-
-To keep you up to date on the latest product announcements, software updates, software upgrades, security patches, system enhancements, special offers, and other information. This may occasionally include information from other technology companies or business partners about products and services that can add value to your SAP products;
-
-To tailor information about our products and services to your individual interests. For example, during a visit to our site, it allows us to provide you with specific information on products and services that may be of interest;
-
-To provide the ability to create personal profile areas and view protected content;
-
-To conduct online "Click to Chat" and "Click to Call" sessions;
-
-In order to ensure and control the quality of the information and experience you have during chat sessions with SAP by educating our personnel to effectively answer your questions;
-
-To provide the ability to contact you, and provide you with shipping and billing information, and to provide customer feedback and support;
-
-To provide contests, sweepstakes or other marketing or promotional activities on the SAP.com or affiliate websites. Personal data may be collected to administer those programs;
-
-To conduct questionnaires and surveys in order to provide better products and services to our customers and end users. Your completion of any questionnaires is voluntary;
-
-To support recruitment inquiries; and
-
-To meet contractual obligations.
-
-Back to Top
-
-IP Addresses
-
-We use IP addresses to help diagnose problems, to administer our website, and to gather demographic information. We may also use IP addresses or other information, such as your SAP.com user information you have shared on this website or at any earlier occasion or a campaign code, to determine which pages on our sites are being visited and topics that may be of interest so we can provide you with information about relevant products and services. Generally, SAP will aggregate such data only in an anonymous way and will not tie it to a particular individual unless he or she has given consent. When you visit our site, we recognize only your domain name.
-
-SAP may also collect IP addresses (and other technical information such as browser type) during a Click-to-Chat or Click-to-Call sessions that you initiate. This information is collected when you connect to SAP so that we may identify your session, deliver content based on the technical capabilities of your browser, and for quality control purposes. Your IP address will not be used to identify you unless you provide your prior consent.
-
-SAP will only gather information related to your visit to the SAP site. We do not track or collect personal information from your visits to companies or entities outside the SAP Group of companies.
-
-Back to Top
-
-Automated Tools
-
-In addition to the information you provide, SAP may also collect information during your visit to an SAP website through automated tools, which include Web beacons, cookies, embedded Web links, and other commonly used information-gathering tools. These tools collect certain standard information that your browser sends to our website such as your browser type and language, access times, and the address of the website from which you arrived at an SAP website. Using these tools, SAP is also able to confirm receipt of e-mails that the recipient consented to receive, and can track other information such as pages visited on the SAP site and whether or not the recipient registers for an event offered by SAP and certain other aggregate data that is not related to a particular individual.
-
-Back to Top
-
-Embedded Web Links
-
-Emails from SAP often use links designed to lead you to a relevant area on the Web, after redirection through SAP's servers. The redirection system allows SAP to change the destination URL of these links, if necessary, and to determine the effectiveness of our marketing initiatives.
-
-In emails, such links may also allow SAP to determine if you have clicked on a link in the email, and the information about this interaction may be connected to your personal identity. If you do not want SAP to collect information about the links you clicked, you can simply choose not to click on the links in an e-mail that SAP sends you.
-
-Back to Top
-
-Cookies
-
-We use cookies to deliver personalized content, to save you having to re-enter your password repeatedly, to keep track of your shopping cart, and to tailor our information offerings to how you and others use the site.
-
-Back to Top
-
-E-mail Addresses
-
-If you choose to give us your e-mail address, we will communicate with you via e-mail. We do not share your e-mail address with others outside the SAP Group of companies. You can choose not to receive any more e-mail at any time.
-
-Depending on how your e-mail application is set up, information about you may be transmitted automatically when you send e-mail to SAP.
-
-If you choose to register for third-party services, we may need to send some information from your SAP.com registration to the service provider, possibly including your e-mail address.
-
-Back to Top
-
-Shopping or Event Registration
-
-Our site includes order forms that you fill out to request information, products, and services. These forms may collect your financial information, such as your banking details or credit card numbers. SAP promises to use any financial information that you submit solely for billing and payment purposes for that special transaction. This may include the transfer of your data to third parties involved in executing the transaction, such as banks, credit card companies and other financial and credit control institutions.
-
-Back to Top
-
-Sharing Your Personal Data
-
-As a global company, SAP operates a number of Web sites around the world. Any data and information that you volunteer or that is otherwise collected on one of our sites in any one country may be sent electronically to a server for one of these sites in another country. We safeguard your privacy interests around the world by ensuring that this SAP site adheres to our data protection principles described in this statement.
-
-Companies in the SAP Group may use the information internationally in connection with processing your inquiries and orders, to help improve our products and services and for processing and storage.
-
-We may also share such information with business partners, service vendors, authorized third-party agents or contractors in order to provide a requested service or transaction, including processing orders, processing credit card transactions, hosting websites, hosting event and seminar registration and providing customer support, or providing you with information on products and services that may be of interest to you.
-
-We only provide these third parties with the minimum amount of personal data necessary to provide the services on our behalf, and the third parties are not permitted to use your personal data except for the limited purpose of completing the requested service or transaction.
-
-We do not sell or rent your personal data to third parties for marketing purposes unless you have granted us permission to do so.
-
-We may respond to subpoenas, court orders, or legal process by disclosing your personal data and other related information, if necessary. We also may choose to establish or exercise our legal rights or defend against legal claims.
-
-Circumstances may arise where, whether for strategic or other business reasons, SAP decides to sell, buy, merge or otherwise reorganize businesses in some countries. Such a transaction may involve, in accordance with applicable law, the disclosure of personal information to prospective or actual purchasers, or the receipt of it from sellers. It is SAP's practice to seek appropriate protection for information in these types of transactions.
-
-We may collect and possibly share personal data and any other additional information available to us in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of SAP's terms of use, or as otherwise required by law.
-
-While visiting SAP's website you may be directed to content or functionality that is hosted by a third-party supplier, not on SAP.com. Most often, this is done to host special events, such as contests or seminars. When information is collected on behalf of SAP exclusively, the appropriate SAP entity's privacy statement will be referenced on the site and will govern how information is used. For other, non-SAP sites, the site's owner's privacy policy will be referenced. It is SAP's practice to require such suppliers and business partners to handle information in a manner consistent with SAP's privacy statement.
-
-Back to Top
-
-Security of Your Personal Data
-
-SAP is committed to protecting the personal data you share with us. SAP uses a combination of industry-standard security technologies, procedures, and organizational measures to help protect your personal data from unauthorized access, use or disclosure.
-SAP supports online security using secure server technology because we want your data to be safe. There are state-of-the-art security arrangements and facilities on SAP sites to prevent abuse.
-
-We bind our employees to observe your privacy and confidentiality rights.
-
-Back to Top
-
-Links to Other Sites
-
-This site may contain links to other sites. SAP is not responsible for the privacy practices or the content of other websites outside the SAP Group of companies.
-
-Back to Top
-
-Choice/Opt-Out
-
-We communicate with users who subscribe to our services on a regular basis via email, and we may also communicate by phone to resolve customer complaints or investigate suspicious transactions. We may use your email address to confirm your opening of an account, to send you notice of payments, to send you information about changes to our products and services, and to send notices and other disclosures as required by law. Generally, users cannot opt out of these communications, but they will be primarily informational in nature rather than promotional.
-
-SAP provides you the opportunity to exercise an opt-out choice if you do not want to receive other types of communication from us such as emails or updates from us regarding new services and products offered on this website or if you do not want us to share your personal information with third parties. The opt-out choice may be exercised by unsubscribing at http://www.sap.com/profile/unsubscribe.epx.
-
-Back to Top
-
-Data Retention
-
-SAP will not retain your personal data longer than is necessary to fulfill the purposes for which it was collected or as required by applicable laws or regulations.
-
-Back to Top
-
-Children's Privacy
-
-SAP does not knowingly collect Personal Data from children under the age of 13. If we learn that we have collected Personal Data on a child under the age of 13, we will delete that data from our systems.
-
-Back to Top
-
-Inquiries, Access and Updating Your Personal Data
-
-SAP needs your help in keeping the personal data you have shared with us accurate and up to date. If you are a registered user, you may make these updates yourself online via www.sap.com/profile. You may also make these updates or other changes by sending an email to webmaster@SAP.com.
-
-If you have any other questions about this privacy statement or if you wish to inspect the information we hold about you, please contact:
-
-Webmaster
-
-webmaster@sap.com
-
-Back to Top
-
-Revised and posted as of 21 January 2010
-
-Share
-
-Site Map
-
-Using SAP
-
-Quick Links
-
-About SAP AG
-
-Analytics
-
-Big Data
-
-Business Intelligence
-
-CRM Software
-
-Cloud Computing
-
-Crystal Reports
-
-ERP Software
-
-In-Memory Computing (SAP HANA)
-
-Internet of Things
-
-Mobility Solutions
-
-SCN – SAP Community Network
-
-Small and Midsize Business
-
-Training and Education
-
-Privacy
-
-SAP Offices
-
-Terms of Use
-
-Investors
-
-Legal Disclosure
-
-Press
-
-Copyright
-
-Careers
-
-Trademark
+Given that SAP websites and online services are not directed to users under 16 years of age, SAP does not sell or share the personal information of any minors under 16. If you are a parent or guardian and believe SAP collected information about your child, please contact SAP. SAP will take steps to delete the information as soon as possible.
 
  
 
-Text View
-
- 
-
-Print View
+View PDF version

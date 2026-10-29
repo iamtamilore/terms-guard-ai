@@ -1,0 +1,156 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://www.unicredit.eu/privacy",
+  "url": "https://www.unicredit.eu/privacy",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 13,
+    "flagged_count": 3,
+    "cleared_count": 2,
+    "uncertain_count": 8,
+    "avg_flagged_confidence": 0.56,
+    "avg_cleared_confidence": 0.625,
+    "score": 0.56,
+    "summary": "Medium risk: 2 potential concern(s) flagged across 13 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This website uses\u00a0technical, analytics\u00a0and\u00a0profiling Cookies,\u00a0also installed by third parties (so called Third-Party Cookies)."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Art. 4] Definitions \u2018profiling\u2019 means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person\u2019s performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Profiling Cookies\u00a0are used\u00a0in order to\u00a0offer you advertising messages in line with your preferences; their installation\u00a0requires your prior consent."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our purpose is to empower communities to progress, delivering the best-in-class for all stakeholders, unlocking the potential of our clients and our people across Europe."
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(3) Right to Withdraw Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you want to know more or refuse consent click on the link below."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 72] Guidance of the European Data Protection Board Regarding Profiling 1. Profiling is subject to the rules of this Regulation governing the processing of personal data, such as the legal grounds for processing or data protection principles. 2. The European Data Protection Board established by this Regulation (the \u2018Board\u2019) should be able to issue guidance in that context. * This\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "By clicking on the X at the top right, your navigation will continue without profiling cookies."
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This website uses technical cookies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Further information on the cookies installed through this website are available by accessing the\u00a0Cookie Policy, always available on this website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Are you a Strategist, a Data Analyst or a Performance Lead?"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.26,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This will be a bold new era for UniCredit defined by\u00a0unlimited possibility,\u00a0bold ambition, and a\u00a0fundamental rethinking of what a bank should be."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.25,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "UniCredit is a pan-European Commercial Bank with a unique service offering in Italy, Germany, Austria, Central and Eastern Europe."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.21,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Take the challenge, discover your personalised Leadership Profile and share the experience with friends, family and your network."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.17,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Outperforming the old and the new."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.13,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "UniCredit has been named Europe\u2019s Best Bank for the second consecutive year at the Euromoney Awards for Excellence 2026, one of a total of 12 awards across Europe."
+    }
+  ]
+}

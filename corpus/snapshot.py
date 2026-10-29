@@ -27,10 +27,16 @@ import os
 import re
 import sys
 import time
-import urllib.request
-import urllib.error
 from pathlib import Path
 from html.parser import HTMLParser
+
+try:
+    import requests
+    HAS_REQUESTS = True
+except ImportError:
+    import urllib.request
+    import urllib.error
+    HAS_REQUESTS = False
 
 try:
     import yaml
@@ -42,7 +48,29 @@ except ImportError:
 HERE = Path(__file__).resolve().parent
 SNAPSHOTS = HERE / "snapshots"
 CONFIG = HERE / "snapshot.yml"
-USER_AGENT = "TermsGuardCorpusBot/1.0 (+https://newtazer-terms-guard-ai.hf.space)"
+
+# Browser-like headers. Some sites (BNP Paribas, Santander, H&M, etc.)
+# return 403/404 to plain urllib but serve content to a real browser UA
+# with the right Accept headers. We send a modern Chrome UA so we don't
+# get bot-blocked.
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-CH-UA": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    "Sec-CH-UA-Mobile": "?0",
+    "Sec-CH-UA-Platform": '"Linux"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+}
+
 WAYBACK_BASE = "https://web.archive.org/web/0/"
 FETCH_TIMEOUT = 30  # seconds
 SCORE_TIMEOUT = 120  # seconds for the whole scoring call
@@ -99,10 +127,34 @@ def html_to_text(html_bytes: bytes) -> str:
 
 # ---------- HTTP fetch ------------------------------------------------------
 
-def fetch(url: str, timeout: int = FETCH_TIMEOUT) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def fetch(url: str, timeout: int = FETCH_TIMEOUT, max_retries: int = 3) -> bytes:
+    """Fetch a URL with exponential backoff on 429/5xx. Used for the live fetch."""
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            if HAS_REQUESTS:
+                r = requests.get(url, headers=DEFAULT_HEADERS, timeout=timeout,
+                                 allow_redirects=True)
+                if r.status_code == 429:
+                    # rate limited; back off and retry
+                    wait = 5 * (2 ** attempt)
+                    print(f"      rate-limited (429); sleeping {wait}s before retry {attempt + 2}/{max_retries}")
+                    time.sleep(wait)
+                    continue
+                r.raise_for_status()
+                return r.content
+            req = urllib.request.Request(url, headers={"User-Agent": DEFAULT_HEADERS["User-Agent"]})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last_err = e
+            if attempt < max_retries - 1:
+                wait = 3 * (2 ** attempt)
+                print(f"      fetch attempt {attempt + 1} failed: {type(e).__name__}; sleeping {wait}s before retry")
+                time.sleep(wait)
+                continue
+            raise
+    raise last_err  # unreachable
 
 
 def fetch_with_wayback(url: str) -> tuple:
@@ -110,7 +162,7 @@ def fetch_with_wayback(url: str) -> tuple:
     try:
         return fetch(url), url
     except Exception as e:
-        # Fall back to Wayback Machine
+        # Fall back to Wayback Machine. Also retries with backoff.
         wurl = WAYBACK_BASE + url
         try:
             return fetch(wurl), wurl

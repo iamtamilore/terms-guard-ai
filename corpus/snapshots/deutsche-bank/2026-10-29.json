@@ -1,0 +1,756 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://www.db.com/legal-resources/privacy-notice?language_id=1",
+  "url": "https://www.db.com/legal-resources/privacy-notice?language_id=1",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 73,
+    "flagged_count": 12,
+    "cleared_count": 20,
+    "uncertain_count": 41,
+    "avg_flagged_confidence": 0.55,
+    "avg_cleared_confidence": 0.592,
+    "score": 0.55,
+    "summary": "Medium risk: 10 potential concern(s) flagged across 73 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.74,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 64] Identity Verification 1. The controller should use all reasonable measures to verify the identity of a data subject who requests access, in particular in the context of online services and online identifiers. 2. A controller should not retain personal data for the sole purpose of being able to react to potential requests. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Some cookies allow you to take full advantage of the functionality of our website."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "They are activated each time you visit the website that created that particular cookie."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.32 + Art.5(1)(f) violation",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "How is information retained, protected, and used?"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 66] Right to be Forgotten 1. To strengthen the right to be forgotten in the online environment, the right to erasure should also be extended in such a way that a controller who has made the personal data public should be obliged to inform the controllers which are processing such personal data to erase any links to, or copies or replications of those personal data. 2. In doing so,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "So-called \u201cpersistent cookies\u201d remain on your device even after you close your internet browser."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Data will not be transferred to third parties, unless necessary to answer your queries (i.e. leaflets dispatched by vendors)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 61] Time of Information Where the origin of the personal data cannot be provided to the data subject because various sources have been used, general information should be provided. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We record the duration of your visit by processing when your visit started and came to an end as well as the network activity time, pop-up display time and the time that any errors occurred."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 58] The Principle of Transparency 1. The principle of transparency requires that any information addressed to the public or to the data subject be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. 2. Such information could be provided in electronic form, for example, when addressed to the\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our website also contains links to social networking sites like Facebook, Instagram, LinkedIn, Threads, WeChat, X, XING or YouTube."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "While this is happening, the social networking site receives information concerning your visit to our website, as well as further data such as your IP address."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "An example is a cookie set by a specialist website analytics company that provides the website owner with data on the numbers of people visiting its website (Cookies for range and usage analysis)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Campaign information comprises the advertising media you have clicked on, where it is located and which marketing campaign it belongs to."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Besides temporary session IDs, with which your visit can be assigned via several subpages, your session information also includes the duration of the session."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our website uses social plugins (\u201cplugins\u201d) from social networking sites like Facebook, LinkedIn X and XING."
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 64] Identity Verification 1. The controller should use all reasonable measures to verify the identity of a data subject who requests access, in particular in the context of online services and online identifiers. 2. A controller should not retain personal data for the sole purpose of being able to react to potential requests. * This title is an unofficial description.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can set your web browser to disable cookies."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "What information is collected and how is it used?"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 42] Burden of Proof and Requirements for Consent Consent should not be regarded as freely given if the data subject has no genuine or free choice or is unable to refuse or withdraw consent without detriment. <div",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Marketing cookies and other cookies requiring your consent are not used on this site."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 66] Right to be Forgotten 1. To strengthen the right to be forgotten in the online environment, the right to erasure should also be extended in such a way that a controller who has made the personal data public should be obliged to inform the controllers which are processing such personal data to erase any links to, or copies or replications of those personal data. 2. In doing so,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Please note that if you disable cookies in this way, you will not be able to set new cookies."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 18] Not Applicable to Personal or Household Activities 1. This Regulation does not apply to the processing of personal data by a natural person in the course of a purely personal or household activity and thus with no connection to a professional or commercial activity. 2. Personal or household activities could include correspondence and the holding of addresses, or social\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you do not activate or deactivate certain cookies via the browser settings, it is possible that certain functionalities will not be available to you as expected."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + ePrivacy Directive",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We have no influence on the\u00a0data that social networking sites collect via an active plugin or via a link."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For any inquiries your personal data that we hold, please email\u00a0data.privacy@db.com or use the following\u00a0form (PDF, in German)."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "How is information collected and how long is it retained?"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These pseudonymised user profiles do not allow any of your personal details to be identified."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Ethical signals: opt-out",
+      "text": "You can opt out of your information being collected by using the \u201cAnalytics & Re-Marketing Opt-out\u201d link further down this page."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Websites through which we collect your information are usually encoded using the encryption module of your browser."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Diverse encryption and identification layers protect customer information from intrusion or disclosure to third parties during data transfer."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This information is collected using pseudonymised tracking and is then forwarded to us:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Moreover, an electronic identifier is generated during data transfer to safeguard your information."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 66] Right to be Forgotten 1. To strengthen the right to be forgotten in the online environment, the right to erasure should also be extended in such a way that a controller who has made the personal data public should be obliged to inform the controllers which are processing such personal data to erase any links to, or copies or replications of those personal data. 2. In doing so,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "However, it will not prevent previously set cookies from continuing to work on your device until you clear all cookies in your browser settings."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The information collected includes the time taken for images and the whole website to load, as well as the time at which the website was loaded completely and the time spent on the website."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In addition to this website-specific privacy notice, further data privacy information, as required by the EU General Data Protection Regulation under A."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default The controller shall implement appropriate technical and organisational measures for ensuring that, by default, only personal data which are necessary for each specific purpose of the processing are processed. 2. That obligation applies to the amount of personal data collected, the extent of their processing, the period of their storage and\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In order to ensure an appropriate level of data privacy in connection with our internet presence, we have deactivated the respective plugins with a button and placed a short data privacy note that can be consulted before a plugin is activated."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Banking secrecy as well as confidentiality are maintained."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These sites are certified by renowned institutions for international encryption technique, analogous to Deutsche Bank\u2019s Internet Banking."
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Without your explicit consent this tracking information will not be combined with your personal information."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This website only uses cookies that are necessary for the technical functionality of our website and the recognition of errors and security relevant conspicuous features or to offer a service or functionality requested by you; e.g. a cookie that \"remembers\" your personal settings such as selected language or similar."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For more information, please consult the relevant data privacy notice:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You have the right to access the personal information we hold about you; this service is free of charge."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "In view of the importance of data privacy, and our obligations of transparency, we provide information below about cookies, how we use them on our website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Please find below select security measures we established to protect your privacy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies are small text files that are sent to your computer to ensure the technical functionality of the website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies installed on your device via the website you are visiting by another organization are termed \u201cthird party\u201d cookies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Information collected on our website will only be retained for as long as necessary to fulfil the purpose for which it was collected."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Your information is used to exclusively fulfil the purpose for which it is collected, relating to the website through which it is collected."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies installed on your device by the organization running the website you are visiting are known as \u201cfirst party\u201d cookies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, where a \"persistent cookie\" is used on a website to remember your login details, you will not need to enter those details each time you visit that website (Functional and preference cookies)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Please note that most browsers offer different ways to protect your privacy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The information about the system with which you visit the website, including the display resolution, the operating system and browser used, network and connection information, the end device used, information about cookies, flash and JavaScript as well as the language setting, your domain, the IP address (shortened) and where applicable your organisation (if available)"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Once you close your browser, all session cookies are deleted (Technically necessary cookies)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Instructions for managing cookies on your browser can usually be found under the browser's help function or in the operating instructions for your smartphone."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Flash cookies are installed by websites that contain media (e.g. video clips)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We collect, process, and use personal information on our websites in order to offer you even better products and services, best adapt our business processes to our clients\u2019 needs, and steer you to the most suitable product information and online banking applications."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The following technically necessary cookies are used."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "In order to offer certain functionalities, certain technically necessary cookies can be used to display these functionalities correctly."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you\u00a0are not satisfied with the above information or if you have any\u00a0questions about the collection, processing or use of your data, please contact us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Session cookies, by contrast, are temporary and are typically used to enable the website to operate, e.g. by permitting a user to move from page to page without having to log in again."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "At Deutsche Bank we recognise the importance of personal information entrusted to us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Details of the Deutsche Bank websites you visited and which search terms you may have used on the website are also collected, as well as additional information about website errors, website scrolling and the volume of data transferred between your browser and the web server."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Deutsche Bank uses cookies in some areas of its web pages to make it easier for you to use the pages and to make them more personalized."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This allows content to be downloaded more quickly and information to be stored, for example that the content has been accessed from your device (Functional and preference cookies)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, you can allow first-party cookies, but block third-party cookies, or receive a notification each time a website wants to install a cookie."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Why does Deutsche Bank collect personal information?"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Your pseudonymised IDs (uniquely identifiable number combinations) are stored In order to identify you as a repeat visitor to our website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you wish to access or correct any information Deutsche Bank AG holds about you, you may have your data deleted, blocked or corrected (as long as compliant with applicable law)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It is one of our fundamental responsibilities as a bank to ensure that we protect the information entrusted to us by our clients and our website visitors."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Where available, we collect information about the postcode, town, country, longitude, latitude and time zone of your visit."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We use the information collected on our websites to compile user profiles using pseudonyms."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Information input collected through this website will be transferred to the responsible Deutsche Bank AG division."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When trying to understand cookies, it can help to know following terminology:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Tracking information includes details of the originating page that you used to access the Deutsche Bank website including the search requests you may have made when using a search engine."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Moreover, Deutsche Bank AG put in place additional and comprehensive state-of-the-art security measures when both accounts and custody accounts are accessed via the Internet."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Furthermore, Deutsche Bank AG internally uses sophisticated encoding methods in order to prevent de-coding by unauthorised persons."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you access a Deutsche Bank website using such a plugin, your browser will contact the server of the underlying social networking site, load the visual presentation of the plugin, and present it to you."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.3,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We will\u00a0endeavour to reply as quickly as possible and take any suggestions you may have into account."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.26,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Adobe Flash software is required for this."
+    }
+  ]
+}

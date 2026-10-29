@@ -1,0 +1,846 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://www.vodafone.com/site-services/privacy-and-cookies",
+  "url": "https://www.vodafone.com/site-services/privacy-and-cookies",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 82,
+    "flagged_count": 16,
+    "cleared_count": 26,
+    "uncertain_count": 40,
+    "avg_flagged_confidence": 0.561,
+    "avg_cleared_confidence": 0.587,
+    "score": 0.561,
+    "summary": "Medium risk: 14 potential concern(s) flagged across 82 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "With customer permission, we will use customer data to market our products and services and for advertising to provide more accurate recommendations."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In order to provide these services, we need to use our customers\u2019 personal information."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.69,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 58] The Principle of Transparency 1. The principle of transparency requires that any information addressed to the public or to the data subject be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. 2. Such information could be provided in electronic form, for example, when addressed to the\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We can provide personalised advertisements you see online, if you have consented to cookies."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 6] Ensuring a High Level of Data Protection Despite the Increased Exchange of Data 1. Rapid technological developments and globalisation have brought new challenges for the protection of personal data. 2. The scale of the collection and sharing of personal data has increased significantly. 3. Technology allows both private companies and public authorities to make use of personal\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Visit our Data Privacy and Cookie Policy for more information."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(4) Conditional consent prohibition",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We believe that everyone has a right to data privacy, wherever they live in the world and our commitment to our customers\u2019 data privacy goes beyond legal compliance."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(4) Conditional consent prohibition",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We always seek to respect and protect our customers\u2019 right to data privacy, and the lawful rights to hold and express opinions and share information and ideas without interference."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(4) Conditional consent prohibition",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "non_ethical",
+      "reasoning": "Ethical signals: secure",
+      "text": "We work to minimise data privacy impacts, when we are required to balance the right to data privacy against other obligations necessary for a free and secure society."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our customers can manage how we contact them and what network and location data they share with us to support personalised communications."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can control what device data we access through the MyVodafone app, such as location data."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These advertisements are tailored based on how you interact with us and we work with advertising partners to provide you those adverts on third party websites."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Each Vodafone local market has a centralised permissions platform to help customers manage their preferences in near real-time."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our mission is to enable our customers to get the most out of our products and services."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We work closely with corporate security and cyber security, products, IT and digital, networks, HR, finance, supply chain and other teams to ensure end-to-end coverage."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 Child's Consent violation (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We seek to support children and their parents to become responsible digital citizens while they engage with technology in their everyday lives."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We constantly evaluate our business strategy, new technologies, products and services as well as government policies and regulation to help us manage evolving risks."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can find links to our local market websites on our Where we operate\u00a0page."
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.95,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis [Negation detected]",
+      "text": "We do not sell individual data to third-parties."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.74,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Ethical signals: opt-out",
+      "text": "For example, customers can express their opt-in consent to the use of their communications metadata for marketing purposes or for receiving third party marketing messages, or they can opt-out from marketing entirely."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(3) Right to Withdraw Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "All permissions can be revoked and choices can be changed at any time."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.69,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We do not share customers\u2019 personal data otherwise, unless required by law or with the consent of the customer."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our data privacy programme governs how we collect, use and manage our customers\u2019 personal data to ensure we respect the confidentiality of their communications and any choices that they have made regarding the use of their data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We allow them to access, update or delete their personal data, where appropriate."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.28 Processor Agreements",
+      "gdpr_evidence": "[GDPR Art. 28] Processor 1. Where processing is to be carried out on behalf of a controller, the controller shall use only processors providing sufficient guarantees to implement appropriate technical and organisational measures in such a manner that processing will meet the requirements of this Regulation and ensure the protection of the rights of the data subject. 1. The processor shall not\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Where we rely on external suppliers and service providers to process data on our behalf, they are subject to security and data privacy due diligence processes, and appropriate data processing agreements govern their activities."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We communicate clearly about our actions that may impact data privacy, we ensure our actions reflect our words and we are open to feedback."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Ethical signals: transparent",
+      "text": "Each local market publishes a Privacy Statement to provide clear, transparent and relevant information on how we collect and use personal data, what choices are available regarding its use and how to exercise their rights."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Use of personal data for unauthorised purposes, excessive data retention or poor data quality."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In addition, our internal audit team performs reviews selected data privacy controls and relevant business activities."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To provide our services and to charge our customers the correct amount, we must process communications metadata regarding calls, texts and data usage."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 13] Information to be provided where personal data are collected from the data subject (4) the right to lodge a complaint with a supervisory authority; (5) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The Data Privacy Leadership Team approves new standards and guidelines and monitors the implementation of global data privacy plans."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "All our products, services and processes are subject to data privacy impact assessments as part of their development and throughout their lifecycle."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Ethical signals: secure",
+      "text": "This information also helps detect and prevent fraud, as well as keeping our networks and services secure."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(2) Accountability",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Each employee is responsible for protecting the personal data they are trusted with, but accountability for compliance sits with each operating company."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 13] Information to be provided where personal data are collected from the data subject (4) the right to lodge a complaint with a supervisory authority; (5) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our data privacy controls are subject to rigorous and regular evidence-based testing by our data privacy governance, risk and compliance team."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 47] Overriding Legitimate Interest The processing of personal data for direct marketing purposes may be regarded as carried out for a legitimate interest. * This title is an unofficial description.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can reject to the use of cookies via our cookie preference tools but you may still see Vodafone adverts, they just wont be tailored based on your online browsing."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "A member of the local executive committee oversees the implementation of our data privacy programme."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our dedicated security teams ensure technical and organisational information security measures to protect personal data against unauthorised access, disclosure, loss or use during transit and at rest."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Local data privacy officers report to the Group Data Privacy Officer throughout the year."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent + Art.13",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These permissions can be updated, changed or withdrawn at any time from within the app settings."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article. 4. The controller and processor shall take steps to ensure that any natural person acting under the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The effectiveness of control implementation is subject to regular reporting and testing by the data privacy and internal audit teams."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The Group Data Privacy Officer, reporting to the Group General Counsel, is responsible for managing and overseeing the data privacy programme on a day to day basis across the markets and provides regular status reports to Group General Counsel and an annual update to the Group Audit and Risk Committee."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 Child Consent + Art.9 Special Categories",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Possible findings are subject to mitigation plans and heightened monitoring."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our centralised permissions approach means customers only need to use one channel to update their permissions, and this will be fed through to all our systems."
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Collection of personal data without permissions or excessive collection of data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.69,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We are committed to looking after our customers\u2019 data, using it for its stated purpose, and we are always open about what we collect."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We give control to our customers when it comes to use of their data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We let people make simple, meaningful choices about their data privacy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We comply with data privacy laws and act with integrity and fairness."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our data privacy management policy, based on the EU\u2019s GDPR, establishes a framework within which local data protection and data privacy laws are respected and sets a baseline for those markets where there are no specific legal requirements."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "As data volumes continue to grow and regulatory and customer scrutiny increases, it is important we are clear on the data privacy risks we face, as well as how our policies and programmes can mitigate these risks."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Respect for data privacy is a key component in the design, development and delivery of our products and services."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We actively engage with stakeholders to shape better, more meaningful data privacy laws and standards."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Personal data is governed with appropriate management practices."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Unauthorised disclosure of personal data, including supplier non-compliance."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We process customer personal data to provide our customers with the products and services they have requested, to fulfil our contractual and legal obligations, and to provide customer care."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We implement appropriate technical and organisational measures to protect personal data against unauthorised access, use, modification or loss."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We carefully select external partners, limit disclosure and ensure it is not stored for longer than necessary, or required by applicable laws."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "As well as introducing global data privacy control updates, our data privacy module is part of our mandatory \u2018Doing What\u2019s Right\u2019 training."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We maintain personal data processing records, supplier data privacy compliance, data breach management and individual rights processes, as well as internal and international data rransfer compliance frameworks and training and awareness programmes."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our experienced team of data privacy specialists ensure compliance with data protection laws and our policies in the countries where we operate."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Each operating company also has a dedicated data privacy officer, data privacy legal counsel and specialists."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This means we can present our customers with offers when they need them most - for example, when they are about to run out of data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We apply a process-based model to managing data privacy risks across the data lifecycle."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our teams monitor and influence regulatory and industry developments and work to build and maintain relationships with local data protection authorities and other key stakeholders."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Vodafone\u2019s dedicated data privacy and security team is there to ensure we are always adhering to these permission principles when designing new products and services."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our data privacy control frameworks are subject to continuous risk-based improvements."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our multi-channel permission management platforms, deployed across all our channels (MyVodafone app, website, call centres and retail stores), allow our customers to control how we use their data for marketing and other purposes."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We monitor compliance with data privacy controls and have an experienced team to manage incidents."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We monitor the quality and use of our connectivity and other services so that we can continually improve and optimise them."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The Group General Counsel and Company Secretary (a member of the Group Executive Committee) oversees our global data privacy programme."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Operating companies also maintain data privacy steering committees that bring together data privacy and security teams and senior management from relevant business functions."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These permissions can be managed through the MyVodafone app, or with the support of our local market customer service teams, online, by telephone or in our retail stores."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our processes ensure any identified incidents are contained and steps taken to mitigate negative effects."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "At the same time, as a licensed national operator, we are obliged to comply with lawful orders from national authorities and the judiciary, including law enforcement."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We are accountable for living up to our commitments throughout Vodafone and with our partners and suppliers."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We notify regulators as well as customers, as required."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Any findings are subject to remedial actions by the responsible control operator, and completion is monitored."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.36,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We have also refined training for high-risk roles aimed at teams with a key role in personal data processing."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "In the rare instance there are any complaints around our permission handling, then there are dedicated teams ready to resolve those issues."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Every employee must complete the training within six weeks of joining Vodafone and then every two years."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our controls are designed to prevent, detect, respond and recover from attacks to minimise the risks for our customers and maintain resilient services."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.23,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It\u2019s based on the eight key principles."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.23,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "With the updated approach we aim to achieve 90% completion on both types of training across all target groups across our global footprint."
+    }
+  ]
+}
