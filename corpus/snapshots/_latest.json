@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "elapsed_seconds": 30.6,
+  "ok_count": 9,
+  "total_count": 9,
+  "results": [
+    {
+      "slug": "google",
+      "ok": true,
+      "text_chars": 91907,
+      "score": 0.526,
+      "risk": "Medium",
+      "flagged": 173,
+      "changed_lines": 0
+    },
+    {
+      "slug": "apple",
+      "ok": true,
+      "text_chars": 530,
+      "score": 0.585,
+      "risk": "Medium",
+      "flagged": 2,
+      "changed_lines": 0
+    },
+    {
+      "slug": "microsoft",
+      "ok": true,
+      "text_chars": 213230,
+      "score": 0.524,
+      "risk": "Medium",
+      "flagged": 286,
+      "changed_lines": 0
+    },
+    {
+      "slug": "amazon",
+      "ok": true,
+      "text_chars": 23989,
+      "score": 0.518,
+      "risk": "Medium",
+      "flagged": 46,
+      "changed_lines": 0
+    },
+    {
+      "slug": "ing",
+      "ok": true,
+      "text_chars": 4745,
+      "score": 0.636,
+      "risk": "Medium",
+      "flagged": 7,
+      "changed_lines": 0
+    },
+    {
+      "slug": "inditex",
+      "ok": true,
+      "text_chars": 1641,
+      "score": 0.37,
+      "risk": "Medium",
+      "flagged": 1,
+      "changed_lines": 0
+    },
+    {
+      "slug": "sap",
+      "ok": true,
+      "text_chars": 17259,
+      "score": 0.531,
+      "risk": "Medium",
+      "flagged": 27,
+      "changed_lines": 0
+    },
+    {
+      "slug": "spotify",
+      "ok": true,
+      "text_chars": 43636,
+      "score": 0.524,
+      "risk": "Medium",
+      "flagged": 86,
+      "changed_lines": 0
+    },
+    {
+      "slug": "booking",
+      "ok": true,
+      "text_chars": 102233,
+      "score": 0.515,
+      "risk": "Medium",
+      "flagged": 175,
+      "changed_lines": 0
+    }
+  ]
+}

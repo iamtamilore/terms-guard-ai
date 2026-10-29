@@ -1,0 +1,346 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://web.archive.org/web/0/https://www.ing.com/Privacy-Statement.htm",
+  "url": "https://www.ing.com/Privacy-Statement.htm",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 32,
+    "flagged_count": 7,
+    "cleared_count": 3,
+    "uncertain_count": 22,
+    "avg_flagged_confidence": 0.636,
+    "avg_cleared_confidence": 0.583,
+    "score": 0.636,
+    "summary": "Medium risk: 7 potential concern(s) flagged across 32 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.72,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 63] Right of Access Where the controller processes a large quantity of information concerning the data subject, the controller should be able to request that, before the information is delivered, the data subject specify the information or processing activities to which the request relates. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "On each subsequent visit to the website, the browser searches for cookies."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 61] Time of Information Where the origin of the personal data cannot be provided to the data subject because various sources have been used, general information should be provided. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This website collects and stores some visitor information about how this website is used, such as date and time of day you access our website, browser type, browser language, the Internet Protocol (IP) address of the computer you are using, number of hits, the pages visited, previous/subsequent sites visited and length of user session."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 61] Time of Information Where the origin of the personal data cannot be provided to the data subject because various sources have been used, general information should be provided. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The information mentioned above is gathered by using cookies and similar technologies (hereafter \u201ccookies\u201d)."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "YouTube or Social Media platform functionalities on the site (Facebook, Twitter or LinkedIn) can install a cookie that is used to store user data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 63] Right of Access Where the controller processes a large quantity of information concerning the data subject, the controller should be able to request that, before the information is delivered, the data subject specify the information or processing activities to which the request relates. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If the browser finds cookies, it sends the information stored by the cookie to the website."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The table below explains the cookies www.ing.com uses."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This cookie is used for the Metrixlab survey preferences of the visitor."
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 32] Conditions for Consent If the data subject\u2019s consent is to be given following a request by electronic means, the request must be clear, concise and not unnecessarily disruptive to the use of the service for which it is provided. * This title is an unofficial description.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you have adjusted your cookie settings so that websites are not permitted to place cookies on your computer, this website may not be able to download the cookie which remembers whether or not you consented to the placing of cookies."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 64] Identity Verification 1. The controller should use all reasonable measures to verify the identity of a data subject who requests access, in particular in the context of online services and online identifiers. 2. A controller should not retain personal data for the sole purpose of being able to react to potential requests. * This title is an unofficial description.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you do not wish to be asked about your cookie preferences each time you visit this website, you need to adjust your browser\u2019s cookie settings."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This cookie saves the country preference."
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If so, you will be asked to indicate your cookie preferences each time you visit the website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To download cookies which are not strictly necessary, such as cookies for gathering statistical information, ING needs your prior consent."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If the browser is closed the cookie expires."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The website downloads cookies on your computer, tablet or mobile phone which are strictly necessary for the functioning of the website, such as cookies which ensure that you can retrieve information on the website quickly, and cookies which are strictly necessary to provide a service which has explicitly been requested by you, such as a cookie which remembers your cookie settings."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If the browser is closed, the cookie expires."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "A cookie is a small text file that is stored by your browser on your computer's hard drive."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies which require your prior consent (Personal)"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This privacy and cookie statement may be modified from time to time to comply with applicable laws or to reflect our updated business practices, so please check this page periodically for any changes."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This cookie stores the preference for showing or disabling the pop-up and is for that reason functional."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The Webtrends Analytics cookie collects anonymous data (ad views, browser information, date and time, demographic data, page views) and the IP address of the user."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies which require your prior consent (Complete)"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you have any questions about this privacy and cookie statement or our data processing activities, you can contact us via this website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When you visit this website, ING collects standard log information and details of visitor behaviour patterns."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The session cookie contains an identifier that is generated for each browser session for the server-side data required when using the website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The Google Analytics cookie collects anonymous data (ad views, browser information, date and time, demographic data, page views) and the IP address of the user."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "ING does this to operate the website correctly, to collect statistical information on the use of the website, and to ensure compliance with mandatory legal requirements."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This cookie saves the choice of disclaimer pop-up."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "After one week, the cookie expires."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This cookie saves the language preference."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "ING.com (hereafter 'ING') will do its best to ensure that your personal data is processed via www.ing.com in such a way that your privacy is protected and safeguarded as far as possible."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The identifier cannot be traced to an individual."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The identifier could be traced to an individual."
+    }
+  ]
+}

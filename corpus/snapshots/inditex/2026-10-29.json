@@ -1,0 +1,95 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://www.inditex.com/itxcomweb/es/legal/privacy-policy",
+  "url": "https://www.inditex.com/itxcomweb/es/legal/privacy-policy",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 7,
+    "flagged_count": 1,
+    "cleared_count": 0,
+    "uncertain_count": 6,
+    "avg_flagged_confidence": 0.37,
+    "avg_cleared_confidence": 0.0,
+    "score": 0.37,
+    "summary": "Medium risk: no high-confidence concerns flagged across 7 clauses. Review the source terms to confirm.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "A company can make things\u2014but it takes a community to change things."
+    }
+  ],
+  "ethical_points": [],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.28,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our heritage and performance set the foundation for infinite possibilities, collaborations and positive impact to come."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.23,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We\u2019ve made it our mission to ensure every member of our worldwide team feels seen, inspired, and empowered."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.22,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Your Inditex career is more than a job\u2014it\u2019s a source of passion and endless possibility."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.2,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Looking back inspires us to look forward."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.2,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "See how we\u2019re working to bring beautiful, consciously-crafted fashion to everyone, everywhere."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.13,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Inditex started with the ambition to make fashionable, quality and life-enhancing clothes for people."
+    }
+  ]
+}

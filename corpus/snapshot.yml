@@ -1,0 +1,37 @@
+companies:
+  - slug: google
+    name: Google
+    sector: Big Tech
+    url: https://policies.google.com/privacy
+  - slug: apple
+    name: Apple
+    sector: Big Tech
+    url: https://www.apple.com/legal/privacy/
+  - slug: microsoft
+    name: Microsoft
+    sector: Big Tech
+    url: https://privacy.microsoft.com/privacystatement
+  - slug: amazon
+    name: Amazon
+    sector: Big Tech
+    url: https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010
+  - slug: ing
+    name: ING
+    sector: Banking
+    url: https://www.ing.com/Privacy-Statement.htm
+  - slug: inditex
+    name: Inditex
+    sector: Retail
+    url: https://www.inditex.com/itxcomweb/es/legal/privacy-policy
+  - slug: sap
+    name: SAP
+    sector: Tech & SaaS
+    url: https://www.sap.com/about/legal/privacy.html
+  - slug: spotify
+    name: Spotify
+    sector: Tech & SaaS
+    url: https://www.spotify.com/legal/privacy-policy/
+  - slug: booking
+    name: Booking.com
+    sector: Travel
+    url: https://www.booking.com/content/privacy.html

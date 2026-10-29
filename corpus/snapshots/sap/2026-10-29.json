@@ -1,0 +1,1006 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://web.archive.org/web/0/https://www.sap.com/about/legal/privacy.html",
+  "url": "https://www.sap.com/about/legal/privacy.html",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 98,
+    "flagged_count": 27,
+    "cleared_count": 26,
+    "uncertain_count": 45,
+    "avg_flagged_confidence": 0.531,
+    "avg_cleared_confidence": 0.52,
+    "score": 0.531,
+    "summary": "Medium risk: 19 potential concern(s) flagged across 98 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.74,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis [Negation detected]",
+      "text": "We do not sell or rent your personal data to third parties for marketing purposes unless you have granted us permission to do so."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "When you visit our web site, we may record your IP address and use cookies and other Internet technologies (referred to below as Automated Tools and Embedded Web Links) to gather general information about our visitors and their interests."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 64] Identity Verification 1. The controller should use all reasonable measures to verify the identity of a data subject who requests access, in particular in the context of online services and online identifiers. 2. A controller should not retain personal data for the sole purpose of being able to react to potential requests. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We use cookies to deliver personalized content, to save you having to re-enter your password repeatedly, to keep track of your shopping cart, and to tailor our information offerings to how you and others use the site."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Any data and information that you volunteer or that is otherwise collected on one of our sites in any one country may be sent electronically to a server for one of these sites in another country."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 Child's Consent violation (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If we learn that we have collected Personal Data on a child under the age of 13, we will delete that data from our systems."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.82 Controller Liability violation",
+      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability 1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered. 1. Any controller involved in processing shall be liable for the damage caused by processing which infringes this Regulation. 2. A\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We abide by the privacy laws in the countries where we do business."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may also share such information with business partners, service vendors, authorized third-party agents or contractors in order to provide a requested service or transaction, including processing orders, processing credit card transactions, hosting websites, hosting event and seminar registration and providing customer support, or providing you with information on products and services that may be of interest to you."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Art. 13] Information to be provided where personal data are collected from the data subject 1. Where personal data relating to a data subject are collected from the data subject, the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information: (1) the identity and the contact details of the controller and, where applicable,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may also use IP addresses or other information, such as your SAP.com user information you have shared on this website or at any earlier occasion or a campaign code, to determine which pages on our sites are being visited and topics that may be of interest so we can provide you with information about relevant products and services."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This may occasionally include information from other technology companies or business partners about products and services that can add value to your SAP products;"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Such a transaction may involve, in accordance with applicable law, the disclosure of personal information to prospective or actual purchasers, or the receipt of it from sellers."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To tailor information about our products and services to your individual interests."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.82 Controller Liability violation",
+      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We bind our employees to observe your privacy and confidentiality rights."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Some SAP entities, programs and/or sites may have their own, possibly different, privacy statements."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "It is SAP's practice to require such suppliers and business partners to handle information in a manner consistent with SAP's privacy statement."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may use your email address to confirm your opening of an account, to send you notice of payments, to send you information about changes to our products and services, and to send notices and other disclosures as required by law."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 86] Notification of Data Subjects in Case of Data Breaches For example, the need to mitigate an immediate risk of damage would call for prompt communication with data subjects whereas the need to implement appropriate measures against continuing or similar personal data breaches may justify more time for communication. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To conduct online \"Click to Chat\" and \"Click to Call\" sessions;"
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Companies in the SAP Group may use the information internationally in connection with processing your inquiries and orders, to help improve our products and services and for processing and storage."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.82 Right to Compensation \u2014 unenforceable waiver",
+      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We also may choose to establish or exercise our legal rights or defend against legal claims."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 30] Online Identifiers for Profiling and Identification 1. Natural persons may be associated with online identifiers provided by their devices, applications, tools and protocols, such as internet protocol addresses, cookie identifiers or other identifiers such as radio frequency identification tags. 2. This may leave traces which, in particular when combined with unique identifiers\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We use IP addresses to help diagnose problems, to administer our website, and to gather demographic information."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This site may contain links to other sites."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In emails, such links may also allow SAP to determine if you have clicked on a link in the email, and the information about this interaction may be connected to your personal identity."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "SAP may also collect IP addresses (and other technical information such as browser type) during a Click-to-Chat or Click-to-Call sessions that you initiate."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you choose to register for third-party services, we may need to send some information from your SAP.com registration to the service provider, possibly including your e-mail address."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "As a global company, SAP operates a number of Web sites around the world."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Circumstances may arise where, whether for strategic or other business reasons, SAP decides to sell, buy, merge or otherwise reorganize businesses in some countries."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Most often, this is done to host special events, such as contests or seminars."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Emails from SAP often use links designed to lead you to a relevant area on the Web, after redirection through SAP's servers."
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.73,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Generally, users cannot opt out of these communications, but they will be primarily informational in nature rather than promotional."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We only provide these third parties with the minimum amount of personal data necessary to provide the services on our behalf, and the third parties are not permitted to use your personal data except for the limited purpose of completing the requested service or transaction."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The technologies used and the information collected are described in more detail below."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Personal data may be collected to administer those programs;"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Ethical signals: opt-out",
+      "text": "The opt-out choice may be exercised by unsubscribing at http://www.sap.com/profile/unsubscribe.epx."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent + Art.13",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our privacy practices reflect current global principles and standards on handling personal information."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This information is collected when you connect to SAP so that we may identify your session, deliver content based on the technical capabilities of your browser, and for quality control purposes."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We do not share your e-mail address with others outside the SAP Group of companies."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Ethical signals: opt-out",
+      "text": "SAP provides you the opportunity to exercise an opt-out choice if you do not want to receive other types of communication from us such as emails or updates from us regarding new services and products offered on this website or if you do not want us to share your personal information with third parties."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you do not want SAP to collect information about the links you clicked, you can simply choose not to click on the links in an e-mail that SAP sends you."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default 1. Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Protecting the individual's privacy on the Internet is crucial to the future of Internet-based business and the move toward a true Internet economy."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To serve you better and understand your needs and interests, SAP collects, exports, and uses personal information with adequate notice and consent, along with required filings with data protection authorities, when applicable."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Your IP address will not be used to identify you unless you provide your prior consent."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "SAP needs your help in keeping the personal data you have shared with us accurate and up to date."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(c) Data Minimisation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "SAP will only gather information related to your visit to the SAP site."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "SAP uses a combination of industry-standard security technologies, procedures, and organizational measures to help protect your personal data from unauthorized access, use or disclosure."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To keep you up to date on the latest product announcements, software updates, software upgrades, security patches, system enhancements, special offers, and other information."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you choose to give us your e-mail address, we will communicate with you via e-mail."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The information SAP collects to understand your needs and interests helps SAP deliver a consistent and personalized experience."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In addition to the information you provide, SAP may also collect information during your visit to an SAP website through automated tools, which include Web beacons, cookies, embedded Web links, and other commonly used information-gathering tools."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Using these tools, SAP is also able to confirm receipt of e-mails that the recipient consented to receive, and can track other information such as pages visited on the SAP site and whether or not the recipient registers for an event offered by SAP and certain other aggregate data that is not related to a particular individual."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Ethical signals: secure",
+      "text": "SAP supports online security using secure server technology because we want your data to be safe."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To process your orders and deliver the products and services that you have ordered;"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can choose not to receive any more e-mail at any time."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "There are state-of-the-art security arrangements and facilities on SAP sites to prevent abuse."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In order to ensure and control the quality of the information and experience you have during chat sessions with SAP by educating our personnel to effectively answer your questions;"
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We will not subsequently change the way your personal data is used without your consent, as required by applicable law."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We do not track or collect personal information from your visits to companies or entities outside the SAP Group of companies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "From time to time, as may be required by applicable law, we may also seek your explicit consent to process certain data and information collected on this website or volunteered by you."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP does not knowingly collect Personal Data from children under the age of 13."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Some of the ways we may use your personal data include, but are not limited to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP will not retain your personal data longer than is necessary to fulfill the purposes for which it was collected or as required by applicable laws or regulations."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If we decide to make changes to this Privacy Statement, we will post the changes on this site so that you will always know what information we collect, and how we use it."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "By using this Website, you consent to the collection and use of the information as described here."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This may include the transfer of your data to third parties involved in executing the transaction, such as banks, credit card companies and other financial and credit control institutions."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We may respond to subpoenas, court orders, or legal process by disclosing your personal data and other related information, if necessary."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you have any other questions about this privacy statement or if you wish to inspect the information we hold about you, please contact:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This policy outlines our personal information handling practices for this website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, during a visit to our site, it allows us to provide you with specific information on products and services that may be of interest;"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We may collect and possibly share personal data and any other additional information available to us in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of SAP's terms of use, or as otherwise required by law."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP is committed to protecting the personal data you share with us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP is not responsible for the privacy practices or the content of other websites outside the SAP Group of companies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When information is collected on behalf of SAP exclusively, the appropriate SAP entity's privacy statement will be referenced on the site and will govern how information is used."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For other, non-SAP sites, the site's owner's privacy policy will be referenced."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This Privacy Statement covers this website and other sites that reference this Privacy Statement."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Generally, SAP will aggregate such data only in an anonymous way and will not tie it to a particular individual unless he or she has given consent."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These principles include notice of data use, choice of data use, data access, data integrity, security, onward transfer, and enforcement/oversight."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We will use such information only as described in this Privacy Statement and/or in the way we specify at the time of collection."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We safeguard your privacy interests around the world by ensuring that this SAP site adheres to our data protection principles described in this statement."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP has created this privacy statement to demonstrate our firm commitment to the individual's right to privacy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We encourage you to read the privacy statements of each of the SAP websites or program information you visit or review."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When you visit our site, we recognize only your domain name."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These tools collect certain standard information that your browser sends to our website such as your browser type and language, access times, and the address of the website from which you arrived at an SAP website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These forms may collect your financial information, such as your banking details or credit card numbers."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide the ability to contact you, and provide you with shipping and billing information, and to provide customer feedback and support;"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We may further collect and process any information and data that you volunteer to us, e.g. when you register for events, subscribe to newsletters, participate in online surveys, discussion groups or forums, or when make purchases."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide the ability to create personal profile areas and view protected content;"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We communicate with users who subscribe to our services on a regular basis via email, and we may also communicate by phone to resolve customer complaints or investigate suspicious transactions."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It is SAP's practice to seek appropriate protection for information in these types of transactions."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To conduct questionnaires and surveys in order to provide better products and services to our customers and end users."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our site includes order forms that you fill out to request information, products, and services."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Depending on how your e-mail application is set up, information about you may be transmitted automatically when you send e-mail to SAP."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Please read these terms and conditions in effect on this site."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide contests, sweepstakes or other marketing or promotional activities on the SAP.com or affiliate websites."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "SAP promises to use any financial information that you submit solely for billing and payment purposes for that special transaction."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "While visiting SAP's website you may be directed to content or functionality that is hosted by a third-party supplier, not on SAP.com."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "March 21, 2014SAP Announces Availability of 2013 Annual Report and U.S."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.32,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you are a registered user, you may make these updates yourself online via www.sap.com/profile."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Your completion of any questionnaires is voluntary;"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.28,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The redirection system allows SAP to change the destination URL of these links, if necessary, and to determine the effectiveness of our marketing initiatives."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.27,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You may also make these updates or other changes by sending an email to webmaster@SAP.com."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+# TermsGuard corpus — 20 hand-picked EU + Big Tech companies
+# Re-fetched weekly. Each entry: slug, display name, sector, policy URL.
+# The list is the sampling frame, not a ranking. Each company is here
+# because it (a) is one of the largest data processors that operates
+# under GDPR scope, or (b) is among the top 5 in its EU category.
+
+companies:
+  # Big Tech (5) - Irish HQs, GDPR-regulated
+  - slug: google
+    name: Google
+    sector: Big Tech
+    url: https://policies.google.com/privacy
+  - slug: meta
+    name: Meta
+    sector: Big Tech
+    url: https://www.facebook.com/privacy/policy/
+  - slug: apple
+    name: Apple
+    sector: Big Tech
+    url: https://www.apple.com/legal/privacy/
+  - slug: microsoft
+    name: Microsoft
+    sector: Big Tech
+    url: https://privacy.microsoft.com/privacystatement
+  - slug: amazon
+    name: Amazon
+    sector: Big Tech
+    url: https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010
+
+  # EU banks (5) - top 5 by total assets under EU/GDPR jurisdiction
+  - slug: bnp-paribas
+    name: BNP Paribas
+    sector: Banking
+    url: https://www.bnpparibas.net/en/data-privacy-charter
+  - slug: deutsche-bank
+    name: Deutsche Bank
+    sector: Banking
+    url: https://www.db.com/company/en/privacy-policy.htm
+  - slug: santander
+    name: Santander
+    sector: Banking
+    url: https://www.santander.com/en/privacy-policy
+  - slug: ing
+    name: ING
+    sector: Banking
+    url: https://www.ing.com/Privacy-Statement.htm
+  - slug: unicredit
+    name: UniCredit
+    sector: Banking
+    url: https://www.unicreditgroup.eu/en/privacy-policy.html
+
+  # EU retailers / consumer (5) - top 5 by EU revenue
+  - slug: carrefour
+    name: Carrefour
+    sector: Retail
+    url: https://www.carrefour.com/en/personal-data-policy
+  - slug: ikea
+    name: IKEA
+    sector: Retail
+    url: https://www.ikea.com/ms/en_US/privacy-policy/
+  - slug: hm
+    name: H&M
+    sector: Retail
+    url: https://www2.hm.com/en_gb/customer-service/privacy-and-legal/privacy-notice.html
+  - slug: inditex
+    name: Inditex
+    sector: Retail
+    url: https://www.inditex.com/itxcomweb/es/legal/privacy-policy
+  - slug: decathlon
+    name: Decathlon
+    sector: Retail
+    url: https://www.decathlon.com/legal/privacy-policy
+
+  # EU tech / telecom (5) - mix of SaaS, consumer, telco, travel
+  - slug: sap
+    name: SAP
+    sector: Tech & SaaS
+    url: https://www.sap.com/about/legal/privacy.html
+  - slug: spotify
+    name: Spotify
+    sector: Tech & SaaS
+    url: https://www.spotify.com/legal/privacy-policy/
+  - slug: deutsche-telekom
+    name: Deutsche Telekom
+    sector: Telecom
+    url: https://www.telekom.com/en/corporate-responsibility/data-protection/data-protection-policy
+  - slug: vodafone
+    name: Vodafone
+    sector: Telecom
+    url: https://www.vodafone.com/privacy-policy
+  - slug: booking
+    name: Booking.com
+    sector: Travel
+    url: https://www.booking.com/content/privacy.html

@@ -1,0 +1,2816 @@
+{
+  "fetched_at": "2026-10-29",
+  "source": "https://www.spotify.com/legal/privacy-policy/",
+  "url": "https://www.spotify.com/legal/privacy-policy/",
+  "summary": {
+    "risk_level": "Medium",
+    "clauses_analyzed": 279,
+    "flagged_count": 86,
+    "cleared_count": 55,
+    "uncertain_count": 138,
+    "avg_flagged_confidence": 0.524,
+    "avg_cleared_confidence": 0.611,
+    "score": 0.524,
+    "summary": "Medium risk: 57 potential concern(s) flagged across 279 clauses for human review.",
+    "classification_method": "gdpr_semantic_cosine_similarity",
+    "processing_seconds": 0,
+    "changed_lines": 0,
+    "prior_snapshot": null
+  },
+  "non_ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.89,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation + Art.17 violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "After your account is deleted, we keep some data for a longer time period but for very limited purposes."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.8,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our partners may also combine the personal data we share with them with other data they collect about you, e.g. your use of their services."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.72,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Appropriate age for tailored advertising:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.72,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You will not be able to 'opt-in' to Tailored Ads if you are under the appropriate age."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.72,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We share certain User Data and Usage Data with these partners where necessary to:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, when we use your personal data to tailor advertising to your interests."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This includes processing of your data in countries whose data protection laws are not considered to be as strong as EU/EEA laws or the laws which apply where you live."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.69,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We receive some of the data mentioned above from third parties."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This is when we use information about you to personalise ads to be more relevant."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We also collect some of this data from your device e.g. country or region."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In this case, we may transfer your personal data to a successor or affiliate as part of that transaction."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation + Art.17 violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We keep some data until your Spotify account is deleted."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, when we use your personal data to let you purchase a Spotify subscription."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Transfers of personal data to countries listed here are based on Adequacy Decisions."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.82 Right to Compensation \u2014 unenforceable waiver",
+      "gdpr_evidence": "[GDPR Art. 82] Right to compensation and liability Court proceedings for exercising the right to receive compensation shall be brought before the courts competent under the law of the Member State referred to in Article 79(2).",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can exercise your right to restriction by contacting us."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You will not receive Tailored Ads unless you have reached the appropriate age."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 Child's Consent \u2014 no special protection for minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Age Check Data is the data you provide if you (i) choose to use a feature that is subject to an Age Check or (ii) are a parent or legal guardian providing parental consent for a Managed Account (\u201cAge Check\u201d)."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you choose to pay through third parties or by invoice, we may get data from our payment partners."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "ePrivacy Directive violation + Art.7 Consent",
+      "gdpr_evidence": "[GDPR Recital 71] Profiling Automated decision-making and profiling based on special categories of personal data should be allowed only under specific conditions. * This title is an unofficial description.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Cookies Policy: Information on how we use cookies and how to manage your cookie preferences."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.44\u201349 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Transfers of personal data to other countries outside of the EU/EEA are protected by Standard Contractual Clauses (\u2018SCCs\u2019) as the appropriate safeguard."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This means that these countries have adequate laws to protect personal data as determined by the European Commission."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The appropriate age for tailored advertising is determined by the country you are in and what rules apply to tailored advertising in that country."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You will start to receive Tailored Ads once you reach the appropriate age for your country."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, our ad partners help us facilitate tailored advertising."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, someone might use your account on a shared device."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You or another user can share certain information on third party services, like social media or messaging platforms."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We and our partners may use this information to present you with offers, promotions or other marketing that we think you\u2019ll find relevant."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Spotify will only use your precise location data with your permission."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.8 Child's Consent violation (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you are above the Age Limit but under the age of majority in your country (a \u201cMinor\u201d), you may use the Spotify Service only with the consent of your parent or legal guardian."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Clicking on such links may allow third parties to collect or share data about you."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "They also provide us with inferences, which are the partners\u2019 understanding of your interests and preferences."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This is to enhance our services, products and offerings."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 Child's Consent violation (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Instead, we recommend asking a parent or guardian to create a Managed Account for you, where available."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may learn this from technical data (e.g. your IP address, language setting of your device) or payment currency."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Consent + Art.5(1)(a) Transparency violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "When this sharing occurs, the third party service may store a copy of it to support their features."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.13 Right to be Informed violation",
+      "gdpr_evidence": "[GDPR Art. 13] Information to be provided where personal data are collected from the data subject (4) the right to lodge a complaint with a supervisory authority; (5) whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract, as well as whether the data subject is obliged to provide the personal data and of the possible\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "When we make material changes to this Policy, we'll provide you with prominent notice as appropriate under the circumstances."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can control tailored advertising through the 'Tailored Ads' setting."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We also work with technical service partners who help us protect user accounts."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "ePrivacy Directive violation + Art.5(1)(b)",
+      "gdpr_evidence": "[GDPR Recital 58] The Principle of Transparency 1. The principle of transparency requires that any information addressed to the public or to the data subject be concise, easily accessible and easy to understand, and that clear and plain language and, additionally, where appropriate, visualisation be used. 2. Such information could be provided in electronic form, for example, when addressed to the\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This allows us to deliver more relevant ads and marketing, and measure their performance."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation + Art.28",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, if we are involved in litigation and we need to provide information to our lawyers in relation to that legal case."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 Child's Consent violation (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The Spotify Service (outside of Managed Accounts or Spotify Kids) that is tied to this privacy policy has a minimum age limit in each country or region (the \u201cAge Limit\u201d)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "In some cases, we may use a third party application to help you verify your address, such as Google Maps."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Because of the global nature of our business, Spotify shares your personal data internationally with the categories of recipients listed in Section 5 above."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "From time to time, we may develop new or offer additional services."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.44 International Transfers violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Your general location includes country, region, state, or city."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This includes mapping IP addresses to non-precise location data (e.g. country or region, city, state)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our legitimate interests here include researching and planning so that we can keep running our business successfully."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (3) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (\u2018data minimisation\u2019); (4) accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed,\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To improve our personalized recommendations and to improve the Spotify experience for all users, based on precise location data (where available and explicitly permitted by you)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This is also known as interest based advertising."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.8 + Art.22 profiling of minors (+ likely COPPA exposure)",
+      "gdpr_evidence": "[GDPR Art. 8] Conditions applicable to child's consent in relation to information society services 1. Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. 2. Where the child is below the age of 16 years, such processing shall be\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "How to control tailored advertising:"
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.44 + Art.13 Right to be Informed violation",
+      "gdpr_evidence": "[GDPR Art. 44] General principle for transfers 1. Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may ask for and process your street address for the following reasons:"
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Legitimate Interest: When Spotify or a third party has an interest in using your personal data in a certain way, which is necessary and justified considering any possible risks to you and other Spotify users."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To receive news or promotional offers from artists, record labels or other partners."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Consent + Art.5(1)(a) Transparency violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "On the 'Social' setting, you can:"
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent violation",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can grant this access through the in-app pop-up and in your device settings."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If we were to sell or negotiate to sell any part of our business to a buyer or possible buyer."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(b) Purpose Limitation violation",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Spotify needs the data to establish, exercise or defend legal claims."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These include Spotify websites, Customer Service, the Community Site."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Examples of such service providers include those we hire to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "So they can help us deliver more relevant advertising to you on the Spotify Service, and help measure the effectiveness of ads."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We also keep streaming history for the life of an account, for example, to provide retrospective playlists that users enjoy and personalised recommendations that take listening habits into account (for example, Your Time Capsule or Your Summer Rewind)."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you're under the Age Limit, do not create or use the standard Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This could enable us to show you ads about blenders."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, we might direct you to an artist\u2019s merchandise store on a third party platform or to a third party ticketing website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can also choose to create or join a shared playlist with other users."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, we may display a prominent notice within the Spotify Service or send you an email or device notification."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Settings (found in the Desktop and Mobile versions of Spotify): Control certain aspects of the Spotify Service such as 'Social' or 'Explicit Content'."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "An example of tailored advertising is when an advertising partner provides us with information about topics you may be interested in, such as suggesting you might enjoy cooking."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, we can provide better personalized concert and event recommendations or let you know what is trending at your specific location."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "What we learn from your streaming at one location, could be used to suggest similar content to other users close to that location."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This type of advertising is based on your registration information and information about your real-time usage of Spotify, such as what you are currently listening to on our services."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These third party apps, services or devices may include:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our legitimate interests here include using advertising to fund the Spotify Service, so that we can offer much of it for free and to make ads more interesting and relevant for the user."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "So they can provide their services to Spotify."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Anyone else's use of your Spotify account may impact your personalised recommendations."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To promote Spotify with our partners."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To carry out our daily business operations and so we can maintain, improve and provide the Spotify Service and acquired companies\u2019 services to you."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, if you are listening to a cooking podcast, you may hear an ad for a food processor."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Examples of this information are the device name, device identifiers, brand and version."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To establish, exercise, or defend legal claims."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Examples of such third party applications, services and devices include:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "See this table for details of who we share to and why."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Our legitimate interests here include developing and improving products and features for our users."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Shared playlists give you social recommendations based on your listening activity."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Contact us if you want to understand a specific justification."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.36,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "non_ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "your actions with the Spotify Service (including date and time), such as:"
+    }
+  ],
+  "ethical_points": [
+    {
+      "citation_status": "supported",
+      "confidence": 0.92,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(3) Right to Withdraw Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To withdraw your consent, you can:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.89,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "It's your right to request that we delete certain of your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.79,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Request that we erase certain of your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.78,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7(3) Right to Withdraw Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You\u2019ll always have the option to change your mind and withdraw your consent at any time."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.76,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, you can ask us to erase personal data:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.75,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "See the section on 'Erasure' in Section 2 'Your personal data rights and controls' for more information, and the circumstances in which we can act on your request."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.73,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We may receive data about you from companies we acquire."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Request access to the personal data we process about you."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation + Art.13",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Subject to other applicable retention rules listed in this Section 6, we have set certain retention periods so that data expires after a specific period of time."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, they may not give you the same rights over your data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.69,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you would like more details about how we process your personal data, you can contact us."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The type of data collected and used depends on the type of Service Option you have."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.66,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can exercise your rights under the Standard Contractual Clauses by contacting us or the third party who processes your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Request that we stop processing all or some of your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(e) Storage Limitation + Art.13",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Here are some of the categories of our retention periods, and the criteria we use to determine them:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "When you respond to a survey or take part in user research, we collect and use the personal data you provide."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "See Section 2 'Your personal data rights and controls' for more on user rights."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We receive this data from you e.g. from the sign up form or account page."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "It will include information such as:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Key information about your personal data is right here in this Policy."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The exact personal data collected and used will vary depending on the payment method."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If we direct you to a merchant, we receive data from the merchant that is related to your purchase."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For other marketing, promotion and advertising purposes where the law does not require consent."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For example, when we analyse Usage Data to check for fraudulent use of the Spotify Service."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.15 Right of Access",
+      "gdpr_evidence": "[GDPR Art. 15] Right of access by the data subject 1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed, and, where that is the case, access to the personal data and the following information: (1) the purposes of the processing; (2) the categories of personal data concerned; (3) the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We will only share the following personal data with those outlined in the table below:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.25 Privacy by Design & Default",
+      "gdpr_evidence": "[GDPR Art. 25] Data protection by design and by default 1. Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "However, you might want to take a look at our other privacy resources and controls:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency + Art.13 Right to be Informed",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For more information about how we collect and use this data, see \u2018Your general (non-precise) location\u2019 in the Usage Data category."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Personal data collected and processed about you when you\u2019re accessing or using the Spotify Service."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This includes information such as:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For marketing or advertising where the law requires us to collect your consent."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can edit your User Data under \u2018Edit profile\u2019 in your account or by contacting us."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Object to us processing your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "When this is the case, we will clearly ask for your consent."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "There are several ways you can erase personal data from Spotify:"
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can also delete certain personal data directly from the Spotify Service: for example, you can edit or delete your profile picture."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.32 Security of Processing",
+      "gdpr_evidence": "[GDPR Art. 32] Security of processing (1) the pseudonymisation and encryption of personal data; (2) the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services; (3) the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident; (4) a process for regularly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We put in place appropriate technical and organisational measures to help protect the security of your personal data."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent + Art.13",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Note: This Policy doesn't apply to Managed Accounts or Spotify Kids except where those respective privacy notices say so."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "These tables set out the categories of personal data we collect from you."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.58,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "See the hosting platform\u2019s own privacy policy for how they use data shared with them."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We have put various safeguards in place to guard against unauthorised access and unnecessary retention of personal data in our systems."
+    },
+    {
+      "citation_status": "supported",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you are 'opted out' of tailored advertising , you will receive less relevant advertising on our free Service Option, as well as our paid Service Option, as applicable (for example, advertising in podcasts)."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "This section sets out who receives personal data which is collected or generated through your use of the Spotify Service."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.55,
+      "confidence_label": "High",
+      "gdpr_basis": "Art.17 Right to Erasure",
+      "gdpr_evidence": "[GDPR Art. 17] Right to erasure (\u2018right to be forgotten\u2019) (4) the personal data have been unlawfully processed; (5) the personal data have to be erased for compliance with a legal obligation in Union or Member State law to which the controller is subject; (6) the personal data have been collected in relation to the offer of information society services referred to in Article 8(1). 2. Where the\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "You can see and remove many third party connections under \u2018Apps\u2019 in your account."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.20 Right to Data Portability",
+      "gdpr_evidence": "[GDPR Art. 20] Right to data portability (2) the processing is carried out by automated means. 2. In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to have the personal data transmitted directly from one controller to another, where technically feasible. 1. The exercise of the right referred to in paragraph 1 of this Article shall be\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "For information about how to exercise the right to portability, see \u2018Access\u2019 above."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If messaging is available in your market and where you\u2019ve chosen to use messaging, we collect and process message data."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent It shall be as easy to withdraw as to give consent. 8. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "label": "ethical",
+      "reasoning": "Ethical signals: opt-out",
+      "text": "This message will contain a link to the Tailored Ads setting where you can change your preferences or 'opt-out' of tailored advertising at any time."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data 1. Personal data shall be: (1) processed lawfully, fairly and in a transparent manner in relation to the data subject (\u2018lawfulness, fairness and transparency\u2019); (2) collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "The categories of personal data processed or shared will depend on the nature of the specific request."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If voice features are available in your market and you\u2019ve chosen to use a voice feature, we collect and process voice data."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.7 Conditions for Consent",
+      "gdpr_evidence": "[GDPR Art. 7] Conditions for consent 1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data. 1. If the data subject\u2019s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Some rights only apply when Spotify uses a certain 'legal basis' to process your data."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(a) Transparency",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (5) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "Voice data means audio recordings of your voice."
+    },
+    {
+      "citation_status": "tentative",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "Art.5(1)(f) Integrity & Confidentiality + Art.32",
+      "gdpr_evidence": "[GDPR Art. 5] Principles relating to processing of personal data (6) processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical or organisational measures (\u2018integrity and confidentiality\u2019). 2. The controller shall be responsible for,\u2026",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "So they can process your payments, and for anti-fraud purposes."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "If you download the Spotify mobile app and try Spotify using a logged-out user experience, we will collect limited information about your usage of the Spotify Service, including Usage Data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "To fulfil contractual obligations with third parties."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "We\u2019ll also display any questions or comments you post."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "ethical",
+      "reasoning": "Classified via semantic analysis",
+      "text": "However Spotify will try to honour any request to the extent possible."
+    }
+  ],
+  "unclear_points": [
+    {
+      "citation_status": "weak",
+      "confidence": 0.73,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It's your responsibility to only allow this to happen if you're comfortable sharing your personal data with them."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.71,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If we learn that we\u2019ve collected the personal data of a child under the applicable Age Limit, we'll take reasonable steps to delete the personal data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can request us to transmit your data when we are processing your personal data on the legal bases of consent or performance of contract."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.7,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, personal data you may input as part of search queries is deleted after 90 days."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We work with technical service partners that give us certain data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.68,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We do not knowingly collect or use personal data from children under the applicable Age Limit outside of Managed Accounts or Spotify Kids."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.67,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Withdraw your consent to us collecting or using your personal data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Request a copy of your personal data in electronic format and the right to transmit that personal data for use in another party\u2019s service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.65,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We receive data about you from certain advertising or marketing partners, including device identifiers such as hashed contact information."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.64,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These laws include the General Data Protection Regulation, or 'GDPR'."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Many privacy laws give rights to individuals over their personal data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "All Age Check Data is deleted immediately after the Age Check."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.63,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Age Check Data is deleted immediately after your Age Check is complete."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Cookies are files saved on your phone, tablet or computer when you visit a website."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Examples of Age Check methods we use, which are powered by a third party provider, are:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.62,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we use your personal data to enable you to share a link to Spotify content with someone else."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Be informed of the personal data we process about you and how we process it."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This is data which your device collects about the way you move or hold your device."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Courts and Authorities: We may process and share your personal data to comply with a request from courts, authorities, parties to litigation, or other authorized third parties."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.61,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We're committed to protecting our users' personal data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can do this if Spotify is processing your personal data on the legal basis of consent."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Receiving this data allows us to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, using your Usage Data to improve the Spotify Service for all users."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we use your personal data to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Where users are able to see and update the personal data themselves, we keep the information for as long as the user chooses unless one of the limited purposes described below applies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We may also keep data that has been removed from the Spotify Service for a limited period of time."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.6,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For any questions or concerns about this Policy, contact our Data Protection Officer any one of these ways:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Request that we amend or update your personal data where it\u2019s inaccurate or incomplete."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.59,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We\u2019ll ask your permission before we collect your information from certain third parties."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Account Privacy: Control the processing of certain personal data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Spotify\u2019s interest in using the data overrides your interest in having it deleted."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Consent: When Spotify asks you to actively indicate your agreement to Spotify's use of your personal data for a certain purpose."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.57,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We keep your personal data only as long as necessary to provide you with the Spotify Service and for Spotify's legitimate and essential business purposes, such as:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It includes the 'Your Privacy Controls' video which shows you how to exercise your user rights and make choices about the way we process your data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "There are situations where Spotify is unable to delete your data, for example when:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we use cookies to understand your interests or the law requires consent for email marketing."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we provide pseudonymised data about our users\u2019 listening because we have an agreement with a Spotify rightsholder to do so."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These may include mandatory data retention laws, government orders to preserve data relevant to an investigation, or data kept for the purposes of litigation."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These clauses require the third party to protect your data and to provide you with EU-level rights and protections."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.56,
+      "confidence_label": "High",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We also identify and use additional protections as appropriate for each data transfer including:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can also watch our video about Personal Data at Spotify."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.54,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Spotify does not control these third-party websites and is not responsible for their privacy practices."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can also watch our video about Your Privacy Controls."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can also go to the website of your local data protection authority."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.53,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We do this to understand how you are accessing and using the Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This Privacy Policy describes how we process your personal data at Spotify AB."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Information about your contacts with our Customer Service, such as chat conversations and email correspondence."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This information helps create your account with us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Pseudonymised data means that your data is identified by a code rather than your name or other directly identifying information."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When your Spotify account is deleted, this category of data is deleted or de-identified."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.52,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These include pseudonymisation, encryption, access, and retention policies."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To request a copy of your personal data from Spotify, either:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Message data means text or other content you send directly to another user."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "See more about these categories in Section 3 'Personal data we collect about you'"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we use your date of birth when required for age assurance purposes."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "However, be aware that no system is ever completely secure."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.51,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We may occasionally make changes to this Policy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Compliance with Legal Obligations: When Spotify must process your personal data to comply with a law."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we look at aggregated user data like the number of new sign-ups in a country in order to plan new locations to launch our products and features in."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, we may be subject to legal or contractual obligations that require this."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.5,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To protect your user account, we encourage you to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It also depends on how you create your account, the country you are in, and if you use third party services to sign in."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.49,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When using a shared device on the Spotify Service, be cautious about playing or recommending any inappropriate content to Minors."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We explain each legal basis, and when Spotify uses each one, in Section 4 'Our purpose for using your personal data'."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.48,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We share certain data, such as your IP address, with the hosting platforms when you play a podcast."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can request that we stop this processing temporarily or permanently."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.47,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The following personal data is available to other Spotify users:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "They'll also be subject to this Policy, unless stated otherwise when we introduce them."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Contact the Swedish Authority for Privacy Protection or your local data protection authority about any questions or concerns."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.46,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To conduct research and surveys."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To conduct business planning, reporting, and forecasting."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You may choose to share your User Data for this purpose when you sign up to the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.45,
+      "confidence_label": "Medium",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you are a parent or guardian and become aware that your child, who is under the applicable Age Limit, has provided personal data to Spotify in any other context, contact us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Personal data that we need to create your Spotify account and that enables you to use the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Performance of a Contract: When it's necessary for Spotify to process your personal data to:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.44,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To comply with a legal obligation that we are subject to."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To detect, investigate and take appropriate action on reports of inappropriate content or violations of our Terms of Use or other Spotify terms, policies, rules or guidelines."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, when we contact our users to ask for your feedback."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.43,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Examples of this include your Spotify username and profile information."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When you download your data you will receive the information about your data that Spotify has to provide under Article 15 of the GDPR."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The legal basis for this processing is compliance with legal obligations, legitimate interest, or as provided under national laws."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This may require us to delete the Spotify account for that child."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.42,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Spotify AB is the data controller of personal data processed under this Policy."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It also describes the rules of Spotify and your rights under your agreement."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Motion-generated or orientation-generated device sensor data if needed to provide features of the Spotify Service that require this data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you make any purchases from Spotify or sign up for certainService Options or a trial, we will need to process your payment data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.41,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you decide to create a Spotify account to experience our service in full, then we will combine this data with your Spotify account data."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "From now on, we'll call it the 'Policy'."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "you object to our processing and we are assessing your objection request."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you connect your Spotify account to a third party application, service or device, we may collect and use information from them."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.4,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If other individuals have access to your Spotify account, then they can access personal data, controls and the Spotify Service available in your account."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Examples of third party devices and applications are:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To keep the Spotify Service secure and to detect and prevent fraud."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.39,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For activities such as statistical analysis and academic study, but only in a pseudonymised format."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Safety & Privacy Center: A user-friendly hub with summaries of key topics and helpful videos."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Not be subject to a decision based solely on automated decision making (decisions without human involvement), including profiling, where the decision would have a legal effect on you or produce a similarly significant effect."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This applies where the content provider inserts advertising into the podcast to fund it."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.38,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "If you register for or log into the Spotify Service using another service, that service will send your information to us."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Notification Settings: Set which marketing communications you get from Spotify."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Spotify does not carry out this type of automated decision making in the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To share information about your use of the Spotify Service with other Spotify users."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.37,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "For example, under \u2018Social\u2019 settings you can choose to share your recently played artists and your playlists on your profile."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.36,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We also do this to ensure we provide the right experience for you, for example based on your country or region."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.36,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our legitimate interests here include protecting the Spotify Service and our users against fraud and other illegal activity."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "It applies to your use of:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To exercise your right to object, you can:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.35,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This collection is to make the integration possible."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.34,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "On the 'Explicit Content' setting you can control whether explicit-rated content can be played on your Spotify account."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.34,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can also control tailored advertising for some podcasts using the link in the episode's show description."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.34,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This makes it possible for Spotify to provide the Spotify Service, content and features."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.34,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide the Spotify Service in accordance with our contract with you."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.34,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The Spotify Service may include links to third-party websites, plug-ins and applications."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The Terms of Use outline the legal contract between you and Spotify for using the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This information allows Spotify to offer a number of features such as better recommendations for nearby concerts and events."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide certain additional voluntary features and functionalities of the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This includes development and training of algorithmic and machine learning models, which help us to keep our service safe and enhance our users\u2019 experience."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our legitimate interests here include understanding more about how users think about and use the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To enable you to use the Spotify Support Community service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We also allow you to stream podcasts available from other hosting platforms not owned by Spotify."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.33,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can log out of Spotify in multiple places at once by using the 'Sign out everywhere' function on your account page."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.32,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When this happens, you will receive a message within the Spotify Service to let you know."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.32,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Our legitimate interests here include:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The hosting provider, which might not be Spotify, manages these controls for the podcast."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To provide additional parts of the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To evaluate and develop new features, technologies and improvements to the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "This will be publicly displayed to anyone who uses the Spotify Support Community."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.31,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "These could include your followers on Spotify."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.3,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The below table describes the categories of those third parties."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.3,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Here is a general explanation of each 'legal basis' to help you understand the table:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.3,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Hosting platforms host podcasts so that they can deliver them to you."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.29,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "Podcast providers should explain in the show or episode description which platform is hosting the podcast."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.28,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To diagnose, troubleshoot and fix issues with the Spotify Service."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.27,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "From now on, we'll collectively call these the 'Spotify Service'."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.27,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "We will do so when we believe in good faith it is necessary, including:"
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.26,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "To connect your Spotify account, or so that you can use the Spotify Service in connection with third party applications, services or devices."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.24,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "You can find the Swedish Authority\u2019s details here."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.23,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "When you register for an account on the Spotify Support Community, we\u2019ll ask you to create a profile name."
+    },
+    {
+      "citation_status": "weak",
+      "confidence": 0.2,
+      "confidence_label": "Low",
+      "gdpr_basis": "",
+      "gdpr_evidence": "",
+      "label": "unclear",
+      "reasoning": "Low confidence or unclear classification",
+      "text": "The table below sets out:"
+    }
+  ]
+}
