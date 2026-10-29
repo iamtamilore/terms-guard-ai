@@ -10,99 +10,36 @@
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <title>Terms Guard AI by Taiwo Alabi</title>
+<link rel="stylesheet" href="/static/css/design-system.css">
 <style>
-  :root {
-    --font: 'Space Grotesk', system-ui, -apple-system, sans-serif;
-    --font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+  /* Demo-specific overrides on top of design-system.css.
+     Keep these short. Anything reusable should move into design-system.css. */
 
-    --bg: #100f0c;
-    --bg-2: #1a1814;
-    --text: #f2efe6;
-    --text-2: #b9b3a5;
-    --text-3: #827c70;
-    --accent: #ff6b32;
-    --accent-2: #ff8b5c;
-    --rule: #34302a;
-    --rule-2: #262320;
+  /* Reset the design-system .wrap's 16-space top padding - the demo's
+     own stamp sits at the top of the wrap, not under a fixed utility nav. */
+  .wrap { padding-top: var(--space-8); }
 
-    --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
-    --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
-    --text-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
-    --text-lg: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
-    --text-xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);
-    --text-2xl: clamp(2rem, 1.8rem + 1vw, 2.5rem);
-
-    --space-1: 0.25rem;
-    --space-2: 0.5rem;
-    --space-3: 0.75rem;
-    --space-4: 1rem;
-    --space-5: 1.5rem;
-    --space-6: 2rem;
-    --space-8: 3rem;
-    --space-10: 4rem;
-    --space-12: 6rem;
-
-    --edge: clamp(1.25rem, 5vw, 5rem);
-    --measure: 68ch;
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    font-family: var(--font);
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.55;
-    font-size: var(--text-base);
-    padding: 0 var(--edge) var(--space-12);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .wrap { max-width: 860px; margin: 0 auto; }
-
-  /* ---------- masthead ---------- */
-
-  header { padding-top: var(--space-8); }
-
-  h1 {
-    font-size: var(--text-2xl);
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    line-height: 1.1;
-  }
-
-  .lede {
-    margin-top: var(--space-4);
-    max-width: var(--measure);
-    color: var(--text-2);
-    font-size: var(--text-base);
-  }
-
-  .stamp {
+  header > .stamp {
     font-family: var(--font-mono);
     font-size: var(--text-xs);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-3);
     padding-bottom: var(--space-3);
-    border-bottom: 1px solid var(--rule);
+    border-bottom: 1px solid var(--border);
     margin-bottom: var(--space-5);
   }
 
-  /* ---------- the privacy notice, above the input ---------- */
-
-  .privacy {
-    border-left: 1px solid var(--rule);
-    padding: var(--space-1) 0 var(--space-1) var(--space-4);
-    margin: var(--space-6) 0 var(--space-8);
-    max-width: var(--measure);
+  .lede {
+    margin-top: var(--space-4);
+    max-width: var(--content-max);
+    color: var(--text-2);
+    font-size: var(--text-base);
+    line-height: 1.6;
   }
-  .privacy p { color: var(--text-2); font-size: var(--text-sm); }
-  .privacy strong { color: var(--text); font-weight: 500; }
 
-  /* ---------- the input ---------- */
-
-  label {
+  .tool { margin-top: var(--space-8); }
+  .tool label {
     display: block;
     font-family: var(--font-mono);
     font-size: var(--text-xs);
@@ -111,21 +48,20 @@
     color: var(--text-3);
     margin-bottom: var(--space-3);
   }
-
-  textarea {
+  .tool textarea {
     width: 100%;
     min-height: 160px;
     background: var(--bg-2);
     color: var(--text);
-    border: 1px solid var(--rule);
+    border: 1px solid var(--border);
     padding: var(--space-4);
     font-family: var(--font);
     font-size: var(--text-sm);
     line-height: 1.6;
     resize: vertical;
   }
-  textarea:focus { outline: none; border-color: var(--accent); }
-  textarea::placeholder { color: var(--text-3); }
+  .tool textarea:focus { outline: none; border-color: var(--accent); }
+  .tool textarea::placeholder { color: var(--text-3); }
 
   .row {
     display: flex;
@@ -134,7 +70,6 @@
     gap: var(--space-3) var(--space-5);
     margin-top: var(--space-4);
   }
-
   .btn {
     display: inline-block;
     font-family: var(--font-mono);
@@ -149,11 +84,9 @@
     cursor: pointer;
   }
   .btn:hover { color: var(--accent); }
-  .btn:disabled { color: var(--text-3); border-bottom-color: var(--rule); cursor: default; }
-
-  .btn-quiet { border-bottom-color: var(--rule-2); color: var(--text-3); }
+  .btn:disabled { color: var(--text-3); border-bottom-color: var(--border); cursor: default; }
+  .btn-quiet { border-bottom-color: var(--border-2); color: var(--text-3); }
   .btn-quiet:hover { color: var(--text); border-bottom-color: var(--text-3); }
-
   .status {
     margin-top: var(--space-4);
     font-family: var(--font-mono);
@@ -162,27 +95,127 @@
     min-height: 1.4em;
   }
 
-  /* ---------- the does-it-work strip: constants a visitor can check ---------- */
-
-  .strip {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3) var(--space-6);
-    margin-top: var(--space-8);
-    padding-top: var(--space-4);
-    border-top: 1px solid var(--rule);
+  .disclaimer {
+    margin-top: var(--space-12);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--border);
+    color: var(--text-3);
+    font-size: var(--text-xs);
+    max-width: var(--content-max);
   }
-  .strip div { display: flex; align-items: baseline; gap: var(--space-2); }
-  .strip b {
-    font-family: var(--font-mono);
-    font-size: var(--text-sm);
-    font-weight: 500;
-    color: var(--text);
-  }
-  .strip span {
+  .disclaimer strong { color: var(--text-2); font-weight: 500; }
+  .foot {
+    margin-top: var(--space-6);
     font-family: var(--font-mono);
     font-size: var(--text-xs);
     color: var(--text-3);
+  }
+  .foot a {
+    color: var(--text-2);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .foot a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .results { display: none; margin-top: var(--space-10); }
+  .risk { margin-top: 0; font-family: var(--font); font-size: var(--text-3xl); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+  .summary {
+    margin-top: var(--space-3);
+    color: var(--text-2);
+    font-size: var(--text-base);
+    max-width: var(--content-max);
+  }
+  .meta {
+    margin-top: var(--space-3);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+  }
+
+  /* Hero sits at the very top, full-bleed across the wrap width.
+     The accent is on the page itself, not the chrome.
+     Override design-system.css's .hero (which is a 280px + 1fr grid for
+     photo+content layouts on the portfolio pages). This demo's hero is a
+     single image + caption stacked vertically. */
+  .hero {
+    display: block;
+    margin-top: var(--space-5);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--bg-3);
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  .hero-cap {
+    padding: var(--space-3) var(--space-4);
+    border-top: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-3);
+    letter-spacing: 0.04em;
+  }
+
+  /* The privacy notice - now three labelled rows instead of one paragraph. */
+  .privacy {
+    margin-top: var(--space-6);
+    padding: 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .privacy-row {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: var(--space-4);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--border-2);
+    align-items: baseline;
+  }
+  .privacy-row:last-child { border-bottom: none; }
+  .privacy-row .key {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-3);
+  }
+  .privacy-row .val {
+    font-size: var(--text-sm);
+    color: var(--text-2);
+  }
+
+  /* Strip ("What this tool uses") - four labelled cells, no card backgrounds. */
+  .strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: var(--space-8);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .strip-cell {
+    padding: var(--space-4) var(--space-3);
+    border-right: 1px solid var(--border);
+  }
+  .strip-cell:last-child { border-right: none; }
+  .strip-cell .num {
+    font-family: var(--font-mono);
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--accent);
+    display: block;
+    line-height: 1.1;
+  }
+  .strip-cell .lab {
+    font-size: var(--text-xs);
+    color: var(--text-3);
+    line-height: 1.35;
+    margin-top: var(--space-1);
+    display: block;
   }
   .strip-cap {
     font-family: var(--font-mono);
@@ -193,57 +226,82 @@
     margin-top: var(--space-3);
   }
 
-  /* ---------- results ---------- */
-
-  .results { display: none; margin-top: var(--space-10); }
-
-  .risk {
-    font-family: var(--font-mono);
-    font-size: var(--text-lg);
-    font-weight: 700;
-    letter-spacing: -0.01em;
-  }
-  .risk.High { color: var(--accent); }
-  .risk.Medium { color: var(--accent-2); }
-  .risk.Low, .risk.Unknown { color: var(--text); }
-
-  .summary {
-    margin-top: var(--space-3);
+  /* Stress-test cases - verdict chip on the left, two-line layout. */
+  .case {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: var(--space-3);
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border-2);
+    padding: var(--space-3) 0;
+    cursor: pointer;
     color: var(--text-2);
-    max-width: var(--measure);
+    font-family: var(--font);
+    font-size: var(--text-sm);
+    align-items: baseline;
   }
-
-  .meta {
-    margin-top: var(--space-3);
+  .case:hover { color: var(--text); }
+  .case:hover .case-name { color: var(--accent); }
+  .case-verdict {
     font-family: var(--font-mono);
     font-size: var(--text-xs);
+    letter-spacing: 0.05em;
     color: var(--text-3);
   }
+  .case-verdict.HIGH { color: var(--accent); }
+  .case-verdict.MED  { color: var(--text-2); }
+  .case-verdict.LOW  { color: var(--text-3); }
+  .case-name { color: var(--text); font-weight: 500; }
+  .case-why  { grid-column: 2; color: var(--text-3); font-size: var(--text-xs); margin-top: 2px; }
+  .cases { border-top: 1px solid var(--border); }
+
+  /* Result section: the risk label gets the largest size on the page when
+     results show, with colour tied to the level. */
+  .risk.High   { color: var(--accent); }
+  .risk.Medium { color: var(--text); }
+  .risk.Low    { color: var(--text-2); }
+  .risk.Unknown { color: var(--text-3); }
 
   .sec { margin-top: var(--space-10); }
   .sec > h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-3);
     font-family: var(--font-mono);
     font-size: var(--text-xs);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-3);
     padding-bottom: var(--space-3);
-    border-bottom: 1px solid var(--rule);
+    border-bottom: 1px solid var(--border);
     margin-bottom: var(--space-5);
   }
-  .sec > h2 b { color: var(--text); font-weight: 500; }
+  .sec > h2 .count {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 2px 8px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+  }
 
   .item {
-    border-left: 2px solid var(--rule);
+    border-left: 3px solid var(--border);
     padding: 0 0 var(--space-5) var(--space-4);
     margin-bottom: var(--space-5);
   }
   .item.bad { border-left-color: var(--accent); }
   .item.good { border-left-color: var(--text-3); }
-  .item.unsure { border-left-color: var(--rule-2); }
+  .item.unsure { border-left-style: dashed; border-left-color: var(--text-3); }
 
-  .clause { font-size: var(--text-base); }
-
+  .clause { font-size: var(--text-base); color: var(--text); }
   .tags {
     margin-top: var(--space-2);
     display: flex;
@@ -253,36 +311,44 @@
     font-size: var(--text-xs);
     color: var(--text-3);
   }
-  .tags .law { color: var(--accent-2); }
-  .tags .verified { color: var(--text-2); }
-
-  .why { margin-top: var(--space-2); color: var(--text-2); font-size: var(--text-sm); }
-
+  .tags .verified { color: var(--accent); }
+  .tags .law {
+    color: var(--text);
+    border: 1px solid var(--border-2);
+    padding: 1px 6px;
+    border-radius: 999px;
+  }
+  .why {
+    margin-top: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--text-2);
+    max-width: 60ch;
+  }
   .evidence {
-    margin-top: var(--space-3);
-    padding-left: var(--space-3);
-    border-left: 1px solid var(--rule-2);
-    color: var(--text-3);
+    margin-top: var(--space-2);
     font-size: var(--text-xs);
-    line-height: 1.6;
-    max-width: var(--measure);
+    color: var(--text-3);
+    border-top: 1px solid var(--border-2);
+    padding-top: var(--space-2);
+    max-width: 60ch;
   }
   .evidence em { font-style: normal; color: var(--text-2); }
-
   .empty { color: var(--text-3); font-size: var(--text-sm); }
 
-  /* ---------- method and stress ---------- */
-
-  .method { margin-top: var(--space-12); padding-top: var(--space-5); border-top: 1px solid var(--rule); }
-  .method h2 {
-    font-family: var(--font-mono);
-    font-size: var(--text-xs);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--text-3);
-    margin-bottom: var(--space-5);
+  /* The "Why no fabricated citations" callout. */
+  .citations-note {
+    margin-top: var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--border-2);
+    background: var(--bg-3);
+    font-size: var(--text-sm);
+    color: var(--text-2);
+    max-width: var(--measure);
   }
-  .method ol { list-style: none; counter-reset: step; }
+  .citations-note strong { color: var(--text); font-weight: 500; }
+
+  /* The "How it works" numbered list. */
+  .method ol { list-style: none; counter-reset: step; padding: 0; margin: 0; }
   .method ol li {
     counter-increment: step;
     padding-left: var(--space-6);
@@ -301,87 +367,53 @@
     color: var(--text-3);
   }
   .method ol li b { color: var(--text); font-weight: 500; }
-
-  .method p.note {
-    margin-top: var(--space-4);
-    color: var(--text-3);
-    font-size: var(--text-xs);
-    font-family: var(--font-mono);
-    max-width: var(--measure);
-  }
-
-  .stress { margin-top: var(--space-10); }
+  .method h2,
   .stress h2 {
     font-family: var(--font-mono);
     font-size: var(--text-xs);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-3);
-    margin-bottom: var(--space-2);
-  }
-  .stress > p {
-    color: var(--text-3);
-    font-size: var(--text-sm);
-    max-width: var(--measure);
     margin-bottom: var(--space-5);
   }
 
-  .cases { border-top: 1px solid var(--rule); }
-  .case {
+  /* Theme picker - four dots bottom-right, same mechanism as the rest of the
+     site. The "light" dot uses a warm-grey preview; "dark" uses near-black;
+     "teal" and "contact" are kept for parity with the rest of the portfolio
+     but the demo content is only validated for light + dark. */
+  .theme-picker {
+    position: fixed;
+    bottom: var(--space-4);
+    right: var(--space-4);
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: var(--space-2) var(--space-4);
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
-    border-bottom: 1px solid var(--rule-2);
-    padding: var(--space-3) 0;
+    gap: var(--space-2);
+    padding: var(--space-2);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    z-index: 100;
+  }
+  .theme-dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--sw, var(--text-3));
     cursor: pointer;
-    color: var(--text-2);
-    font-family: var(--font);
-    font-size: var(--text-sm);
+    padding: 0;
   }
-  .case:hover { color: var(--text); }
-  .case:hover .case-name { color: var(--accent); }
-  .case-name { color: var(--text); min-width: 12rem; }
-  .case-why { color: var(--text-3); font-size: var(--text-xs); flex: 1 1 100%; }
-  .case-verdict {
-    font-family: var(--font-mono);
-    font-size: var(--text-xs);
-    color: var(--text-3);
-  }
-  .case-verdict.pass { color: var(--text-2); }
+  .theme-dot[aria-pressed="true"] { border-color: var(--accent); }
 
-  /* ---------- footer ---------- */
-
-  .disclaimer {
-    margin-top: var(--space-12);
-    padding-top: var(--space-5);
-    border-top: 1px solid var(--rule);
-    color: var(--text-3);
-    font-size: var(--text-xs);
-    max-width: var(--measure);
+  @media (max-width: 700px) {
+    .strip { grid-template-columns: repeat(2, 1fr); }
+    .strip-cell:nth-child(2) { border-right: none; }
+    .case { grid-template-columns: 4rem 1fr; }
+    .case-why { grid-column: 1 / -1; padding-left: 4rem + var(--space-3); }
+    .privacy-row { grid-template-columns: 1fr; gap: var(--space-1); }
   }
-  .disclaimer strong { color: var(--text-2); font-weight: 500; }
-
-  .foot {
-    margin-top: var(--space-6);
-    font-family: var(--font-mono);
-    font-size: var(--text-xs);
-    color: var(--text-3);
-  }
-  .foot a { color: var(--text-2); text-decoration: none; border-bottom: 1px solid var(--rule); }
-  .foot a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 
   @media (prefers-reduced-motion: reduce) {
     * { animation: none !important; transition: none !important; }
-  }
-
-  @media (max-width: 620px) {
-    .case-name { min-width: 0; }
-    .case { flex-direction: column; }
   }
 </style>
 </head>
@@ -392,22 +424,35 @@
     <p class="stamp">Taiwo Alabi &middot; MSc Artificial Intelligence, NCI Dublin</p>
     <h1>TermsGuard AI</h1>
     <p class="lede">
-      Paste a privacy policy or terms of service. It reads the clauses, flags the ones that
-      work against you, and ties each flag to the GDPR article behind it. Every flag is
-      checked by a model before you see it, and the source text it came from is shown.
+      Paste any privacy policy or terms of service. It reads every clause, flags the ones
+      that work against you, and shows you the GDPR article it matched, and the passage
+      the flag was drawn from. Every flag is ruled on by a verification model before it
+      lands, in both directions, so a wrongly-flagged protection is overturned as visibly
+      as a missed violation.
     </p>
   </header>
 
+  <figure class="hero">
+    <img src="/static/img/hero.jpg" alt="A printed Privacy Policy page on a warm-grey desk, one clause underlined in burnt-orange ink, with a black fountain pen resting beside it.">
+    <figcaption class="hero-cap">A privacy policy page with one clause marked. The orange underline is the only warm colour.</figcaption>
+  </figure>
+
   <div class="privacy">
-    <p>
-      <strong>What leaves your machine.</strong> The text you paste is compared against a local
-      reference index of 4,527 chunks. Retrieval, embeddings and the index all run on this server.
-      Up to 15 flagged sentences are sent to Anthropic for verification, nothing else is, the
-      connection is encrypted in transit, and no text is written to disk.
-    </p>
+    <div class="privacy-row">
+      <span class="key">Index · local</span>
+      <span class="val">All comparison runs on this server. Your text never leaves the box until a clause is flagged.</span>
+    </div>
+    <div class="privacy-row">
+      <span class="key">Verify · model</span>
+      <span class="val">Up to 15 flagged clauses are sent to a verification model. The rest stay local. The connection is encrypted in transit.</span>
+    </div>
+    <div class="privacy-row">
+      <span class="key">Storage · none</span>
+      <span class="val">Nothing is written to disk. No logs, no analytics, no third-party trackers.</span>
+    </div>
   </div>
 
-  <section>
+  <section class="tool">
     <label for="input">Privacy policy or terms text</label>
     <textarea id="input" placeholder="Paste the policy text here. At least 50 characters."></textarea>
     <div class="row">
@@ -419,11 +464,23 @@
     <p class="status" id="status"></p>
   </section>
 
-  <div class="strip" id="strip">
-    <div><b>4,527</b><span>chunks in the reference index</span></div>
-    <div><b>102</b><span>reference clauses, 52 fair and 50 unfair</span></div>
-    <div><b>Full page</b><span>no chunks skipped</span></div>
-    <div><b>Model</b><span>checks every confident clause</span></div>
+  <div class="strip">
+    <div class="strip-cell">
+      <span class="num">550</span>
+      <span class="lab">GDPR chunks in the local index (99 articles, 173 recitals)</span>
+    </div>
+    <div class="strip-cell">
+      <span class="num">102</span>
+      <span class="lab">hand-labelled reference clauses (52 fair, 50 unfair)</span>
+    </div>
+    <div class="strip-cell">
+      <span class="num">Full</span>
+      <span class="lab">no chunks skipped, every clause is analysed</span>
+    </div>
+    <div class="strip-cell">
+      <span class="num">Model</span>
+      <span class="lab">rules on every confident flag, both directions</span>
+    </div>
   </div>
   <p class="strip-cap">What the tool uses. These are in every response it gives.</p>
 
@@ -433,17 +490,17 @@
     <p class="meta" id="meta"></p>
 
     <div class="sec">
-      <h2>Flagged clauses (<b id="badCount">0</b>)</h2>
+      <h2>Flagged clauses <span class="count" id="badCount">0</span></h2>
       <div id="badList"></div>
     </div>
 
     <div class="sec">
-      <h2>Cleared clauses (<b id="goodCount">0</b>)</h2>
+      <h2>Cleared clauses <span class="count" id="goodCount">0</span></h2>
       <div id="goodList"></div>
     </div>
 
     <div class="sec">
-      <h2>Uncertain (<b id="unclearCount">0</b>)</h2>
+      <h2>Uncertain <span class="count" id="unclearCount">0</span></h2>
       <div id="unclearList"></div>
     </div>
   </section>
@@ -451,8 +508,8 @@
   <section class="stress">
     <h2>Stress the tool</h2>
     <p>
-      Twelve inputs, each aimed at a specific failure mode. Click one to run it. The verdict
-      beside each is what the tool does today, measured against this build.
+      Twelve inputs, each aimed at a specific failure mode. Click one to run it. The
+      verdict beside each is what the tool does today, measured against this build.
     </p>
     <div class="cases" id="cases"></div>
   </section>
@@ -461,24 +518,20 @@
     <h2>How it works</h2>
     <ol>
       <li><b>Split.</b> The text is broken into individual clauses and duplicates are removed.</li>
-      <li><b>Match.</b> Each clause is embedded and compared by cosine similarity against 48 labelled fair clauses and 48 labelled unfair ones.</li>
-      <li><b>Ground.</b> A matching passage is retrieved from a 4,527 chunk reference index for each candidate, so you can read the context the flag was drawn from.</li>
+      <li><b>Match.</b> Each clause is embedded and compared by cosine similarity against 52 hand-labelled fair clauses and 50 hand-labelled unfair ones.</li>
+      <li><b>Ground.</b> A matching passage is retrieved from a 550-chunk reference index of the actual GDPR text, so the context beside each flag is the law itself, not a related lecture note.</li>
       <li><b>Verify.</b> When a verification model is configured, it rules on every confident candidate, in both directions. It can dismiss a false positive and it can overturn a clause that was wrongly called protective.</li>
     </ol>
-    <p class="note">
-      The summary is assembled by template from the clauses that were matched and verified.
-      No model writes it, so a legal citation cannot be invented. The article shown on each flag
-      is the one the model named. The retrieved passage beside it is context, not the article text.
-    </p>
+    <div class="citations-note">
+      <strong>Why no fabricated citations.</strong> The summary is assembled by template from the
+      clauses that were matched and verified, so a legal citation cannot be invented. The article
+      shown on each flag is the one the matching reference clause was labelled with. The
+      retrieved passage beside it is the law text, not a related document.
+    </div>
   </section>
 
   <div class="disclaimer">
-    <p><strong>Educational project. Not legal advice.</strong></p>
-    <p>
-      The analysis is produced by a language model and can be wrong. It is a way of finding the
-      clauses worth reading, not a substitute for a lawyer. Check the source text before you
-      rely on anything here.
-    </p>
+    <p><strong>Educational project.</strong> Findings are produced by a language model and can be wrong. They are a way of finding the clauses worth reading, not a substitute for a lawyer. Check the source text before relying on anything here.</p>
   </div>
 
   <p class="foot">
@@ -490,6 +543,13 @@
 
 </div>
 
+<div class="theme-picker" role="group" aria-label="colour theme">
+  <button type="button" class="theme-dot" data-set-theme="light" style="--sw:#f5f2ed" title="Light" aria-pressed="true"></button>
+  <button type="button" class="theme-dot" data-set-theme="dark" style="--sw:#1a1814" title="Dark" aria-pressed="false"></button>
+  <button type="button" class="theme-dot" data-set-theme="teal" style="--sw:#3fc2b4" title="Teal &amp; Orange" aria-pressed="false"></button>
+  <button type="button" class="theme-dot" data-set-theme="contact" style="--sw:#b8541f" title="Contact Sheet" aria-pressed="false"></button>
+</div>
+
 <script>
 const EXAMPLES = {
   risky: `We may collect and store your personal data indefinitely, including your location, contacts, and browsing history. We reserve the right to sell or share your personal information with third-party partners and advertisers for any purpose. We are not liable for any data breaches, loss, or unauthorized access to your information. By using this service you waive your right to participate in any class action lawsuit and agree that all disputes will be settled by binding arbitration. We may change these terms at any time without notifying you. Your continued use means you accept the new terms. We grant ourselves an irrevocable, perpetual licence to use any content you upload for any purpose.`,
@@ -497,31 +557,33 @@ const EXAMPLES = {
 };
 
 /* Each case names the failure mode it probes. The verdict is what the fixed
-   build actually does, measured, not a guess. */
+   build actually does, measured, not a guess. The level (HIGH/MED/LOW) drives
+   the colour of the verdict chip - HIGH is the accent, MED is mid-grey, LOW is
+   faint. Uncertain cases render without a level. */
 const CASES = [
-  { name: 'Negation', input: 'We do NOT sell your data. You can request a copy of your data or ask us to delete it permanently at any time.',
+  { name: 'Negation', level: 'LOW', input: 'We do NOT sell your data. You can request a copy of your data or ask us to delete it permanently at any time.',
     why: 'Does a negated clause get read as a protection, or does the word "sell" trigger the model?', verdict: 'Low risk, 2 cleared' },
-  { name: 'Too short', input: 'We do NOT sell your data.',
+  { name: 'Too short', level: 'LOW', input: 'We do NOT sell your data.',
     why: 'What does the tool do with a clause below the minimum length?', verdict: 'Unknown risk, nothing analysed' },
-  { name: 'French', input: 'Nous conservons vos donnees pendant 5 ans et nous les transmettons a des partenaires tiers.',
+  { name: 'French', level: 'LOW', input: 'Nous conservons vos donnees pendant 5 ans et nous les transmettons a des partenaires tiers.',
     why: 'The reference library is English. Does it say so, or does it pretend?', verdict: 'Unknown risk, 1 uncertain' },
-  { name: 'No punctuation', input: 'we collect your data we share it with partners we delete it after 30 days',
+  { name: 'No punctuation', level: 'LOW', input: 'we collect your data we share it with partners we delete it after 30 days',
     why: 'Can the splitter find clauses when there are no sentence boundaries?', verdict: 'Unknown risk, nothing analysed' },
-  { name: 'Legalese', input: 'The Parties hereby covenant that the Data Principal shall indemnify the Controller against all claims arising from unauthorized processing of personal data without limitation of liability.',
+  { name: 'Legalese', level: 'LOW', input: 'The Parties hereby covenant that the Data Principal shall indemnify the Controller against all claims arising from unauthorized processing of personal data without limitation of liability.',
     why: 'A real clause in the language lawyers use. Does it get picked up?', verdict: 'Unknown risk, 1 uncertain' },
-  { name: 'Politely worded', input: 'We kindly request your permission to transfer your information to third-party vendors for analytics purposes.',
+  { name: 'Politely worded', level: 'HIGH', input: 'We kindly request your permission to transfer your information to third-party vendors for analytics purposes.',
     why: 'Courtesy does not change the obligation. Does the model notice?', verdict: 'High risk, 1 flagged' },
-  { name: 'Euphemism', input: 'We share your information with trusted partners who help us improve our services.',
+  { name: 'Euphemism', level: 'MED', input: 'We share your information with trusted partners who help us improve our services.',
     why: 'No dangerous words, same legal effect. Does meaning beat vocabulary?', verdict: 'Medium risk, 1 flagged' },
-  { name: 'Compliant', input: 'We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest.',
+  { name: 'Compliant', level: 'LOW', input: 'We only collect the data needed to provide the service, and we will never sell your personal information to third parties. You can request a copy of your data or ask us to delete it permanently at any time. All data is encrypted in transit and at rest.',
     why: 'A good policy must come back clean, or the tool is noise.', verdict: 'Low risk, 3 cleared' },
-  { name: 'Confidence cap', input: 'We may sell your personal data to anyone. We are not liable for any data breach. You waive all rights to a class action. We can change these terms without notice. We retain your data forever.',
+  { name: 'Confidence cap', level: 'HIGH', input: 'We may sell your personal data to anyone. We are not liable for any data breach. You waive all rights to a class action. We can change these terms without notice. We retain your data forever.',
     why: 'A keyword boost once pushed the confidence past 1.0. It is capped now. Watch the numbers.', verdict: 'High risk, 4 flagged' },
-  { name: 'Scam text', input: 'Click here to claim your prize. Send your SSN to verify. We will never ask for money.',
+  { name: 'Scam text', level: 'LOW', input: 'Click here to claim your prize. Send your SSN to verify. We will never ask for money.',
     why: 'A reassuring sentence that is not about your data. It must not be read as a protection.', verdict: 'Low risk, 1 cleared' },
-  { name: 'Buried risk', input: 'We provide the service. We collect minimal data. We use encryption. We provide support. We update the app. We retain your personal data indefinitely including your location contacts and browsing history. We offer a refund policy. We have a help center. We keep your data safe. We send receipts.',
+  { name: 'Buried risk', level: 'HIGH', input: 'We provide the service. We collect minimal data. We use encryption. We provide support. We update the app. We retain your personal data indefinitely including your location contacts and browsing history. We offer a refund policy. We have a help center. We keep your data safe. We send receipts.',
     why: 'One bad clause among eleven ordinary ones, plus a refund policy that used to be flagged as a legal violation. Does it find the risk and ignore the noise?', verdict: 'High risk, 1 flagged' },
-  { name: 'Cookie banner', input: 'By continuing to browse this site you consent to the use of cookies. You agree that we and our partners may use your browsing behaviour for advertising across other websites you visit.',
+  { name: 'Cookie banner', level: 'HIGH', input: 'By continuing to browse this site you consent to the use of cookies. You agree that we and our partners may use your browsing behaviour for advertising across other websites you visit.',
     why: 'Consent by continuing. Does the tool read the mechanism or just the word?', verdict: 'High risk, 1 flagged' }
 ];
 
@@ -540,12 +602,11 @@ $('clearBtn').addEventListener('click', () => {
 
 $('analyzeBtn').addEventListener('click', analyze);
 
-// Render the stress cases
+// Render the stress cases. The level drives the verdict-chip colour class.
 $('cases').innerHTML = CASES.map((c, i) =>
   `<button class="case" data-i="${i}">
-     <span class="case-name">${esc(c.name)}</span>
-     <span class="case-verdict">${esc(c.verdict)}</span>
-     <span class="case-why">${esc(c.why)}</span>
+     <span class="case-verdict ${c.level || ''}">${esc(c.level || '\u2014')}</span>
+     <span class="case-name">${esc(c.name)}<br><span class="case-why">${esc(c.why)}</span></span>
    </button>`).join('');
 
 $('cases').addEventListener('click', e => {
@@ -593,7 +654,7 @@ function metaLine(data, secs) {
 
 function evidenceBlock(p) {
   if (!p.gdpr_evidence) return '';
-  return `<div class="evidence"><em>Retrieved context:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '…' : ''}</div>`;
+  return `<div class="evidence"><em>Retrieved context:</em> ${esc(p.gdpr_evidence.slice(0, 420))}${p.gdpr_evidence.length > 420 ? '\u2026' : ''}</div>`;
 }
 
 function clauseItem(p, kind) {
@@ -669,6 +730,39 @@ function analyze() {
     console.error(err);
   });
 }
+
+/* Theme picker - same key + mechanism as the rest of the site. Default is
+   "light" if no key is set, matching the rest of the portfolio. The picker's
+   pressed state is wired after the markup exists. */
+(function () {
+  var K = "tw-theme", R = document.documentElement;
+  function paintPressed() {
+    var c = R.getAttribute("data-theme") || "light";
+    var d = document.querySelectorAll("[data-set-theme]");
+    for (var i = 0; i < d.length; i++) {
+      d[i].setAttribute("aria-pressed", d[i].getAttribute("data-set-theme") === c ? "true" : "false");
+    }
+  }
+  function applyFromStorage() {
+    var saved = null;
+    try { saved = localStorage.getItem(K); } catch (e) {}
+    if (saved && /^(light|dark|teal|contact)$/.test(saved)) {
+      R.setAttribute("data-theme", saved);
+    }
+    // If no saved theme, leave the attribute off so the site's :root
+    // (light) wins, and prefers-color-scheme: dark can override it.
+  }
+  applyFromStorage();
+  paintPressed();
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("[data-set-theme]") : null;
+    if (!b) return;
+    var t = b.getAttribute("data-set-theme");
+    R.setAttribute("data-theme", t);
+    try { localStorage.setItem(K, t); } catch (err) {}
+    paintPressed();
+  });
+})();
 </script>
 </body>
 </html>
