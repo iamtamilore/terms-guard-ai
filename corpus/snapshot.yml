@@ -10,12 +10,17 @@
 # - Santander (santander.com): bot-blocked at corporate level. Bank-level
 #   privacy policy at bancosantander.es works but is rate-limited
 #   intermittently. Kept as a flaky but mostly-working URL.
+# - BBVA, CaixaBank, Klarna, Zalando, Ahold Delhaize, Zurich Insurance:
+#   same pattern. Corporate-level bot-protection, no clean Wayback
+#   archive. Will revisit if/when a mirror URL appears.
 #
 # Other companies occasionally fail with 429s (rate-limited). The
-# snapshot script retries with exponential backoff.
+# snapshot script retries with exponential backoff, then falls back
+# to Wayback Machine. All live URLs are listed as the canonical URL;
+# the script's Wayback fallback is implicit, not in the YAML.
 
 companies:
-  # Big Tech (5) - Irish HQs, GDPR-regulated. All work reliably.
+  # Big Tech (6) - Irish HQs, GDPR-regulated. All work reliably.
   - slug: google
     name: Google
     sector: Big Tech
@@ -38,8 +43,14 @@ companies:
     name: Amazon
     sector: Big Tech
     url: https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010
+  - slug: tiktok
+    name: TikTok
+    sector: Big Tech
+    # ByteDance's European entity, headquartered in Dublin. Subject to
+    # GDPR; subject to the largest DPC fine in 2025.
+    url: https://www.tiktok.com/legal/privacy-policy?lang=en
 
-  # EU banks (4 of 5). BNP Paribas dropped.
+  # EU banks (5). BNP Paribas dropped.
   - slug: deutsche-bank
     name: Deutsche Bank
     sector: Banking
@@ -52,6 +63,22 @@ companies:
     name: UniCredit
     sector: Banking
     url: https://www.unicredit.eu/privacy
+  - slug: rabobank
+    name: Rabobank
+    sector: Banking
+    # Live URL is bot-protected; snapshot.py falls back to Wayback.
+    url: https://www.rabobank.com/privacy
+
+  # Insurance (2). New sector; fills the largest gap.
+  - slug: allianz
+    name: Allianz
+    sector: Insurance
+    # Live URL is bot-protected; snapshot.py falls back to Wayback.
+    url: https://www.allianz.com/en/privacy-statement.html
+  - slug: axa
+    name: AXA
+    sector: Insurance
+    url: https://www.axa.com/en/privacy-policy
 
   # EU retailers (4 of 5). Carrefour dropped.
   - slug: ikea
@@ -72,7 +99,7 @@ companies:
     sector: Retail
     url: https://www.decathlon.com/policies/privacy-policy
 
-  # EU tech / telecom (5)
+  # EU tech / telecom (7)
   - slug: sap
     name: SAP
     sector: Tech & SaaS
@@ -93,3 +120,16 @@ companies:
     name: Booking.com
     sector: Travel
     url: https://www.booking.com/content/privacy.html
+  - slug: telefonica
+    name: Telefónica
+    sector: Telecom
+    url: https://www.telefonica.com/en/privacy-policy
+  - slug: orange
+    name: Orange
+    sector: Telecom
+    # Live URL is bot-protected; snapshot.py falls back to Wayback.
+    url: https://www.orange.com/en/privacy-policy
+  - slug: adyen
+    name: Adyen
+    sector: Payments
+    url: https://www.adyen.com/privacy-policy
