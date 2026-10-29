@@ -268,7 +268,7 @@ def render_score_table(companies: list, snapshots_by_slug: dict) -> str:
   <td class="corpus-num">{latest['cleared']}</td>
   <td class="corpus-num">{latest['uncertain']}</td>
   <td class="corpus-date">{latest['date']}</td>
-  <td class="corpus-date">{prior['date'] if prior else '—'}</td>
+  <td class="corpus-date">{prior['date'] if prior else '·'}</td>
   <td>{change_cell}</td>
 </tr>
 """)
@@ -390,8 +390,8 @@ PAGE_CSS = """
 .diff-gutter { flex: 0 0 7rem; display: flex; justify-content: flex-end;
   gap: 0.25rem; padding: 0 0.5rem; color: var(--text-3);
   user-select: none; border-right: 1px solid var(--border); }
-.diff-line.add .diff-gutter { color: #1a7a32; }
-.diff-line.remove .diff-gutter { color: #a02a2a; }
+.diff-line.add .diff-gutter { color: var(--live); }
+.diff-line.remove .diff-gutter { color: var(--error); }
 .diff-gutter .marker { font-weight: 700; width: 1ch; text-align: center; }
 .diff-content { flex: 1; padding: 0 0.5rem; white-space: pre-wrap;
   word-break: break-word; }
@@ -406,6 +406,8 @@ PAGE_CSS = """
 
 def render_page(companies: list, snapshots_by_slug: dict, run_info: dict) -> str:
     today = datetime.date.today().isoformat()
+    ok_count = sum(1 for v in snapshots_by_slug.values() if v)
+    fail_count = len(companies) - ok_count
     table_rows = render_score_table(companies, snapshots_by_slug)
     cards = "\n".join(render_company_card(c, snapshots_by_slug.get(c["slug"], []))
                        for c in companies)
@@ -440,8 +442,8 @@ def render_page(companies: list, snapshots_by_slug: dict, run_info: dict) -> str
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="TermsGuard corpus — EU + Big Tech privacy tracker" />
-<meta property="og:description" content="A weekly snapshot of TermsGuard scores for 9 EU and Big Tech companies' privacy policies. Built by Taiwo Alabi." />
+<meta property="og:title" content="TermsGuard corpus · EU + Big Tech privacy tracker" />
+<meta property="og:description" content="A weekly snapshot of TermsGuard scores for 14 EU + Big Tech companies' privacy policies. Built by Taiwo Alabi." />
 <meta property="og:type" content="website" />
 <title>TermsGuard corpus | Taiwo Alabi</title>
 <link rel="stylesheet" href="/assets/css/design-system.css">
@@ -464,14 +466,15 @@ def render_page(companies: list, snapshots_by_slug: dict, run_info: dict) -> str
       either (a) the largest data processors operating under GDPR scope,
       or (b) among the top five in their EU category. The list is the
       sample, not a ranking. Each entry justifies itself by size or
-      category, not by score.
+      category, not by score. {ok_count} of {len(companies)} fetched successfully this run;
+      {fail_count} were rate-limited or bot-blocked and will retry next run.
     </div>
   </header>
 
   <section>
     <h2>Latest scores</h2>
     <p style="color: var(--text-3); font-size: var(--text-sm); max-width: var(--content-max);">
-      All 9 companies with a successful fetch. Score is the mean cosine
+      All {ok_count} companies with a successful fetch. Score is the mean cosine
       confidence of the policy's flagged (non-ethical) clauses, range
       0-1. Higher means more concerning clauses with higher model
       confidence. Last fetched {today}.
@@ -507,7 +510,7 @@ def render_page(companies: list, snapshots_by_slug: dict, run_info: dict) -> str
       This page is a record of TermsGuard's measurement of the consumer-facing
       privacy policy each company publishes. It is not a legal audit. It is
       not a comparison (each company's score is independent). It is not a
-      guarantee of freshness — companies change their policies without
+      guarantee of freshness. Companies change their policies without
       notice. The numbers reflect the policy as it was on the date shown.
     </p>
     <p style="max-width: var(--content-max); color: var(--text-2); font-size: var(--text-base); line-height: 1.6;">
